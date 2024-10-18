@@ -5190,7 +5190,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 17.78 0)
+			(at 0 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5198,7 +5198,7 @@
 			)
 		)
 		(property "Value" "CSD95472Q5MC"
-			(at 0 15.24 0)
+			(at 0 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5206,7 +5206,7 @@
 			)
 		)
 		(property "Footprint" "myfootprints:CSD95472-SON-5x6"
-			(at -0.508 -20.066 0)
+			(at -0.254 -21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5215,7 +5215,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5224,7 +5224,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5233,7 +5233,7 @@
 			)
 		)
 		(property "Manufacturer" "CSD95472Q5MC"
-			(at -0.762 -15.494 0)
+			(at -0.508 -16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5242,7 +5242,7 @@
 			)
 		)
 		(property "OrderNr" "296-43950-1-ND"
-			(at -0.254 -18.034 0)
+			(at -0.254 -18.796 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5252,8 +5252,8 @@
 		)
 		(symbol "CSD95472Q5MC_1_1"
 			(rectangle
-				(start -10.16 12.7)
-				(end 10.16 -12.7)
+				(start -10.16 15.24)
+				(end 10.16 -15.24)
 				(stroke
 					(width 0)
 					(type default)
@@ -5281,7 +5281,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 2.54 0)
+				(at -12.7 -5.08 0)
 				(length 2.54)
 				(name "FCCM"
 					(effects
@@ -5317,7 +5317,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 5.08 0)
+				(at -12.7 -1.27 0)
 				(length 2.54)
 				(name "PWM"
 					(effects
@@ -5335,7 +5335,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 -10.16 180)
+				(at 12.7 -12.7 180)
 				(length 2.54)
 				(name "PGND"
 					(effects
@@ -5353,7 +5353,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -7.62 0)
+				(at -12.7 -12.7 0)
 				(length 2.54)
 				(name "REFIN"
 					(effects
@@ -5371,7 +5371,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -2.54 0)
+				(at -12.7 5.08 0)
 				(length 2.54)
 				(name "ENABLE"
 					(effects
@@ -5389,7 +5389,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 -7.62 180)
+				(at 12.7 -10.16 180)
 				(length 2.54)
 				(name "PGND"
 					(effects
@@ -5407,7 +5407,7 @@
 				)
 			)
 			(pin power_in line
-				(at -12.7 0 0)
+				(at -12.7 7.62 0)
 				(length 2.54)
 				(name "VDD"
 					(effects
@@ -5425,7 +5425,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 -3.81 180)
+				(at 12.7 3.81 180)
 				(length 2.54)
 				(name "VSW"
 					(effects
@@ -5443,7 +5443,7 @@
 				)
 			)
 			(pin power_in line
-				(at -12.7 10.16 0)
+				(at -12.7 12.7 0)
 				(length 2.54)
 				(name "VIN"
 					(effects
@@ -5461,7 +5461,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 1.27 180)
+				(at 12.7 7.62 180)
 				(length 2.54)
 				(name "BOOT_R"
 					(effects
@@ -5479,7 +5479,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 10.16 180)
+				(at 12.7 12.7 180)
 				(length 2.54)
 				(name "BOOT"
 					(effects
@@ -10399,7 +10399,7 @@
 				)
 			)
 			(pin passive line
-				(at -26.67 20.32 0)
+				(at -26.67 3.81 0)
 				(length 2.54)
 				(name "OCL-R"
 					(effects
@@ -10417,7 +10417,7 @@
 				)
 			)
 			(pin input line
-				(at 26.67 30.48 180)
+				(at 26.67 26.67 180)
 				(length 2.54)
 				(name "VSN"
 					(effects
@@ -10435,7 +10435,7 @@
 				)
 			)
 			(pin passive line
-				(at -26.67 25.4 0)
+				(at -26.67 11.43 0)
 				(length 2.54)
 				(name "COMP"
 					(effects
@@ -10453,7 +10453,7 @@
 				)
 			)
 			(pin passive line
-				(at -26.67 -2.54 0)
+				(at -26.67 25.4 0)
 				(length 2.54)
 				(name "ISUM"
 					(effects
@@ -10471,7 +10471,7 @@
 				)
 			)
 			(pin power_out line
-				(at -26.67 30.48 0)
+				(at -26.67 29.21 0)
 				(length 2.54)
 				(name "VREF"
 					(effects
@@ -10561,7 +10561,7 @@
 				)
 			)
 			(pin open_collector line
-				(at -26.67 -13.97 0)
+				(at -26.67 -11.43 0)
 				(length 2.54)
 				(name "VR_RDY"
 					(effects
@@ -10597,7 +10597,7 @@
 				)
 			)
 			(pin passive line
-				(at -26.67 -6.35 0)
+				(at -26.67 7.62 0)
 				(length 2.54)
 				(name "IMON"
 					(effects
@@ -10633,7 +10633,7 @@
 				)
 			)
 			(pin input line
-				(at -26.67 -31.75 0)
+				(at -26.67 33.02 0)
 				(length 2.54)
 				(name "/RESET"
 					(effects
@@ -10669,7 +10669,7 @@
 				)
 			)
 			(pin input line
-				(at -26.67 -11.43 0)
+				(at -26.67 -13.97 0)
 				(length 2.54)
 				(name "ENABLE"
 					(effects
@@ -10687,7 +10687,7 @@
 				)
 			)
 			(pin input line
-				(at -26.67 -22.86 0)
+				(at -26.67 -25.4 0)
 				(length 2.54)
 				(name "PMB_CLK"
 					(effects
@@ -10705,7 +10705,7 @@
 				)
 			)
 			(pin open_collector line
-				(at -26.67 -25.4 0)
+				(at -26.67 -22.86 0)
 				(length 2.54)
 				(name "/PMB_ALERT"
 					(effects
@@ -10759,7 +10759,7 @@
 				)
 			)
 			(pin passive line
-				(at -26.67 5.08 0)
+				(at -26.67 -33.02 0)
 				(length 2.54)
 				(name "ADDR_TRISE"
 					(effects
@@ -10777,7 +10777,7 @@
 				)
 			)
 			(pin passive line
-				(at -26.67 1.27 0)
+				(at -26.67 -6.35 0)
 				(length 2.54)
 				(name "SLEW-MODE"
 					(effects
@@ -10795,7 +10795,7 @@
 				)
 			)
 			(pin input line
-				(at 26.67 15.24 180)
+				(at 26.67 10.16 180)
 				(length 2.54)
 				(name "CSP1"
 					(effects
@@ -10813,7 +10813,7 @@
 				)
 			)
 			(pin passive line
-				(at -26.67 8.89 0)
+				(at -26.67 -3.81 0)
 				(length 2.54)
 				(name "O-USR"
 					(effects
@@ -10831,7 +10831,7 @@
 				)
 			)
 			(pin passive line
-				(at -26.67 12.7 0)
+				(at -26.67 -1.27 0)
 				(length 2.54)
 				(name "VBOOT"
 					(effects
@@ -10849,7 +10849,7 @@
 				)
 			)
 			(pin passive line
-				(at -26.67 16.51 0)
+				(at -26.67 1.27 0)
 				(length 2.54)
 				(name "F-IMAX"
 					(effects
@@ -10921,7 +10921,7 @@
 				)
 			)
 			(pin output line
-				(at 26.67 20.32 180)
+				(at 26.67 13.97 180)
 				(length 2.54)
 				(name "PWM1"
 					(effects
@@ -10975,7 +10975,7 @@
 				)
 			)
 			(pin input line
-				(at 26.67 10.16 180)
+				(at 26.67 5.08 180)
 				(length 2.54)
 				(name "TSEN"
 					(effects
@@ -11047,7 +11047,7 @@
 				)
 			)
 			(pin input line
-				(at 26.67 33.02 180)
+				(at 26.67 34.29 180)
 				(length 2.54)
 				(name "VSP"
 					(effects
