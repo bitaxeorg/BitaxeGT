@@ -11685,7 +11685,7 @@
 		)
 		(symbol "TPS546D24_1_1"
 			(pin input line
-				(at 13.97 -27.94 180)
+				(at -13.97 5.08 0)
 				(length 2.54)
 				(name "PGD"
 					(effects
@@ -12045,7 +12045,7 @@
 				)
 			)
 			(pin output line
-				(at -13.97 10.16 0)
+				(at -13.97 8.89 0)
 				(length 2.54)
 				(name "VDD5"
 					(effects
@@ -12099,7 +12099,7 @@
 				)
 			)
 			(pin input line
-				(at -13.97 -20.32 0)
+				(at -13.97 -16.51 0)
 				(length 2.54)
 				(name "VSEL"
 					(effects
@@ -12117,7 +12117,7 @@
 				)
 			)
 			(pin input line
-				(at -13.97 -16.51 0)
+				(at -13.97 -20.32 0)
 				(length 2.54)
 				(name "ADRSEL"
 					(effects
@@ -12171,7 +12171,7 @@
 				)
 			)
 			(pin output line
-				(at 13.97 -11.43 180)
+				(at 13.97 -10.16 180)
 				(length 2.54)
 				(name "GOSNS"
 					(effects
@@ -12189,7 +12189,7 @@
 				)
 			)
 			(pin input line
-				(at 13.97 -13.97 180)
+				(at 13.97 -15.24 180)
 				(length 2.54)
 				(name "VSHARE"
 					(effects
@@ -12207,7 +12207,7 @@
 				)
 			)
 			(pin input line
-				(at 13.97 -16.51 180)
+				(at 13.97 -17.78 180)
 				(length 2.54)
 				(name "NC"
 					(effects
@@ -12243,7 +12243,7 @@
 				)
 			)
 			(pin input line
-				(at 13.97 -19.05 180)
+				(at 13.97 -20.32 180)
 				(length 2.54)
 				(name "SYNC"
 					(effects
@@ -12261,7 +12261,7 @@
 				)
 			)
 			(pin input line
-				(at 13.97 -22.86 180)
+				(at 13.97 -24.13 180)
 				(length 2.54)
 				(name "BCX_CLK"
 					(effects
@@ -12297,7 +12297,7 @@
 				)
 			)
 			(pin input line
-				(at 13.97 -25.4 180)
+				(at 13.97 -26.67 180)
 				(length 2.54)
 				(name "BCX_DAT"
 					(effects
