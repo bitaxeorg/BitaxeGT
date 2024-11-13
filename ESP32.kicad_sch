@@ -2547,6 +2547,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 119.38) (xy 85.09 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c69ffaa-7eca-420e-acc6-0c6e6ad35943")
+	)
+	(wire
+		(pts
 			(xy 54.61 63.5) (xy 71.12 63.5)
 		)
 		(stroke
@@ -3394,6 +3404,17 @@
 		)
 		(uuid "8199271c-bf26-4a05-82ab-f0285664e147")
 	)
+	(label "TEMP_SEL"
+		(at 48.26 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8e16dde3-d826-4365-932c-e1df6d318f9d")
+	)
 	(label "TX_3V3"
 		(at 48.26 46.99 180)
 		(fields_autoplaced yes)
@@ -3610,6 +3631,18 @@
 			(justify right)
 		)
 		(uuid "aa8c3649-0bb5-4c16-b64e-2a5acca5cb55")
+	)
+	(hierarchical_label "TEMP_SEL"
+		(shape output)
+		(at 31.75 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aaa0e2bc-eb94-4f43-ae31-728a98d82d2c")
 	)
 	(hierarchical_label "PWR_EN"
 		(shape output)

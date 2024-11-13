@@ -3082,7 +3082,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 124.46) (xy 233.68 124.46)
+			(xy 217.17 124.46) (xy 236.22 124.46)
 		)
 		(stroke
 			(width 0)
@@ -3092,7 +3092,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 124.46) (xy 129.54 124.46)
+			(xy 113.03 124.46) (xy 132.08 124.46)
 		)
 		(stroke
 			(width 0)
@@ -4572,7 +4572,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 121.92) (xy 233.68 121.92)
+			(xy 217.17 121.92) (xy 236.22 121.92)
 		)
 		(stroke
 			(width 0)
@@ -4822,7 +4822,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 121.92) (xy 129.54 121.92)
+			(xy 113.03 121.92) (xy 132.08 121.92)
 		)
 		(stroke
 			(width 0)
@@ -5082,7 +5082,7 @@
 		)
 		(uuid "050505fc-3b4c-41bd-ad72-2eb791450834")
 	)
-	(label "TEMP_N_2"
+	(label "TEMP2_N"
 		(at 233.68 121.92 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5104,7 +5104,7 @@
 		)
 		(uuid "15c04acc-f0ec-43c1-9bc3-7f66ee9d83a9")
 	)
-	(label "TEMP_N_1"
+	(label "TEMP1_N"
 		(at 129.54 121.92 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5302,7 +5302,7 @@
 		)
 		(uuid "83bcdc9e-42db-4710-a34f-96dd88fb3703")
 	)
-	(label "TEMP_P_1"
+	(label "TEMP1_P"
 		(at 129.54 124.46 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5478,7 +5478,7 @@
 		)
 		(uuid "dfb1f78e-9d48-41c3-abeb-014066f22692")
 	)
-	(label "TEMP_P_2"
+	(label "TEMP2_P"
 		(at 233.68 124.46 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5612,6 +5612,18 @@
 		)
 		(uuid "0bc50363-6687-451a-beab-9912f5b716fe")
 	)
+	(hierarchical_label "TEMP1_P"
+		(shape output)
+		(at 132.08 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "318c5fe9-c9f0-435d-9405-90b08d4e1d90")
+	)
 	(hierarchical_label "RX_3V3"
 		(shape output)
 		(at 31.75 67.31 180)
@@ -5636,6 +5648,18 @@
 		)
 		(uuid "3e2a30a9-8ae1-4a3b-9d05-f0130259bebc")
 	)
+	(hierarchical_label "TEMP1_N"
+		(shape output)
+		(at 132.08 121.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5f0b18e0-6b26-40da-acf4-56c423807daf")
+	)
 	(hierarchical_label "5V"
 		(shape input)
 		(at 31.75 41.91 180)
@@ -5647,6 +5671,30 @@
 			(justify right)
 		)
 		(uuid "8a7302db-85c3-43e8-b2dd-33f8b33fbe00")
+	)
+	(hierarchical_label "TEMP2_N"
+		(shape output)
+		(at 236.22 121.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "baa93ac4-833d-416c-b9d7-241b8182b8f7")
+	)
+	(hierarchical_label "TEMP2_P"
+		(shape output)
+		(at 236.22 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cb3ef42b-659c-4ce8-970e-33e2d0b852cf")
 	)
 	(hierarchical_label "RST_3V3"
 		(shape input)
