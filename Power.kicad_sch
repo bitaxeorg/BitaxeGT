@@ -3295,7 +3295,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 64.77) (xy 58.42 64.77)
+			(xy 41.91 69.85) (xy 58.42 69.85)
 		)
 		(stroke
 			(width 0)
@@ -4372,6 +4372,16 @@
 			(type default)
 		)
 		(uuid "44234adc-15ba-4e4a-a869-1c3d98fc3f72")
+	)
+	(wire
+		(pts
+			(xy 41.91 64.77) (xy 58.42 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44296e2a-5815-498f-b734-70fd68c8de6b")
 	)
 	(wire
 		(pts
@@ -5525,7 +5535,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 74.93) (xy 58.42 74.93)
+			(xy 41.91 80.01) (xy 58.42 80.01)
 		)
 		(stroke
 			(width 0)
@@ -5875,6 +5885,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 114.3) (xy 63.5 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a473c63e-9356-46c4-9641-51f7d871c9d4")
+	)
+	(wire
+		(pts
 			(xy 80.01 242.57) (xy 76.2 242.57)
 		)
 		(stroke
@@ -6035,7 +6055,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 69.85) (xy 58.42 69.85)
+			(xy 41.91 74.93) (xy 58.42 74.93)
 		)
 		(stroke
 			(width 0)
@@ -7295,6 +7315,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 119.38) (xy 63.5 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff5bdf2a-cb2a-4576-a21a-0215557641a7")
+	)
+	(wire
+		(pts
 			(xy 49.53 151.13) (xy 52.07 151.13)
 		)
 		(stroke
@@ -7305,7 +7335,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 80.01) (xy 58.42 80.01)
+			(xy 41.91 85.09) (xy 58.42 85.09)
 		)
 		(stroke
 			(width 0)
@@ -7352,6 +7382,16 @@
 			)
 		)
 		(uuid "cff06532-f8ed-4285-93f9-9842033f1fa4")
+	)
+	(text "Layout to allow XT30 or Barrel Jack\ninstalled (one or the other)"
+		(exclude_from_sim no)
+		(at 38.1 132.334 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d3304d35-834b-431e-9086-64595eb72b69")
 	)
 	(text "Max 1.0A"
 		(exclude_from_sim no)
@@ -7551,7 +7591,7 @@
 		(uuid "350ec8c6-f669-4f64-8e3c-690bb0d9dbb9")
 	)
 	(label "3V3"
-		(at 58.42 69.85 180)
+		(at 58.42 74.93 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7573,7 +7613,7 @@
 		(uuid "3874735a-ebe7-4c43-99d2-ca83542f1c1d")
 	)
 	(label "Vcore"
-		(at 58.42 74.93 180)
+		(at 58.42 80.01 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7782,7 +7822,7 @@
 		(uuid "82965b30-36c4-4599-b4a3-0c5e94ea32ed")
 	)
 	(label "cur_sense"
-		(at 58.42 80.01 180)
+		(at 58.42 85.09 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7892,7 +7932,7 @@
 		(uuid "b25ff303-c1a9-4e7f-a4d0-bda8074d4d7b")
 	)
 	(label "5V"
-		(at 58.42 64.77 180)
+		(at 58.42 69.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7945,6 +7985,17 @@
 			(justify right bottom)
 		)
 		(uuid "c8c2adc5-408b-4ec4-b609-b3c87d503c20")
+	)
+	(label "Vin"
+		(at 58.42 64.77 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c909dadc-a17a-4481-918f-bcd8fa8d622b")
 	)
 	(label "AGND"
 		(at 279.4 123.19 180)
@@ -8012,6 +8063,17 @@
 		)
 		(uuid "e22cf19e-bab4-4747-a7dd-adc1ca2d5843")
 	)
+	(label "Vsupply"
+		(at 63.5 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e823cf50-f8f5-4e9c-ae51-94f5c3ac0aa7")
+	)
 	(label "GND"
 		(at 279.4 207.01 180)
 		(fields_autoplaced yes)
@@ -8033,6 +8095,17 @@
 			(justify left bottom)
 		)
 		(uuid "f0b35c31-f8f3-467e-8844-300a2944864e")
+	)
+	(label "GND"
+		(at 63.5 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f402bdd4-af90-4c37-a859-3269b92b4bd8")
 	)
 	(label "EN_UVLO"
 		(at 219.71 190.5 0)
@@ -8083,7 +8156,7 @@
 	)
 	(hierarchical_label "5V"
 		(shape output)
-		(at 41.91 64.77 180)
+		(at 41.91 69.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8093,9 +8166,21 @@
 		)
 		(uuid "67897138-da12-48bc-b813-0107e5b91a37")
 	)
+	(hierarchical_label "12V"
+		(shape output)
+		(at 41.91 64.77 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a061fe95-676b-47ad-bedf-d21e2b9fdb6e")
+	)
 	(hierarchical_label "3V3"
 		(shape output)
-		(at 41.91 69.85 180)
+		(at 41.91 74.93 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8107,7 +8192,7 @@
 	)
 	(hierarchical_label "Vcore"
 		(shape output)
-		(at 41.91 74.93 180)
+		(at 41.91 80.01 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8143,7 +8228,7 @@
 	)
 	(hierarchical_label "cur_sense"
 		(shape output)
-		(at 41.91 80.01 180)
+		(at 41.91 85.09 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10698,6 +10783,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Power" "1W"
+			(at 88.9 150.368 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
