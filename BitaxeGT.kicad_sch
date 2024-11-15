@@ -604,16 +604,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 113.03) (xy 218.44 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97902180-b4af-4d3b-a615-e358f5a2f5c9")
-	)
-	(wire
-		(pts
 			(xy 104.14 116.84) (xy 116.84 116.84)
 		)
 		(stroke
@@ -711,16 +701,6 @@
 			(type default)
 		)
 		(uuid "c6bf7b91-360b-402c-a4cf-b7c56dfc71bd")
-	)
-	(wire
-		(pts
-			(xy 142.24 121.92) (xy 157.48 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7a6aff7-8530-4468-9972-0888e568a30e")
 	)
 	(wire
 		(pts
@@ -918,17 +898,6 @@
 		)
 		(uuid "4691f390-93af-4182-ae22-a56287ea9e02")
 	)
-	(label "TEMP_SEL"
-		(at 218.44 113.03 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4fce10cc-bcc7-4c55-bc39-028efad1dcbd")
-	)
 	(label "3V3"
 		(at 217.17 52.07 180)
 		(fields_autoplaced yes)
@@ -939,17 +908,6 @@
 			(justify right bottom)
 		)
 		(uuid "5cb840e2-f3af-448b-b2af-7201a4d303b3")
-	)
-	(label "TEMP_SEL"
-		(at 157.48 121.92 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9a5d1070-67de-471f-b3b4-1b789c6388ee")
 	)
 	(label "12V"
 		(at 104.14 45.72 0)
@@ -1787,16 +1745,6 @@
 			)
 			(uuid "d20c4726-fcfa-4ede-a958-1d2e193a807f")
 		)
-		(pin "TEMP_SEL" output
-			(at 142.24 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "6c6b12b1-d37a-49bf-9d19-a8dfed616fee")
-		)
 		(instances
 			(project "BitaxeGT"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
@@ -2120,16 +2068,6 @@
 				(justify left)
 			)
 			(uuid "1e536002-ad2e-4198-8de0-97b841f9038c")
-		)
-		(pin "TEMP_SEL" input
-			(at 204.47 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "6bf25350-8172-4293-a1fc-f6e1461bf161")
 		)
 		(pin "5V" input
 			(at 180.34 114.3 180)
