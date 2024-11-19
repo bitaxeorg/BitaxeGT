@@ -4099,7 +4099,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Espressif:ESP32-S3-WROOM-1"
+		(property "Footprint" "bitaxe:ESP32-S3-WROOM-1"
 			(at 140.97 132.08 0)
 			(effects
 				(font

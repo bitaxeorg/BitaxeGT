@@ -1,0 +1,191 @@
+(footprint "Heatsink-BitaxeGT"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "H"
+		(at -0.05 25.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c7821ce3-999b-4258-80a3-8f152a5b6e0f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Heatsink-BitaxeGT"
+		(at -0.15 27.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5172f40e-5fd1-4806-aa21-8c479e7895ee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7846892e-9d7a-46af-b9ec-6affda9a9db0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0e168642-f00b-440d-8f12-c18f962dd98e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "91eba8f3-53e2-4d42-8d9b-b28066bf766c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -30 -36)
+		(end 30 -36)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "31de8fca-d5b6-40e7-8ed8-a22c333bd657")
+	)
+	(fp_line
+		(start -30 36)
+		(end -30 -36)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "cade5f0b-b823-4358-bf9d-57a2a2b7c53f")
+	)
+	(fp_line
+		(start 30 -36)
+		(end 30 36)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2e470369-f302-4cc0-8eea-1d27fa3ace8b")
+	)
+	(fp_line
+		(start 30 36)
+		(end -30 36)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "63fb9e27-3464-43c3-b889-d51f6760d8a8")
+	)
+	(fp_line
+		(start -30 -36)
+		(end 30 -36)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "c370aacc-bb5b-42a5-82db-8312044dbfd2")
+	)
+	(fp_line
+		(start -30 36)
+		(end -30 -36)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "791c7400-db22-4fa5-8d4d-3a5d1b7904c8")
+	)
+	(fp_line
+		(start -30 36)
+		(end 30 36)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "69b7d0ce-4636-432b-8f87-dd0e85b83026")
+	)
+	(fp_line
+		(start 30 36)
+		(end 30 -36)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "ec7c3768-7388-4699-95f4-905417a82d8e")
+	)
+	(pad "" np_thru_hole circle
+		(at -27 -33)
+		(size 3.2 3.2)
+		(drill 3.2)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "9a75f559-49f4-488e-a3a7-55af3d435ede")
+	)
+	(pad "" np_thru_hole circle
+		(at -27 33)
+		(size 3.2 3.2)
+		(drill 3.2)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "2eea8256-0626-4117-b23f-f7c4a5983f66")
+	)
+	(pad "" np_thru_hole circle
+		(at 27 -33)
+		(size 3.2 3.2)
+		(drill 3.2)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "e9098277-7019-4313-97de-fd529e94b895")
+	)
+	(pad "" np_thru_hole circle
+		(at 27 33)
+		(size 3.2 3.2)
+		(drill 3.2)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "480b4a5e-8209-4914-9c7e-f200d2c62964")
+	)
+	(model "${KIPRJMOD}/3d/BitaxeGT_heatsink.step"
+		(offset
+			(xyz -30 -30 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

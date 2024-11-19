@@ -799,6 +799,24 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at 0 -19.05 90)
+					(length 2.54)
+					(name "PAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin input line
 					(at -12.7 6.35 0)
 					(length 2.54)
@@ -1005,6 +1023,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cef0dbea-be10-4be9-b3ff-3e07b6a38cec")
+	)
+	(junction
+		(at 107.95 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5072dd8-13b0-46d9-95a4-fd593f978066")
 	)
 	(junction
 		(at 205.74 106.68)
@@ -1486,6 +1510,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 124.46) (xy 107.95 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88a20c84-3dcd-4d0d-86a8-72113dbb0eaa")
+	)
+	(wire
+		(pts
 			(xy 110.49 113.03) (xy 107.95 113.03)
 		)
 		(stroke
@@ -1583,6 +1617,16 @@
 			(type default)
 		)
 		(uuid "b25985df-4e90-4979-8f78-4e941f12748a")
+	)
+	(wire
+		(pts
+			(xy 123.19 118.11) (xy 123.19 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b28636eb-cf3a-4ef4-9e7e-82248ef77009")
 	)
 	(wire
 		(pts
@@ -2688,6 +2732,9 @@
 		)
 		(pin "7"
 			(uuid "a70bffbd-eda7-42bf-899e-2375a57ede56")
+		)
+		(pin "17"
+			(uuid "af053a16-cb38-490e-bb6d-08872c4912ca")
 		)
 		(instances
 			(project ""
