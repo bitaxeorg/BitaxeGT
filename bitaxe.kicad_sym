@@ -6432,6 +6432,24 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at 0 -19.05 90)
+				(length 2.54)
+				(name "PAD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin input line
 				(at -12.7 6.35 0)
 				(length 2.54)
