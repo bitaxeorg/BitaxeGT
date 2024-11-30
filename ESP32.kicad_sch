@@ -2368,12 +2368,6 @@
 		(uuid "66bd0f7f-a0c4-4c9b-856f-5dd20bd16288")
 	)
 	(junction
-		(at 57.15 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "848ec4a3-8d46-4263-a90a-0b75460ac65b")
-	)
-	(junction
 		(at 50.8 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2390,6 +2384,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c031aeec-d420-4e6b-b277-5bb60b6c4467")
+	)
+	(junction
+		(at 59.69 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce4a0da3-5c4b-4b0d-a4d5-d23b57c97836")
 	)
 	(no_connect
 		(at 242.57 50.8)
@@ -2467,7 +2467,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 135.89) (xy 57.15 140.97)
+			(xy 59.69 135.89) (xy 59.69 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2637,7 +2637,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 127) (xy 57.15 130.81)
+			(xy 59.69 127) (xy 59.69 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2847,7 +2847,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 127) (xy 57.15 127)
+			(xy 50.8 127) (xy 59.69 127)
 		)
 		(stroke
 			(width 0)
@@ -2887,6 +2887,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 127) (xy 85.09 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acc9ec27-157b-4407-a911-678636a4742b")
+	)
+	(wire
+		(pts
 			(xy 67.31 52.07) (xy 71.12 52.07)
 		)
 		(stroke
@@ -2897,7 +2907,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 140.97) (xy 57.15 140.97)
+			(xy 50.8 140.97) (xy 59.69 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2914,16 +2924,6 @@
 			(type default)
 		)
 		(uuid "b6c85690-a280-4fb6-ba06-8447fdb5a6e5")
-	)
-	(wire
-		(pts
-			(xy 57.15 127) (xy 85.09 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9e0d7ca-60fd-421a-8359-485cc3d4f897")
 	)
 	(wire
 		(pts
@@ -3681,144 +3681,6 @@
 		(uuid "ed40a87c-1ba9-4117-86e2-18ed5359c11f")
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 71.12 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2854ca96-eede-4dd3-8256-6508d67c24b0")
-		(property "Reference" "R29"
-			(at 72.644 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 72.644 49.022 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 71.12 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 71.12 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 71.12 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "224fcd7c-cb55-4689-bf7f-6b0a512c8d3a")
-		)
-		(pin "1"
-			(uuid "bd2b1850-899b-4883-9a13-2f3f7ca4229b")
-		)
-		(instances
-			(project "BitaxeGT"
-				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/0703810a-9d38-4b42-b83c-c94ab6e668a1"
-					(reference "R29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 224.79 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "378a5f9a-3b6c-4b9d-82fd-645bbe10f104")
-		(property "Reference" "R22"
-			(at 226.314 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5.1K"
-			(at 226.314 87.122 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 224.79 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 224.79 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 224.79 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4dc173d3-bc81-4bc7-8139-17e317ee4b3e")
-		)
-		(pin "1"
-			(uuid "d5a95e83-a1b1-41f5-9f80-78a61ea057ec")
-		)
-		(instances
-			(project "BitaxeGT"
-				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/0703810a-9d38-4b42-b83c-c94ab6e668a1"
-					(reference "R22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "bitaxe:USB_C_Receptacle_USB2.0")
 		(at 257.81 66.04 0)
 		(mirror y)
@@ -3828,7 +3690,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3bdc2161-a87f-4711-8b04-26a90e8e004a")
-		(property "Reference" "J2"
+		(property "Reference" "J4"
 			(at 254 44.196 0)
 			(effects
 				(font
@@ -3846,7 +3708,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "bitaxe:USB_C_Receptacle_GCT_USB4105-xx-A"
 			(at 254 66.04 0)
 			(effects
 				(font
@@ -3915,7 +3777,7 @@
 		(instances
 			(project ""
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/0703810a-9d38-4b42-b83c-c94ab6e668a1"
-					(reference "J2")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -3931,7 +3793,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46882575-6857-466f-8659-ff84fff66b40")
-		(property "Reference" "J3"
+		(property "Reference" "J5"
 			(at 250.19 111.7599 0)
 			(effects
 				(font
@@ -3949,7 +3811,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
 			(at 247.65 111.76 0)
 			(effects
 				(font
@@ -3997,7 +3859,94 @@
 		(instances
 			(project ""
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/0703810a-9d38-4b42-b83c-c94ab6e668a1"
-					(reference "J3")
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 50.8 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "469dff38-234c-4262-bfe8-74e3ca0f8e51")
+		(property "Reference" "C49"
+			(at 56.896 132.588 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10uF"
+			(at 56.896 134.874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 50.8 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 50.8 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "GRM21BR61E106KA73L"
+			(at 50.8 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "490-5523-1-ND"
+			(at 50.8 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb7bf015-9caa-4fd6-bc73-474ae99d0e14")
+		)
+		(pin "2"
+			(uuid "6496e3fe-2371-41d9-b0c9-44a652607e66")
+		)
+		(instances
+			(project "BitaxeGT"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/0703810a-9d38-4b42-b83c-c94ab6e668a1"
+					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -4031,7 +3980,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 220.98 86.36 0)
 			(effects
 				(font
@@ -4050,6 +3999,24 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 220.98 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "RC0402FR-135K1L"
+			(at 220.98 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "13-RC0402FR-135K1LCT-ND"
 			(at 220.98 86.36 0)
 			(effects
 				(font
@@ -4083,7 +4050,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6583cba8-988d-4268-b28a-18f4f2a975c6")
-		(property "Reference" "U3"
+		(property "Reference" "U6"
 			(at 142.24 60.96 0)
 			(effects
 				(font
@@ -4270,7 +4237,7 @@
 		(instances
 			(project ""
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/0703810a-9d38-4b42-b83c-c94ab6e668a1"
-					(reference "U3")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -4303,7 +4270,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "bitaxe:EVQ9P701P-switch"
+		(property "Footprint" "bitaxe:SW_CS1213AGF260_CRS"
 			(at 62.23 59.69 0)
 			(effects
 				(font
@@ -4364,6 +4331,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 224.79 86.36 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "80f4089a-24cc-4599-9fbb-cdb232e65cf2")
+		(property "Reference" "R22"
+			(at 230.124 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1K"
+			(at 230.632 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 224.79 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.79 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 224.79 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "RC0402FR-135K1L"
+			(at 224.79 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "13-RC0402FR-135K1LCT-ND"
+			(at 224.79 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fdf750fc-5d77-46e2-8d27-b6ea96983152")
+		)
+		(pin "1"
+			(uuid "5f1c14bf-0b8b-4c01-ae01-c7b3e0761a2c")
+		)
+		(instances
+			(project "BitaxeGT"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/0703810a-9d38-4b42-b83c-c94ab6e668a1"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
 		(at 201.93 35.56 0)
 		(unit 1)
@@ -4373,7 +4428,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84edc765-b180-4865-af78-8164195f9122")
-		(property "Reference" "J4"
+		(property "Reference" "J3"
 			(at 204.47 35.5599 0)
 			(effects
 				(font
@@ -4391,7 +4446,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "bitaxe:PinHeader_1x04_P2.54mm_Vertical_shifted"
 			(at 201.93 35.56 0)
 			(effects
 				(font
@@ -4433,7 +4488,7 @@
 		(instances
 			(project ""
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/0703810a-9d38-4b42-b83c-c94ab6e668a1"
-					(reference "J4")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -4466,7 +4521,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "bitaxe:EVQ9P701P-switch"
+		(property "Footprint" "bitaxe:SW_CS1213AGF260_CRS"
 			(at 96.52 59.69 0)
 			(effects
 				(font
@@ -4527,16 +4582,104 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 71.12 48.26 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9ebe78c9-003b-40ff-894f-bab1a5c40dc7")
+		(property "Reference" "R20"
+			(at 72.898 47.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 72.644 49.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 71.12 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 71.12 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 71.12 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "RC0402JR-0710KL"
+			(at 71.12 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "311-10KJRCT-ND"
+			(at 71.12 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6fa62c0a-106e-4dd7-bbc9-8c0e6fd66e37")
+		)
+		(pin "1"
+			(uuid "911e72d2-f352-4b19-8914-dd8cb5c294da")
+		)
+		(instances
+			(project "BitaxeGT"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/0703810a-9d38-4b42-b83c-c94ab6e668a1"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
-		(at 57.15 133.35 0)
+		(at 59.69 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "abb9729d-7f19-45e6-8f19-c590d0bf75a5")
-		(property "Reference" "C39"
-			(at 63.246 132.588 0)
+		(property "Reference" "C50"
+			(at 65.786 132.588 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4545,7 +4688,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 64.516 134.62 0)
+			(at 67.056 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4553,8 +4696,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 57.15 133.35 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 59.69 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4562,8 +4705,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 57.15 133.35 0)
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/KGM_X7R.pdf"
+			(at 59.69 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4572,7 +4715,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 57.15 133.35 0)
+			(at 59.69 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4589,77 +4732,7 @@
 		(instances
 			(project "BitaxeGT"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/0703810a-9d38-4b42-b83c-c94ab6e668a1"
-					(reference "C39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 50.8 133.35 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "aefb8907-0619-4e3f-995e-3fc80c778e45")
-		(property "Reference" "C38"
-			(at 44.704 132.588 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10uF"
-			(at 43.434 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 50.8 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 50.8 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d13d74ae-6510-450c-bfc3-ff037a81cfab")
-		)
-		(pin "2"
-			(uuid "ab261909-a87b-4cdb-808d-3305b02b73e9")
-		)
-		(instances
-			(project "BitaxeGT"
-				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/0703810a-9d38-4b42-b83c-c94ab6e668a1"
-					(reference "C38")
+					(reference "C50")
 					(unit 1)
 				)
 			)
@@ -4674,7 +4747,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cb9b6858-4389-41e0-9034-d6dad16ad5e2")
-		(property "Reference" "C51"
+		(property "Reference" "C48"
 			(at 77.216 57.658 0)
 			(effects
 				(font
@@ -4692,7 +4765,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 71.12 58.42 0)
 			(effects
 				(font
@@ -4728,7 +4801,7 @@
 		(instances
 			(project "BitaxeGT"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/0703810a-9d38-4b42-b83c-c94ab6e668a1"
-					(reference "C51")
+					(reference "C48")
 					(unit 1)
 				)
 			)
