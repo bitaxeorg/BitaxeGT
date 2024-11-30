@@ -70,8 +70,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -30 -36)
-		(end 30 -36)
+		(start -30 -30)
+		(end 30 -30)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -80,8 +80,8 @@
 		(uuid "31de8fca-d5b6-40e7-8ed8-a22c333bd657")
 	)
 	(fp_line
-		(start -30 36)
-		(end -30 -36)
+		(start -30 30)
+		(end -30 -30)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -90,8 +90,8 @@
 		(uuid "cade5f0b-b823-4358-bf9d-57a2a2b7c53f")
 	)
 	(fp_line
-		(start 30 -36)
-		(end 30 36)
+		(start 30 -30)
+		(end 30 30)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -100,8 +100,8 @@
 		(uuid "2e470369-f302-4cc0-8eea-1d27fa3ace8b")
 	)
 	(fp_line
-		(start 30 36)
-		(end -30 36)
+		(start 30 30)
+		(end -30 30)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -110,18 +110,18 @@
 		(uuid "63fb9e27-3464-43c3-b889-d51f6760d8a8")
 	)
 	(fp_line
-		(start -30 -36)
-		(end 30 -36)
+		(start -30 -30)
+		(end 30 -30)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "F.Fab")
-		(uuid "c370aacc-bb5b-42a5-82db-8312044dbfd2")
+		(uuid "379cda3a-5ca8-4d1a-9bcb-cfa0e38fd8f1")
 	)
 	(fp_line
-		(start -30 36)
-		(end -30 -36)
+		(start -30 30)
+		(end -30 -30)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -130,18 +130,18 @@
 		(uuid "791c7400-db22-4fa5-8d4d-3a5d1b7904c8")
 	)
 	(fp_line
-		(start -30 36)
-		(end 30 36)
+		(start -30 30)
+		(end 30 30)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "F.Fab")
-		(uuid "69b7d0ce-4636-432b-8f87-dd0e85b83026")
+		(uuid "38d2ba99-66da-48eb-8454-1f8871bea170")
 	)
 	(fp_line
-		(start 30 36)
-		(end 30 -36)
+		(start 30 30)
+		(end 30 -30)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -150,42 +150,31 @@
 		(uuid "ec7c3768-7388-4699-95f4-905417a82d8e")
 	)
 	(pad "" np_thru_hole circle
-		(at -27 -33)
+		(at -27 -27)
 		(size 3.2 3.2)
 		(drill 3.2)
 		(layers "F&B.Cu" "*.Mask")
 		(uuid "9a75f559-49f4-488e-a3a7-55af3d435ede")
 	)
 	(pad "" np_thru_hole circle
-		(at -27 33)
+		(at -27 27)
 		(size 3.2 3.2)
 		(drill 3.2)
 		(layers "F&B.Cu" "*.Mask")
 		(uuid "2eea8256-0626-4117-b23f-f7c4a5983f66")
 	)
 	(pad "" np_thru_hole circle
-		(at 27 -33)
+		(at 27 -27)
 		(size 3.2 3.2)
 		(drill 3.2)
 		(layers "F&B.Cu" "*.Mask")
 		(uuid "e9098277-7019-4313-97de-fd529e94b895")
 	)
 	(pad "" np_thru_hole circle
-		(at 27 33)
+		(at 27 27)
 		(size 3.2 3.2)
 		(drill 3.2)
 		(layers "F&B.Cu" "*.Mask")
 		(uuid "480b4a5e-8209-4914-9c7e-f200d2c62964")
-	)
-	(model "${KIPRJMOD}/3d/BitaxeGT_heatsink.step"
-		(offset
-			(xyz -30 -30 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
 	)
 )

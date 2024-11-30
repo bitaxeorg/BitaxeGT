@@ -576,6 +576,261 @@
 				)
 			)
 		)
+		(symbol "bitaxe:Conn_01x04_MountingPin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J7"
+				(at 2.54 -1.6257 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Conn_01x04"
+				(at 0 -9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTNO" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DK" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??-1MP*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x04_MountingPin_1_1"
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -7.112) (xy 1.016 -7.112)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Mounting"
+					(at 0 -6.731 0)
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 90)
+					(length 3.048)
+					(name "MountPin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "bitaxe:EMC2103-2"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -971,6 +1226,12 @@
 		(uuid "0d360f35-1394-4587-b208-52a61a3bb5a6")
 	)
 	(junction
+		(at 246.38 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "126aa072-b1a8-4d3a-8f01-378f0debf688")
+	)
+	(junction
 		(at 226.06 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -995,10 +1256,28 @@
 		(uuid "48fe3d64-2d77-4d01-8766-ac250dc4e776")
 	)
 	(junction
+		(at 246.38 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c52b607-1644-4031-9bba-c6b5f295e053")
+	)
+	(junction
 		(at 231.14 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5428d199-6d0b-465c-a217-5801e9abfe5c")
+	)
+	(junction
+		(at 246.38 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56bbae75-0b4b-473a-852c-1eebd3f44398")
+	)
+	(junction
+		(at 246.38 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94dac989-37ac-402f-89c5-743ff8176161")
 	)
 	(junction
 		(at 102.87 67.31)
@@ -1057,6 +1336,16 @@
 	(no_connect
 		(at 135.89 101.6)
 		(uuid "bb7bcd9a-b1bb-4a21-a5c2-740c9b984d80")
+	)
+	(wire
+		(pts
+			(xy 246.38 104.14) (xy 260.35 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00cad281-a7fd-4991-aa53-733688cc1359")
 	)
 	(wire
 		(pts
@@ -1130,6 +1419,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 111.76) (xy 260.35 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a5f704f-f632-4a6d-9352-6e63199bd14a")
+	)
+	(wire
+		(pts
 			(xy 226.06 123.19) (xy 234.95 123.19)
 		)
 		(stroke
@@ -1167,6 +1466,16 @@
 			(type default)
 		)
 		(uuid "2b605b10-6257-4b36-9cdc-fadd7159816f")
+	)
+	(wire
+		(pts
+			(xy 246.38 109.22) (xy 260.35 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b754435-c84b-4eb1-bdf2-825818601b0a")
 	)
 	(wire
 		(pts
@@ -1297,6 +1606,16 @@
 			(type default)
 		)
 		(uuid "45a4dcaa-929d-4dbe-bd8b-75973aebf8b4")
+	)
+	(wire
+		(pts
+			(xy 265.43 116.84) (xy 265.43 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45ea58c8-0447-42bc-9ed9-e61331389082")
 	)
 	(wire
 		(pts
@@ -1550,6 +1869,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 106.68) (xy 260.35 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f43dc8a-0095-44c2-8114-d64eb91b0c0e")
+	)
+	(wire
+		(pts
 			(xy 226.06 109.22) (xy 226.06 113.03)
 		)
 		(stroke
@@ -1780,6 +2109,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 123.19) (xy 265.43 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4bd1730-6119-4714-893e-e6c1ea393da3")
+	)
+	(wire
+		(pts
 			(xy 92.71 78.74) (xy 102.87 78.74)
 		)
 		(stroke
@@ -1999,6 +2338,17 @@
 			(justify right bottom)
 		)
 		(uuid "6bb807fb-481d-4bac-a249-359030086b13")
+	)
+	(label "GND"
+		(at 259.08 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "727f276e-0a9a-40b9-8441-f4a84fd8fa60")
 	)
 	(label "SCL"
 		(at 149.86 93.98 180)
@@ -2257,7 +2607,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "021ae13a-8870-426b-a702-9ea57988cbc3")
@@ -2270,7 +2620,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PM1"
+		(property "Value" "TestPoint"
 			(at 196.596 108.966 90)
 			(effects
 				(font
@@ -2328,7 +2678,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0bf82f80-965f-4b9a-b654-7aab306542b5")
-		(property "Reference" "C93"
+		(property "Reference" "C97"
 			(at 232.156 114.808 0)
 			(effects
 				(font
@@ -2400,77 +2750,7 @@
 		(instances
 			(project "BitaxeGT"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/edab3562-ad75-4c4e-afab-a1841dcf5714"
-					(reference "C93")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 231.14 88.9 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2b9d87de-3f1c-46d2-ac6a-329c7eb15131")
-		(property "Reference" "R33"
-			(at 225.806 87.884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 225.552 89.916 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 231.14 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 231.14 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 231.14 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "af4bcb26-551d-41b7-a3c1-bf272f3b20aa")
-		)
-		(pin "1"
-			(uuid "4507ab66-54c5-4822-b7cd-866ac7176207")
-		)
-		(instances
-			(project "BitaxeGT"
-				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/edab3562-ad75-4c4e-afab-a1841dcf5714"
-					(reference "R33")
+					(reference "C97")
 					(unit 1)
 				)
 			)
@@ -2485,7 +2765,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "33e8124b-aeb2-4c64-911b-4eb5bd23e9f2")
-		(property "Reference" "R31"
+		(property "Reference" "R34"
 			(at 66.548 107.696 90)
 			(effects
 				(font
@@ -2539,7 +2819,7 @@
 		(instances
 			(project "BitaxeGT"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/edab3562-ad75-4c4e-afab-a1841dcf5714"
-					(reference "R31")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -2554,7 +2834,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4a69cb53-9107-45a2-8753-b41c36f2873a")
-		(property "Reference" "R24"
+		(property "Reference" "R35"
 			(at 161.544 112.014 0)
 			(effects
 				(font
@@ -2608,7 +2888,7 @@
 		(instances
 			(project "BitaxeGT"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/edab3562-ad75-4c4e-afab-a1841dcf5714"
-					(reference "R24")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -2624,7 +2904,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d1a3a70-c619-4019-b19b-4dbf3b6e5a29")
-		(property "Reference" "U14"
+		(property "Reference" "U13"
 			(at 123.19 77.47 0)
 			(effects
 				(font
@@ -2739,7 +3019,7 @@
 		(instances
 			(project ""
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/edab3562-ad75-4c4e-afab-a1841dcf5714"
-					(reference "U14")
+					(reference "U13")
 					(unit 1)
 				)
 			)
@@ -2754,7 +3034,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6e9d6602-3b38-4471-8fbb-bce85e3fd768")
-		(property "Reference" "C95"
+		(property "Reference" "C93"
 			(at 87.376 86.868 0)
 			(effects
 				(font
@@ -2826,7 +3106,7 @@
 		(instances
 			(project "BitaxeGT"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/edab3562-ad75-4c4e-afab-a1841dcf5714"
-					(reference "C95")
+					(reference "C93")
 					(unit 1)
 				)
 			)
@@ -2841,7 +3121,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7151ca93-da12-4320-b0a9-25c3f2362bb4")
-		(property "Reference" "R34"
+		(property "Reference" "R33"
 			(at 161.544 95.504 0)
 			(effects
 				(font
@@ -2895,7 +3175,95 @@
 		(instances
 			(project "BitaxeGT"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/edab3562-ad75-4c4e-afab-a1841dcf5714"
-					(reference "R34")
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 231.14 88.9 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "76647c0d-1036-4e8c-9ea3-a06417c51e9a")
+		(property "Reference" "R30"
+			(at 232.664 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 232.664 89.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 231.14 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 231.14 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 231.14 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "RC0402JR-0710KL"
+			(at 231.14 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "311-10KJRCT-ND"
+			(at 231.14 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b7992896-d6ee-46be-ab66-3786717453ee")
+		)
+		(pin "1"
+			(uuid "03aa5853-5729-4335-839e-2d4973f4185c")
+		)
+		(instances
+			(project "BitaxeGT"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/edab3562-ad75-4c4e-afab-a1841dcf5714"
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -2907,11 +3275,11 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "766e2d16-0754-4ac1-8077-22b7fd20ea24")
-		(property "Reference" "TP3"
+		(property "Reference" "TP20"
 			(at 214.122 104.14 90)
 			(effects
 				(font
@@ -2920,7 +3288,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PM1"
+		(property "Value" "TestPoint"
 			(at 213.106 106.426 90)
 			(effects
 				(font
@@ -2963,7 +3331,103 @@
 		(instances
 			(project "BitaxeGT"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/edab3562-ad75-4c4e-afab-a1841dcf5714"
-					(reference "TP3")
+					(reference "TP20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bitaxe:Conn_01x04_MountingPin")
+		(at 265.43 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "85447df3-3010-426c-874a-ed6d90b3f3ec")
+		(property "Reference" "J6"
+			(at 264.16 100.838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 265.43 116.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical"
+			(at 265.43 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 265.43 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" ""
+			(at 265.43 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" ""
+			(at 265.43 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "7abf800d-d0dd-4401-917c-0af45afa9128")
+		)
+		(pin "3"
+			(uuid "80d09206-bacc-4f0f-9634-57852b55e9a6")
+		)
+		(pin "2"
+			(uuid "73db8338-5f02-4696-8994-2ad22aff06e0")
+		)
+		(pin "1"
+			(uuid "db71939a-64b0-4737-a372-fd19f483df97")
+		)
+		(pin "MP"
+			(uuid "bcb050dd-887b-48d0-859a-af0ef7b51db0")
+		)
+		(instances
+			(project ""
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/edab3562-ad75-4c4e-afab-a1841dcf5714"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -2979,7 +3443,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9972ee13-664e-42fd-9905-aeeda6c9f963")
-		(property "Reference" "C92"
+		(property "Reference" "C96"
 			(at 213.614 114.808 0)
 			(effects
 				(font
@@ -3033,7 +3497,7 @@
 		(instances
 			(project "BitaxeGT"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/edab3562-ad75-4c4e-afab-a1841dcf5714"
-					(reference "C92")
+					(reference "C96")
 					(unit 1)
 				)
 			)
@@ -3048,7 +3512,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aa74cf15-1809-4328-b4aa-e49fb1cf9dc5")
-		(property "Reference" "C96"
+		(property "Reference" "C95"
 			(at 87.376 109.728 0)
 			(effects
 				(font
@@ -3120,7 +3584,7 @@
 		(instances
 			(project "BitaxeGT"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/edab3562-ad75-4c4e-afab-a1841dcf5714"
-					(reference "C96")
+					(reference "C95")
 					(unit 1)
 				)
 			)
@@ -3135,10 +3599,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "aec6f354-6970-403f-914a-e3eac81435b4")
-		(property "Reference" "J6"
-			(at 254 109.2201 0)
+		(property "Reference" "J7"
+			(at 250.19 100.584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3147,15 +3610,16 @@
 			)
 		)
 		(property "Value" "Conn_01x04"
-			(at 254 106.6801 0)
+			(at 245.618 115.316 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "bitaxe:470531000"
 			(at 251.46 109.22 0)
 			(effects
 				(font
@@ -3197,7 +3661,7 @@
 		(instances
 			(project "BitaxeGT"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/edab3562-ad75-4c4e-afab-a1841dcf5714"
-					(reference "J6")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -3212,7 +3676,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b8bc2329-579a-48fa-905c-85b202e279b1")
-		(property "Reference" "R32"
+		(property "Reference" "R36"
 			(at 66.294 117.856 90)
 			(effects
 				(font
@@ -3266,7 +3730,7 @@
 		(instances
 			(project "BitaxeGT"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/edab3562-ad75-4c4e-afab-a1841dcf5714"
-					(reference "R32")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -3282,7 +3746,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c3b50d90-0286-4ef6-9596-d5e1b9d1071a")
-		(property "Reference" "R23"
+		(property "Reference" "R31"
 			(at 200.406 89.154 0)
 			(effects
 				(font
@@ -3336,7 +3800,7 @@
 		(instances
 			(project "BitaxeGT"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/edab3562-ad75-4c4e-afab-a1841dcf5714"
-					(reference "R23")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -3352,7 +3816,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d5cd8801-96f1-4084-8e4b-40dc52199062")
-		(property "Reference" "C97"
+		(property "Reference" "C92"
 			(at 96.774 71.628 0)
 			(effects
 				(font
@@ -3424,7 +3888,7 @@
 		(instances
 			(project "BitaxeGT"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/edab3562-ad75-4c4e-afab-a1841dcf5714"
-					(reference "C97")
+					(reference "C92")
 					(unit 1)
 				)
 			)
@@ -3440,7 +3904,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "da15695d-ae2e-420f-8661-91af4e195fc8")
-		(property "Reference" "C98"
+		(property "Reference" "C94"
 			(at 216.154 88.138 0)
 			(effects
 				(font
@@ -3512,7 +3976,7 @@
 		(instances
 			(project "BitaxeGT"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/edab3562-ad75-4c4e-afab-a1841dcf5714"
-					(reference "C98")
+					(reference "C94")
 					(unit 1)
 				)
 			)
@@ -3527,7 +3991,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e58e8e48-da8c-4058-89cb-b86e0337f155")
-		(property "Reference" "R30"
+		(property "Reference" "R32"
 			(at 66.548 94.996 90)
 			(effects
 				(font
@@ -3581,7 +4045,7 @@
 		(instances
 			(project "BitaxeGT"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/edab3562-ad75-4c4e-afab-a1841dcf5714"
-					(reference "R30")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -3596,7 +4060,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ff2a5efc-2d6d-4740-bb22-0e130dc1e2c7")
-		(property "Reference" "R28"
+		(property "Reference" "R29"
 			(at 66.548 84.836 90)
 			(effects
 				(font
@@ -3650,7 +4114,7 @@
 		(instances
 			(project "BitaxeGT"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/edab3562-ad75-4c4e-afab-a1841dcf5714"
-					(reference "R28")
+					(reference "R29")
 					(unit 1)
 				)
 			)
