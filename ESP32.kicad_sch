@@ -2338,12 +2338,6 @@
 		(uuid "1a806c4d-d0f6-4c6e-9924-d25f667cb930")
 	)
 	(junction
-		(at 220.98 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1ed080a7-e767-419e-adf4-63c199712b0a")
-	)
-	(junction
 		(at 50.8 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2362,22 +2356,10 @@
 		(uuid "57e0c42c-136d-4331-a521-6b8fca6c6070")
 	)
 	(junction
-		(at 224.79 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "66bd0f7f-a0c4-4c9b-856f-5dd20bd16288")
-	)
-	(junction
 		(at 50.8 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8ed67490-52b3-40c7-90ec-c2719856bacb")
-	)
-	(junction
-		(at 224.79 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b4c85ee7-593f-4678-864a-0f633fc3ff80")
 	)
 	(junction
 		(at 257.81 92.71)
@@ -2527,16 +2509,6 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 80.01) (xy 224.79 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20578b5b-466c-4bc7-86f9-d1b083c75e6f")
-	)
-	(wire
-		(pts
 			(xy 248.92 92.71) (xy 257.81 92.71)
 		)
 		(stroke
@@ -2587,16 +2559,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 88.9) (xy 220.98 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "387aa1c3-b32f-479f-8693-df87fb0d2a38")
-	)
-	(wire
-		(pts
 			(xy 257.81 92.71) (xy 265.43 92.71)
 		)
 		(stroke
@@ -2604,16 +2566,6 @@
 			(type default)
 		)
 		(uuid "389f0b8d-03d9-423f-8509-845851723534")
-	)
-	(wire
-		(pts
-			(xy 220.98 80.01) (xy 224.79 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38f62fbb-ab73-4b54-b0f0-e83dcb380249")
 	)
 	(wire
 		(pts
@@ -2647,7 +2599,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 93.98) (xy 224.79 93.98)
+			(xy 199.39 93.98) (xy 223.52 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2674,16 +2626,6 @@
 			(type default)
 		)
 		(uuid "43a2bd43-165d-4d94-b537-24c901f36ed6")
-	)
-	(wire
-		(pts
-			(xy 220.98 83.82) (xy 220.98 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4478c3a6-4be9-4dc8-83dd-1dd907ccc58e")
 	)
 	(wire
 		(pts
@@ -2744,16 +2686,6 @@
 			(type default)
 		)
 		(uuid "59cc1eef-1c41-4b45-aeef-be809a711b46")
-	)
-	(wire
-		(pts
-			(xy 224.79 93.98) (xy 237.49 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b7c5f47-744b-4971-97e3-55d1bce31c30")
 	)
 	(wire
 		(pts
@@ -2947,26 +2879,6 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 88.9) (xy 224.79 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be78c50f-caff-4413-926a-b2a8d726c656")
-	)
-	(wire
-		(pts
-			(xy 199.39 91.44) (xy 220.98 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "beb9ee48-430e-4ede-8599-fd4449fdc693")
-	)
-	(wire
-		(pts
 			(xy 31.75 111.76) (xy 48.26 111.76)
 		)
 		(stroke
@@ -3017,7 +2929,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 91.44) (xy 237.49 91.44)
+			(xy 199.39 91.44) (xy 223.52 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3034,16 +2946,6 @@
 			(type default)
 		)
 		(uuid "cf173bc8-52ca-406a-be7d-b852dfaecdb8")
-	)
-	(wire
-		(pts
-			(xy 224.79 80.01) (xy 233.68 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2aa4e9a-eb7b-4323-9997-08326960e7c0")
 	)
 	(wire
 		(pts
@@ -3250,17 +3152,6 @@
 		)
 		(uuid "1cccb890-b9c1-48af-9284-5e0438dbdf57")
 	)
-	(label "3.3V"
-		(at 233.68 80.01 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1d2e2be6-b540-4cfd-8583-1fdb80c9a1a7")
-	)
 	(label "GND"
 		(at 232.41 109.22 0)
 		(fields_autoplaced yes)
@@ -3350,7 +3241,7 @@
 		(uuid "60af2073-69b4-4813-b524-8d5df68d7365")
 	)
 	(label "SDA"
-		(at 237.49 93.98 180)
+		(at 223.52 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3460,7 +3351,7 @@
 		(uuid "ba79f703-1411-4559-af27-2191f5fb4f66")
 	)
 	(label "SCL"
-		(at 237.49 91.44 180)
+		(at 223.52 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3953,94 +3844,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 220.98 86.36 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5ef43e62-ae57-447b-a911-ce7103bae57d")
-		(property "Reference" "R21"
-			(at 219.456 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5.1K"
-			(at 219.456 87.122 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 220.98 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 220.98 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 220.98 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "RC0402FR-135K1L"
-			(at 220.98 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK" "13-RC0402FR-135K1LCT-ND"
-			(at 220.98 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d6854ef5-95ff-461a-93e8-25a5787d8c13")
-		)
-		(pin "1"
-			(uuid "11d76461-c252-4be8-a94e-b356552b8116")
-		)
-		(instances
-			(project "BitaxeGT"
-				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/0703810a-9d38-4b42-b83c-c94ab6e668a1"
-					(reference "R21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "bitaxe:ESP32-S3-WROOM-1")
 		(at 140.97 99.06 0)
 		(unit 1)
@@ -4325,94 +4128,6 @@
 			(project ""
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/0703810a-9d38-4b42-b83c-c94ab6e668a1"
 					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 224.79 86.36 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "80f4089a-24cc-4599-9fbb-cdb232e65cf2")
-		(property "Reference" "R22"
-			(at 230.124 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5.1K"
-			(at 230.632 87.122 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 224.79 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 224.79 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 224.79 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "RC0402FR-135K1L"
-			(at 224.79 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK" "13-RC0402FR-135K1LCT-ND"
-			(at 224.79 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fdf750fc-5d77-46e2-8d27-b6ea96983152")
-		)
-		(pin "1"
-			(uuid "5f1c14bf-0b8b-4c01-ae01-c7b3e0761a2c")
-		)
-		(instances
-			(project "BitaxeGT"
-				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/0703810a-9d38-4b42-b83c-c94ab6e668a1"
-					(reference "R22")
 					(unit 1)
 				)
 			)
