@@ -66,7 +66,7 @@
 	(attr smd)
 	(fp_line
 		(start -5.5 -3.85)
-		(end -5.5 -1.3)
+		(end -5.5 -1.4)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -86,7 +86,7 @@
 	)
 	(fp_line
 		(start -5.5 3.85)
-		(end -5.5 1.3)
+		(end -5.5 1.4)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -106,7 +106,7 @@
 	)
 	(fp_line
 		(start 5.5 -3.85)
-		(end 5.5 -1.3)
+		(end 5.5 -1.4)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -116,7 +116,7 @@
 	)
 	(fp_line
 		(start 5.5 3.85)
-		(end 5.5 1.3)
+		(end 5.5 1.4)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -205,7 +205,7 @@
 		(uuid "020f7941-80e3-4484-8f82-c03b29467540")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
+		(at -0.1 2.75 0)
 		(layer "F.Fab")
 		(uuid "78b9170c-3565-4845-82fe-f3672d3999e9")
 		(effects
@@ -216,15 +216,15 @@
 		)
 	)
 	(pad "1" smd roundrect
-		(at -4 0)
-		(size 3.35 2.6)
+		(at -4.3 0)
+		(size 3.95 2.6)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(uuid "41256fa6-983d-41f4-a0cc-c8a901012276")
 	)
 	(pad "2" smd roundrect
-		(at 4 0)
-		(size 3.35 2.6)
+		(at 4.3 0)
+		(size 3.95 2.6)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(uuid "c78b2eb2-1e22-48f5-be26-132cd4e02ba8")
