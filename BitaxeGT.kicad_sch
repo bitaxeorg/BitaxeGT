@@ -912,16 +912,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 59.69) (xy 116.84 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f42d8e7b-43c6-4f7b-b415-a57b023e3ab6")
-	)
-	(wire
-		(pts
 			(xy 105.41 68.58) (xy 116.84 68.58)
 		)
 		(stroke
@@ -1060,28 +1050,6 @@
 			(justify left bottom)
 		)
 		(uuid "f9fe26f1-4653-4232-b125-85aac42d8413")
-	)
-	(global_label "GND"
-		(shape input)
-		(at 99.06 59.69 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0c47bce8-e354-4f4c-8c68-a138bd82edac")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.2043 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
@@ -2076,16 +2044,6 @@
 				(justify left)
 			)
 			(uuid "edc85565-7107-4f2c-9314-c0c3b72907b8")
-		)
-		(pin "GND" input
-			(at 116.84 59.69 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "2112f79a-82da-4ecf-bfbd-e170021781e6")
 		)
 		(instances
 			(project "BitaxeGT"
