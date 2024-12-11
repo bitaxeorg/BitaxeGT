@@ -4597,16 +4597,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 73.66) (xy 53.34 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50bb19dd-27b1-42d1-a03e-26d9d3d20dd5")
-	)
-	(wire
-		(pts
 			(xy 269.24 86.36) (xy 271.78 86.36)
 		)
 		(stroke
@@ -6857,7 +6847,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 151.13) (xy 68.58 151.13)
+			(xy 57.15 151.13) (xy 72.39 151.13)
 		)
 		(stroke
 			(width 0)
@@ -7731,7 +7721,7 @@
 		)
 		(uuid "0e86dead-f8c8-4550-9b6e-87dcab12bdd4")
 	)
-	(label "BP1v5"
+	(label "BP1v5_2"
 		(at 302.26 214.63 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7984,7 +7974,7 @@
 		)
 		(uuid "56289494-9c27-44e8-822b-ff86b5508112")
 	)
-	(label "BP1v5"
+	(label "BP1v5_2"
 		(at 219.71 209.55 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7995,7 +7985,7 @@
 		)
 		(uuid "56f995cc-6fc7-43cd-8314-06d67d0af5c7")
 	)
-	(label "V5reg"
+	(label "V5reg_1"
 		(at 227.33 81.28 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8248,7 +8238,7 @@
 		)
 		(uuid "af222934-0086-4820-b188-23025558ebfa")
 	)
-	(label "V5reg"
+	(label "V5reg_2"
 		(at 227.33 195.58 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8369,6 +8359,17 @@
 		)
 		(uuid "db2f8315-581d-4f49-8321-fe342f50217d")
 	)
+	(label "BP1v5_1"
+		(at 212.09 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "db3efd01-9be9-4d86-a9d2-e62ee29bf578")
+	)
 	(label "Vcore"
 		(at 375.92 168.91 180)
 		(fields_autoplaced yes)
@@ -8379,17 +8380,6 @@
 			(justify right bottom)
 		)
 		(uuid "de5d5190-70f7-4eb4-a6e0-d47cc33840e7")
-	)
-	(label "GND"
-		(at 53.34 73.66 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e1bc4474-abe1-42d8-902a-8eaf1d30d94a")
 	)
 	(label "GND"
 		(at 281.94 222.25 180)
@@ -8468,6 +8458,28 @@
 		)
 		(uuid "f54ee9c1-1e29-4f48-87c3-7c889cfee2cf")
 	)
+	(global_label "GND"
+		(shape input)
+		(at 72.39 151.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3a24350f-951f-439c-bf2d-202d9c88a586")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 79.2457 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(hierarchical_label "SMB_ALRT"
 		(shape output)
 		(at 36.83 82.55 180)
@@ -8479,18 +8491,6 @@
 			(justify right)
 		)
 		(uuid "05b616e2-de1c-4598-b1c0-8001b87d4e26")
-	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 36.83 73.66 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "145e603b-26ab-4bfc-a5d8-6b609f594692")
 	)
 	(hierarchical_label "PWR_EN"
 		(shape input)
