@@ -7575,6 +7575,18 @@
 		)
 		(uuid "ffa0c46a-f95b-429f-988c-41a91fba8840")
 	)
+	(rectangle
+		(start 57.15 77.47)
+		(end 69.85 92.71)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 84b24d98-4a16-455c-879d-d2acaa6eefd2)
+	)
 	(text "External PMBUS connection pads\nfor TI GUI tool or I2C debug"
 		(exclude_from_sim no)
 		(at 125.476 77.216 0)
@@ -7614,6 +7626,16 @@
 			)
 		)
 		(uuid "66ee8dd0-623d-44da-9662-001631885e37")
+	)
+	(text "Remove these 3 resistors\nwhen connecting the TI\nGUI debug tool"
+		(exclude_from_sim no)
+		(at 63.5 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8255dbf9-8064-492d-bdf5-56fc426cd764")
 	)
 	(text "I2C ADDR = 0x24"
 		(exclude_from_sim no)
