@@ -5294,6 +5294,17 @@
 		)
 		(uuid "95175f7a-e0b8-4460-a228-3931c4bb6645")
 	)
+	(label "GND"
+		(at 119.38 187.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9deb2340-745f-40cd-9124-582b230c3f6d")
+	)
 	(label "Vcore"
 		(at 87.63 77.47 0)
 		(fields_autoplaced yes)
@@ -5524,6 +5535,17 @@
 			(justify right bottom)
 		)
 		(uuid "f1e75a0c-a697-4e96-b854-36e0623d86d2")
+	)
+	(label "GND"
+		(at 49.53 187.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f406ad1e-6a2c-4c8b-81e6-274772ed2683")
 	)
 	(label "TX_3V3"
 		(at 222.25 34.29 180)
