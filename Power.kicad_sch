@@ -3114,12 +3114,6 @@
 		(uuid "ce5a2f07-cdb5-4a88-a579-e85271e362d5")
 	)
 	(junction
-		(at 57.15 151.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d025194e-5d83-4306-9d27-9e6de1dee76a")
-	)
-	(junction
 		(at 224.79 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3730,16 +3724,6 @@
 			(type default)
 		)
 		(uuid "21836608-5c0c-48ba-9ede-97a946930686")
-	)
-	(wire
-		(pts
-			(xy 57.15 151.13) (xy 57.15 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "222c8f1f-2509-4b73-9398-5acefdf99126")
 	)
 	(wire
 		(pts
@@ -6673,16 +6657,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 151.13) (xy 72.39 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d071d247-9f6f-4e42-9d37-1f6c4a8da007")
-	)
-	(wire
-		(pts
 			(xy 269.24 193.04) (xy 271.78 193.04)
 		)
 		(stroke
@@ -6740,16 +6714,6 @@
 			(type default)
 		)
 		(uuid "d5a98410-83db-4a42-8bf8-beb103d0173b")
-	)
-	(wire
-		(pts
-			(xy 57.15 157.48) (xy 63.5 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5b8b588-7a63-40d9-8509-590245f910e5")
 	)
 	(wire
 		(pts
@@ -6883,7 +6847,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 151.13) (xy 57.15 151.13)
+			(xy 52.07 151.13) (xy 72.39 151.13)
 		)
 		(stroke
 			(width 0)
@@ -10293,73 +10257,6 @@
 			(project "BitaxeGT"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/24036843-8461-4d4b-b738-f953c909ed6c"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 63.5 157.48 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2d11cbf8-942b-4872-b2e9-c4f7ff110bc4")
-		(property "Reference" "TP3"
-			(at 68.58 156.2099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GND"
-			(at 68.58 158.7499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 63.5 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 63.5 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 63.5 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9a67cabe-b5f5-4b16-b1a5-5977f1bc5463")
-		)
-		(instances
-			(project "BitaxeGT"
-				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/24036843-8461-4d4b-b738-f953c909ed6c"
-					(reference "TP3")
 					(unit 1)
 				)
 			)

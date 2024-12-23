@@ -2071,12 +2071,6 @@
 		(uuid "b41de169-8f03-425f-a0c3-9ae566290291")
 	)
 	(junction
-		(at 240.03 151.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b55ec691-69bf-4e20-9b1b-517f607289c9")
-	)
-	(junction
 		(at 219.71 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2790,16 +2784,6 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 151.13) (xy 250.19 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32093a0d-ed65-41d3-a84c-fd6b834a7a27")
-	)
-	(wire
-		(pts
 			(xy 229.87 87.63) (xy 229.87 101.6)
 		)
 		(stroke
@@ -3327,16 +3311,6 @@
 			(type default)
 		)
 		(uuid "59da6f72-00ce-43e9-9a65-444ba37ffd19")
-	)
-	(wire
-		(pts
-			(xy 240.03 151.13) (xy 250.19 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a68ae7e-a6dd-4a1b-951e-84723fba47ef")
 	)
 	(wire
 		(pts
@@ -4380,16 +4354,6 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 119.38) (xy 250.19 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c26ea434-fbc7-4c9c-8d25-8760cbe19d26")
-	)
-	(wire
-		(pts
 			(xy 229.87 87.63) (xy 232.41 87.63)
 		)
 		(stroke
@@ -5426,17 +5390,6 @@
 		)
 		(uuid "d55b6e3f-5e0c-4912-a72e-bcb01c6ae986")
 	)
-	(label "GND"
-		(at 33.02 151.13 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dc26bfda-fad7-4faf-b487-3958e4913d21")
-	)
 	(label "TX_1V2"
 		(at 63.5 111.76 0)
 		(fields_autoplaced yes)
@@ -6060,93 +6013,6 @@
 			(project "BitaxeGT"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
 					(reference "C51")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 250.19 142.24 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0bdf26c5-6da8-4e22-b69b-59a1314d9ef0")
-		(property "Reference" "R25"
-			(at 248.666 141.478 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2K"
-			(at 248.666 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 250.19 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 250.19 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 250.19 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "RT0402BRD072KL"
-			(at 250.19 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK" "YAG2303CT-ND"
-			(at 250.19 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "94f93ee8-62df-4054-90a2-88be2d25c22c")
-		)
-		(pin "1"
-			(uuid "d9c0c30f-fc9e-407b-82d3-31383cab1fa9")
-		)
-		(instances
-			(project "BitaxeGT"
-				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
-					(reference "R25")
 					(unit 1)
 				)
 			)
