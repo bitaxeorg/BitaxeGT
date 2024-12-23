@@ -482,7 +482,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 182.88) (xy 80.01 182.88)
+			(xy 71.12 182.88) (xy 83.82 182.88)
 		)
 		(stroke
 			(width 0)
@@ -1050,6 +1050,28 @@
 			(justify left bottom)
 		)
 		(uuid "f9fe26f1-4653-4232-b125-85aac42d8413")
+	)
+	(global_label "GND"
+		(shape input)
+		(at 83.82 182.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "169e0b1e-7f25-45c2-8e07-05c895ff55c0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.6757 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
