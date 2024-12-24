@@ -140,6 +140,26 @@
 		(uuid "38d2ba99-66da-48eb-8454-1f8871bea170")
 	)
 	(fp_line
+		(start -19 0)
+		(end -17 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "983a4521-3e08-4ab6-a053-4d5c7d2df8b8")
+	)
+	(fp_line
+		(start -18 -1)
+		(end -18 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "813d74bd-ba69-43b2-9d4f-e1cef4689d1b")
+	)
+	(fp_line
 		(start -16 -15)
 		(end -14 -15)
 		(stroke
@@ -180,26 +200,6 @@
 		(uuid "8ec9d119-4810-46c1-9b04-de21713e810c")
 	)
 	(fp_line
-		(start -10.5 0)
-		(end -9.5 0)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(layer "F.Fab")
-		(uuid "d2807033-6902-4ff6-9685-1f969a2afd9f")
-	)
-	(fp_line
-		(start -10 -0.5)
-		(end -10 0.5)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(layer "F.Fab")
-		(uuid "7402aba1-c194-44d5-85ad-81d3b8729c84")
-	)
-	(fp_line
 		(start -0.5 0)
 		(end 0.5 0)
 		(stroke
@@ -218,26 +218,6 @@
 		)
 		(layer "F.Fab")
 		(uuid "cc2b5a48-28b2-4dd8-9494-90921201abd2")
-	)
-	(fp_line
-		(start 9.5 0)
-		(end 10.5 0)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(layer "F.Fab")
-		(uuid "473c2852-0019-4a3e-83fe-a03a716f07d5")
-	)
-	(fp_line
-		(start 10 -0.5)
-		(end 10 0.5)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(layer "F.Fab")
-		(uuid "d11261cf-ec41-4bd8-8cf6-a1cfab4b057d")
 	)
 	(fp_line
 		(start 14 -15)
@@ -280,6 +260,26 @@
 		(uuid "5524123c-c062-4f7b-a646-6643b967ddda")
 	)
 	(fp_line
+		(start 17 0)
+		(end 19 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "8b3b0d00-276e-4296-8672-7dabb3e22077")
+	)
+	(fp_line
+		(start 18 -1)
+		(end 18 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "2e1781bb-dcdf-4286-aeb2-6475d670389e")
+	)
+	(fp_line
 		(start 30 30)
 		(end 30 -30)
 		(stroke
@@ -288,6 +288,17 @@
 		)
 		(layer "F.Fab")
 		(uuid "ec7c3768-7388-4699-95f4-905417a82d8e")
+	)
+	(fp_rect
+		(start -22 -4)
+		(end -14 4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "3a73c9d7-4e44-4149-b0f9-e404ceb2dd7f")
 	)
 	(fp_rect
 		(start -19 -19)
@@ -332,6 +343,17 @@
 		(fill none)
 		(layer "F.Fab")
 		(uuid "dd22b3c3-5f1c-45a6-876a-f6b2c0e959ff")
+	)
+	(fp_rect
+		(start 14 -4)
+		(end 22 4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "6c11776b-5d5b-457e-9f91-47d1bbb8f565")
 	)
 	(pad "" np_thru_hole circle
 		(at -27 -27)
