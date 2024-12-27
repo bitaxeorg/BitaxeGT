@@ -4582,7 +4582,7 @@
 		(descr "Through hole straight pin header, 1x06, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x06 2.54mm single row")
 		(property "Reference" "J5"
-			(at 0.1 15.5 180)
+			(at 0.1 15.5 360)
 			(layer "F.SilkS")
 			(uuid "09b0b031-55e3-4153-9587-880cbde90a20")
 			(effects
@@ -4875,6 +4875,7 @@
 			(uuid "ef2fd366-4859-43bd-a187-8ad704c3ad1a")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x06_P2.54mm_Vertical.wrl"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12179,15 +12180,15 @@
 			(pintype "passive")
 			(uuid "de83bd30-cabf-4a24-a8cb-2b88373f96e2")
 		)
-		(model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.wrl"
+		(model "${KIPRJMOD}/3d/OLED_0.91_128x32.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz -17.55 -3.8 2.5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 0 0 180)
 			)
 		)
 	)
@@ -18106,7 +18107,7 @@
 		(descr "SOT, 5 Pin (~), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U11"
-			(at -0.45 2.75 360)
+			(at -0.45 2.75 0)
 			(layer "B.SilkS")
 			(uuid "13534609-d7c3-4923-84d9-28011c699b29")
 			(effects
@@ -18118,7 +18119,7 @@
 			)
 		)
 		(property "Value" "MCP1824T-1202E/OT"
-			(at 0 -2.4 360)
+			(at 0 -2.4 0)
 			(layer "B.Fab")
 			(uuid "9dcc7318-6c71-4bc1-96ce-e5c81b167452")
 			(effects
@@ -18130,7 +18131,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "fab555a4-0ecf-4f75-a170-06e82ea66fea")
@@ -18143,7 +18144,7 @@
 			)
 		)
 		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/22070a.pdf"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "680c377a-644d-4181-b364-abbfedacfad1")
@@ -18156,7 +18157,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "2b228879-8924-42d1-80bd-8b09858f2810")
@@ -18315,7 +18316,7 @@
 			(uuid "a87700d4-6657-4e79-a804-fd3405f7d0c1")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "005589e5-bd71-4e8d-8371-33b1ce40d45c")
 			(effects
@@ -21144,7 +21145,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R26"
-			(at -2.35 0.11 360)
+			(at -2.35 0.11 0)
 			(layer "B.SilkS")
 			(uuid "da660388-f8b8-4173-8b05-0bd2890da903")
 			(effects
@@ -21156,7 +21157,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 0 -1.17 360)
+			(at 0 -1.17 0)
 			(layer "B.Fab")
 			(uuid "50ee6448-4c1a-43cd-97b8-532f43b6107d")
 			(effects
@@ -21343,7 +21344,7 @@
 			(uuid "ff766213-6299-4af8-836f-b06fab5a3bb6")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "038bad42-4821-4944-8aac-cc43a9a2d9ef")
 			(effects
@@ -27055,6 +27056,17 @@
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "01ba6416-1408-446c-a7c9-5b1671c78851")
+		)
+		(model "${KIPRJMOD}/3d/Coilcraft-SLC1175.STEP"
+			(offset
+				(xyz 0 0 0.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
 		)
 	)
 	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
@@ -34398,7 +34410,7 @@
 			)
 		)
 		(property "Value" "MCP1824T-0802E"
-			(at 0 -2.4 360)
+			(at 0 -2.4 0)
 			(layer "B.Fab")
 			(uuid "fd9b34e8-edd9-43ef-aba0-d62505371501")
 			(effects
@@ -34410,7 +34422,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "0f24b9bc-09b8-4987-a7cb-c63875a7c581")
@@ -34423,7 +34435,7 @@
 			)
 		)
 		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/22070a.pdf"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "ca3207ac-eb9a-4e54-8270-72301218e2a3")
@@ -34436,7 +34448,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "13809c8b-0001-46b6-84d6-b67ef1ec6c48")
@@ -34595,7 +34607,7 @@
 			(uuid "f17ebd99-2b2f-4a11-8993-2570363484f3")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "1197e072-2472-4435-a151-4480e57f6da3")
 			(effects
@@ -39687,7 +39699,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 0 -1.16 360)
+			(at 0 -1.16 0)
 			(layer "B.Fab")
 			(uuid "b7fe0ee0-e456-42e1-b5e4-76a2426622eb")
 			(effects
@@ -39874,7 +39886,7 @@
 			(uuid "07c1db0d-5b7f-44db-a3b3-6b90be29f35f")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "b6cfa9c5-69fc-41dd-9bcd-83d1f33d26dd")
 			(effects
@@ -43313,6 +43325,17 @@
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "661ca46b-0b16-4e5f-aea0-be61dfa81f96")
+		)
+		(model "${KIPRJMOD}/3d/Coilcraft-SLC1175.STEP"
+			(offset
+				(xyz 0 0 0.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
 		)
 	)
 	(footprint "Capacitor_SMD:C_1206_3216Metric"
@@ -47725,7 +47748,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 0 -1.16 360)
+			(at 0 -1.16 0)
 			(layer "B.Fab")
 			(uuid "1120b1b5-e77c-4f4d-82ca-7aff229541af")
 			(effects
@@ -47912,7 +47935,7 @@
 			(uuid "77ee6805-d0a9-4e49-b1f0-87c1245fac53")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "f4fcb511-6b14-4acd-a2ae-a48828724094")
 			(effects
