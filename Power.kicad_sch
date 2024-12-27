@@ -4297,7 +4297,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 110.49) (xy 281.94 110.49)
+			(xy 269.24 110.49) (xy 285.75 110.49)
 		)
 		(stroke
 			(width 0)
@@ -7530,7 +7530,7 @@
 		)
 		(uuid "085fa7c2-8fda-42ef-973b-e4e0de6a2818")
 	)
-	(label "AGND"
+	(label "AGND1"
 		(at 187.96 121.92 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7596,7 +7596,7 @@
 		)
 		(uuid "183f422b-0a62-4014-a118-3ff25337858f")
 	)
-	(label "AGND"
+	(label "AGND1"
 		(at 209.55 68.58 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7739,7 +7739,7 @@
 		)
 		(uuid "392a7e8a-fe90-4a63-9c46-c98fb07fe5be")
 	)
-	(label "AGND"
+	(label "AGND2"
 		(at 279.4 237.49 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7838,7 +7838,7 @@
 		)
 		(uuid "5c29859d-49a4-4084-b594-f56740060234")
 	)
-	(label "AGND"
+	(label "AGND2"
 		(at 219.71 236.22 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7882,7 +7882,7 @@
 		)
 		(uuid "68d4328c-d42c-429f-b46b-fc87cfcd3728")
 	)
-	(label "AGND"
+	(label "AGND2"
 		(at 219.71 199.39 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8135,7 +8135,7 @@
 		)
 		(uuid "b58d82ba-cf7d-4ff3-bc90-20449a3aa1b0")
 	)
-	(label "AGND"
+	(label "AGND2"
 		(at 209.55 182.88 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8179,7 +8179,7 @@
 		)
 		(uuid "c909dadc-a17a-4481-918f-bcd8fa8d622b")
 	)
-	(label "AGND"
+	(label "AGND1"
 		(at 295.91 123.19 180)
 		(fields_autoplaced yes)
 		(effects
@@ -9848,7 +9848,7 @@
 		(dnp no)
 		(uuid "28de28a8-4559-4217-b61b-ea7a32aadf17")
 		(property "Reference" "C29"
-			(at 281.432 172.72 0)
+			(at 282.956 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12210,6 +12210,74 @@
 			(project "BitaxeGT"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/24036843-8461-4d4b-b738-f953c909ed6c"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 285.75 110.49 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "72fe7838-4fc8-45c6-82ac-10b4f057ff4f")
+		(property "Reference" "TP3"
+			(at 290.068 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BCX_CLK"
+			(at 291.084 108.204 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 285.75 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 285.75 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 285.75 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ac7365e-4d8d-4d53-a894-872f7ac6018f")
+		)
+		(instances
+			(project "BitaxeGT"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/24036843-8461-4d4b-b738-f953c909ed6c"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
