@@ -7719,7 +7719,7 @@
 		)
 		(uuid "9143ab3c-5bd8-4367-8ac5-69bafd011594")
 	)
-	(label "3.3V"
+	(label "3V3"
 		(at 66.04 68.58 0)
 		(fields_autoplaced yes)
 		(effects
