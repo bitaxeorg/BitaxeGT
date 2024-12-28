@@ -10,225 +10,6 @@
 		(rev "800")
 	)
 	(lib_symbols
-		(symbol "Connector:Barrel_Jack_Switch"
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.334 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Barrel_Jack_Switch"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 1.27 -1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 1.27 -1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "DC Barrel Jack with an internal switch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "DC power barrel jack connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "BarrelJack*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Barrel_Jack_Switch_0_1"
-				(rectangle
-					(start -5.08 3.81)
-					(end 5.08 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start -3.302 3.175)
-					(mid -3.9343 2.54)
-					(end -3.302 1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -3.302 3.175)
-					(mid -3.9343 2.54)
-					(end -3.302 1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.286) (xy 1.905 -1.651)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 3.81 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 1.27 0) (xy 1.27 -2.286) (xy 0.635 -1.651)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -2.54) (xy -2.54 -2.54) (xy -1.27 -1.27) (xy 0 -2.54) (xy 2.54 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.683 3.175)
-					(end -3.302 1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "Barrel_Jack_Switch_1_1"
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers hide)
 			(pin_names
@@ -3138,12 +2919,6 @@
 		(uuid "d7cf843d-f219-4ca9-86d5-2ba1a13ff50e")
 	)
 	(junction
-		(at 52.07 151.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d8d4fdea-1359-43a0-b893-347c4760b135")
-	)
-	(junction
 		(at 236.22 233.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3264,11 +3039,11 @@
 		(uuid "5f6aa6f9-0172-4c9e-bcb3-7d38a81778c8")
 	)
 	(no_connect
-		(at 48.26 124.46)
+		(at 49.53 156.21)
 		(uuid "89b56de8-e70f-48d8-a38f-44480b9e1787")
 	)
 	(no_connect
-		(at 48.26 109.22)
+		(at 49.53 140.97)
 		(uuid "b3f1f9a3-eb20-4909-9551-9e1a76ff0569")
 	)
 	(no_connect
@@ -5827,16 +5602,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 148.59) (xy 52.07 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ff0ac38-ccd3-4a58-9862-6f2e37497720")
-	)
-	(wire
-		(pts
 			(xy 353.06 168.91) (xy 353.06 177.8)
 		)
 		(stroke
@@ -5914,16 +5679,6 @@
 			(type default)
 		)
 		(uuid "a357df94-d296-44b2-af8d-39e97d2480c0")
-	)
-	(wire
-		(pts
-			(xy 48.26 114.3) (xy 63.5 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a473c63e-9356-46c4-9641-51f7d871c9d4")
 	)
 	(wire
 		(pts
@@ -6114,16 +5869,6 @@
 			(type default)
 		)
 		(uuid "afe9ea48-9cbe-450a-8edb-b8e35af2bd3a")
-	)
-	(wire
-		(pts
-			(xy 49.53 148.59) (xy 52.07 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1e8b58a-dece-488a-a3aa-e2a849f06768")
 	)
 	(wire
 		(pts
@@ -6847,16 +6592,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 151.13) (xy 72.39 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de81a99a-a820-4654-bf11-7c79b4d95ebf")
-	)
-	(wire
-		(pts
 			(xy 223.52 36.83) (xy 223.52 44.45)
 		)
 		(stroke
@@ -7357,17 +7092,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 119.38) (xy 63.5 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff5bdf2a-cb2a-4576-a21a-0215557641a7")
-	)
-	(wire
-		(pts
-			(xy 49.53 151.13) (xy 52.07 151.13)
+			(xy 49.53 151.13) (xy 72.39 151.13)
 		)
 		(stroke
 			(width 0)
@@ -7427,16 +7152,6 @@
 		)
 		(uuid "65af17fa-d9fa-47df-8843-219335d6e4b5")
 	)
-	(text "Supply voltage\n12 Volts"
-		(exclude_from_sim no)
-		(at 43.18 159.258 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "66ee8dd0-623d-44da-9662-001631885e37")
-	)
 	(text "Remove these 3 resistors\nwhen connecting the TI\nGUI debug tool"
 		(exclude_from_sim no)
 		(at 63.5 96.52 0)
@@ -7476,16 +7191,6 @@
 			)
 		)
 		(uuid "cff06532-f8ed-4285-93f9-9842033f1fa4")
-	)
-	(text "Footprints arranged to accommodate\nXT30 OR Barrel Jack installation\n(one or the other)"
-		(exclude_from_sim no)
-		(at 42.164 132.842 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "d3304d35-834b-431e-9086-64595eb72b69")
 	)
 	(text "Max 1.0A"
 		(exclude_from_sim no)
@@ -8256,17 +7961,6 @@
 		)
 		(uuid "e22cf19e-bab4-4747-a7dd-adc1ca2d5843")
 	)
-	(label "Vsupply"
-		(at 63.5 114.3 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e823cf50-f8f5-4e9c-ae51-94f5c3ac0aa7")
-	)
 	(label "GND"
 		(at 104.14 93.98 0)
 		(fields_autoplaced yes)
@@ -8299,17 +7993,6 @@
 			(justify left bottom)
 		)
 		(uuid "f0b35c31-f8f3-467e-8844-300a2944864e")
-	)
-	(label "GND"
-		(at 63.5 119.38 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f402bdd4-af90-4c37-a859-3269b92b4bd8")
 	)
 	(label "EN_UVLO"
 		(at 219.71 190.5 0)
@@ -11393,7 +11076,7 @@
 	)
 	(symbol
 		(lib_id "bitaxe:XT30PW-M")
-		(at 40.64 116.84 0)
+		(at 41.91 148.59 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11403,7 +11086,7 @@
 		(fields_autoplaced yes)
 		(uuid "5925d073-261b-415f-b97e-316e7b5ac330")
 		(property "Reference" "J1"
-			(at 40.64 102.87 0)
+			(at 41.91 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11411,7 +11094,7 @@
 			)
 		)
 		(property "Value" "XT30"
-			(at 40.64 105.41 0)
+			(at 41.91 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11419,7 +11102,7 @@
 			)
 		)
 		(property "Footprint" "bitaxe:XT30PW-M"
-			(at 40.386 132.588 0)
+			(at 41.656 164.338 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11428,7 +11111,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 35.052 121.92 0)
+			(at 36.322 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11437,7 +11120,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 40.64 116.84 0)
+			(at 41.91 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11446,7 +11129,7 @@
 			)
 		)
 		(property "PARTNO" "XT30PW-M"
-			(at 40.386 130.302 0)
+			(at 41.656 162.052 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11455,7 +11138,7 @@
 			)
 		)
 		(property "DK" "~"
-			(at 35.052 123.952 0)
+			(at 36.322 155.702 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13156,95 +12839,6 @@
 			(project "BitaxeGT"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/24036843-8461-4d4b-b738-f953c909ed6c"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Barrel_Jack_Switch")
-		(at 41.91 148.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9d47bca3-8528-4da9-a4fd-5f0edf2146b9")
-		(property "Reference" "J2"
-			(at 41.91 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Barrel_Jack_Switch"
-			(at 41.91 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "bitaxe:TENSILITY_54-00164"
-			(at 43.18 149.606 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://tensility.s3.us-west-2.amazonaws.com/uploads/pdffiles/54-00164.pdf"
-			(at 43.18 149.606 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "DC Barrel Jack with an internal switch"
-			(at 41.91 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "54-00164"
-			(at 41.91 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK" "839-54-00164CT-ND"
-			(at 41.91 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "806e1b02-6195-41eb-b04a-45ffc077e4af")
-		)
-		(pin "3"
-			(uuid "1a75e033-6f54-44e0-a2ea-6efbd7a25926")
-		)
-		(pin "1"
-			(uuid "9ed9c020-f4d5-45c2-9f42-675d67cedfae")
-		)
-		(instances
-			(project ""
-				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/24036843-8461-4d4b-b738-f953c909ed6c"
-					(reference "J2")
 					(unit 1)
 				)
 			)
