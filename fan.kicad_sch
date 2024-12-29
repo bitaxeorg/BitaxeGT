@@ -2272,7 +2272,7 @@
 		)
 		(uuid "285a815c-78a1-4ec3-8720-bc5fd1d6793d")
 	)
-	(label "TEMP2_N"
+	(label "TEMP1_N"
 		(at 53.34 115.57 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2305,7 +2305,7 @@
 		)
 		(uuid "5ddde026-3f95-45cc-8b8f-c2f7dd97bc90")
 	)
-	(label "TEMP2_P"
+	(label "TEMP1_P"
 		(at 53.34 105.41 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2316,7 +2316,7 @@
 		)
 		(uuid "61064613-2ac0-4251-bfd0-7fe2305b3a31")
 	)
-	(label "TEMP1_P"
+	(label "TEMP2_P"
 		(at 53.34 82.55 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2338,7 +2338,7 @@
 		)
 		(uuid "6615bedc-1f3c-4be2-8eaa-e26141878f65")
 	)
-	(label "TEMP1_N"
+	(label "TEMP2_N"
 		(at 53.34 92.71 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2560,7 +2560,7 @@
 		)
 		(uuid "2a182721-8f45-4780-9d0c-06896e044a58")
 	)
-	(hierarchical_label "TEMP1_N"
+	(hierarchical_label "TEMP2_N"
 		(shape input)
 		(at 48.26 92.71 180)
 		(fields_autoplaced yes)
@@ -2596,7 +2596,7 @@
 		)
 		(uuid "8ca8bc0c-98a7-46bd-b1ee-6b2ee7e707e6")
 	)
-	(hierarchical_label "TEMP2_N"
+	(hierarchical_label "TEMP1_N"
 		(shape input)
 		(at 48.26 115.57 180)
 		(fields_autoplaced yes)
@@ -2608,7 +2608,7 @@
 		)
 		(uuid "935e1978-c203-4aa5-9f01-66826a15e550")
 	)
-	(hierarchical_label "TEMP1_P"
+	(hierarchical_label "TEMP2_P"
 		(shape input)
 		(at 48.26 82.55 180)
 		(fields_autoplaced yes)
@@ -2620,7 +2620,7 @@
 		)
 		(uuid "c13af852-a56d-4c85-b48f-a520630a7091")
 	)
-	(hierarchical_label "TEMP2_P"
+	(hierarchical_label "TEMP1_P"
 		(shape input)
 		(at 48.26 105.41 180)
 		(fields_autoplaced yes)
