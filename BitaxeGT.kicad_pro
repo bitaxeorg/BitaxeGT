@@ -545,7 +545,7 @@
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
@@ -581,22 +581,22 @@
           "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "PARNO",
           "name": "PARNO",
-          "show": false
+          "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "PARTNO",
           "name": "PARTNO",
-          "show": false
+          "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "PARTNUM",
           "name": "PARTNUM",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -636,10 +636,10 @@
         }
       ],
       "filter_string": "",
-      "group_symbols": true,
+      "group_symbols": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Value"
     },
     "connection_grid_size": 50.0,
     "drawing": {
