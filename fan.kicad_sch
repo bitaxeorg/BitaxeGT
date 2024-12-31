@@ -2700,6 +2700,15 @@
 				(hide yes)
 			)
 		)
+		(property "partnum" ""
+			(at 201.93 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "53d74091-6281-45a7-809b-88854fc814d0")
 		)
@@ -2784,6 +2793,15 @@
 				(hide yes)
 			)
 		)
+		(property "partnum" ""
+			(at 226.06 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "65bbf8de-18ae-4f18-935e-5ecb00010ccd")
 		)
@@ -2853,6 +2871,15 @@
 				(hide yes)
 			)
 		)
+		(property "partnum" ""
+			(at 71.12 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "867858ad-3c36-4969-8994-91ce011b0839")
 		)
@@ -2914,6 +2941,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 156.21 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "partnum" ""
 			(at 156.21 113.03 0)
 			(effects
 				(font
@@ -3001,6 +3037,15 @@
 		)
 		(property "PARTNO" "EMC2103-4-AP-TR"
 			(at 123.19 124.968 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "partnum" ""
+			(at 123.19 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3140,6 +3185,15 @@
 				(hide yes)
 			)
 		)
+		(property "partnum" ""
+			(at 81.28 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c5af5e81-6c2f-44bf-bf3a-45779f69421c")
 		)
@@ -3201,6 +3255,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 156.21 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "partnum" ""
 			(at 156.21 96.52 0)
 			(effects
 				(font
@@ -3297,6 +3360,15 @@
 				(hide yes)
 			)
 		)
+		(property "partnum" ""
+			(at 231.14 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b7992896-d6ee-46be-ab66-3786717453ee")
 		)
@@ -3360,6 +3432,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 218.44 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "partnum" ""
 			(at 218.44 104.14 0)
 			(effects
 				(font
@@ -3452,6 +3533,15 @@
 				(hide yes)
 			)
 		)
+		(property "partnum" ""
+			(at 265.43 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "7abf800d-d0dd-4401-917c-0af45afa9128")
 		)
@@ -3523,6 +3613,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 219.71 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "partnum" ""
 			(at 219.71 115.57 0)
 			(effects
 				(font
@@ -3618,6 +3717,15 @@
 				(hide yes)
 			)
 		)
+		(property "partnum" ""
+			(at 81.28 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "76477e80-c595-4afc-8b01-039ab01a543d")
 		)
@@ -3681,6 +3789,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 251.46 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "partnum" ""
 			(at 251.46 109.22 0)
 			(effects
 				(font
@@ -3764,6 +3881,15 @@
 				(hide yes)
 			)
 		)
+		(property "partnum" ""
+			(at 71.12 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "24f95f76-a477-43a4-b960-950de0319156")
 		)
@@ -3826,6 +3952,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 205.74 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "partnum" ""
 			(at 205.74 90.17 0)
 			(effects
 				(font
@@ -3922,6 +4057,15 @@
 				(hide yes)
 			)
 		)
+		(property "partnum" ""
+			(at 102.87 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bd1041f7-7f66-4ae9-aec2-a634bdbd2f87")
 		)
@@ -4010,6 +4154,15 @@
 				(hide yes)
 			)
 		)
+		(property "partnum" ""
+			(at 222.25 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9fb761d1-962a-4cb0-a38c-7b6b3bb8ed90")
 		)
@@ -4079,6 +4232,15 @@
 				(hide yes)
 			)
 		)
+		(property "partnum" ""
+			(at 71.12 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fff6b7d1-9edc-4a83-89f7-7fde7d4242c8")
 		)
@@ -4140,6 +4302,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 71.12 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "partnum" ""
 			(at 71.12 82.55 0)
 			(effects
 				(font
