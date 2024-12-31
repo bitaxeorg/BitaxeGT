@@ -5742,6 +5742,15 @@
 				(hide yes)
 			)
 		)
+		(property "partnum" ""
+			(at 49.53 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "72fb13a4-e9fa-48a0-b0fc-30af5a9dc39e")
 		)
@@ -5819,6 +5828,15 @@
 			)
 		)
 		(property "DK" "311-1.00KLRCT-ND"
+			(at 53.34 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "partnum" ""
 			(at 53.34 142.24 0)
 			(effects
 				(font
@@ -5915,6 +5933,15 @@
 				(hide yes)
 			)
 		)
+		(property "partnum" ""
+			(at 143.51 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d81b07f3-327d-4f11-824d-f395208f632c")
 		)
@@ -5957,7 +5984,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 231.14 72.39 0)
 			(effects
 				(font
@@ -5984,7 +6011,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "CL05A106MQ5NUNC"
+		(property "PARTNO" "GRM188R61E106KA73D"
 			(at 231.14 72.39 0)
 			(effects
 				(font
@@ -5994,6 +6021,15 @@
 			)
 		)
 		(property "DK" "490-5523-1-ND"
+			(at 231.14 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "partnum" ""
 			(at 231.14 72.39 0)
 			(effects
 				(font
@@ -6090,6 +6126,15 @@
 				(hide yes)
 			)
 		)
+		(property "partnum" ""
+			(at 161.29 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fe7253fd-d67e-4a29-a21d-1fb91ee93d82")
 		)
@@ -6152,6 +6197,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 95.25 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "partnum" ""
 			(at 95.25 116.84 0)
 			(effects
 				(font
@@ -6317,6 +6371,15 @@
 				(hide yes)
 			)
 		)
+		(property "partnum" ""
+			(at 57.15 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "719afa58-d8c0-4b22-bfad-064d94511c37")
 		)
@@ -6413,6 +6476,15 @@
 				(hide yes)
 			)
 		)
+		(property "partnum" ""
+			(at 163.83 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0f044f1f-cf57-4dc5-8c6b-207df34aab82")
 		)
@@ -6472,6 +6544,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 127 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "partnum" ""
 			(at 127 175.26 0)
 			(effects
 				(font
@@ -6576,6 +6657,15 @@
 				(hide yes)
 			)
 		)
+		(property "partnum" ""
+			(at 245.11 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "99a23283-03cd-4e40-bfb9-9b3f45c8b7ca")
 		)
@@ -6664,6 +6754,15 @@
 				(hide yes)
 			)
 		)
+		(property "partnum" ""
+			(at 67.31 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2d3cf368-b360-4689-ae53-9ac67a5d7b80")
 		)
@@ -6733,6 +6832,15 @@
 				(hide yes)
 			)
 		)
+		(property "partnum" ""
+			(at 107.95 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ab42f984-d594-433b-9bfa-43f891c9ca43")
 		)
@@ -6791,6 +6899,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 236.22 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "partnum" ""
 			(at 236.22 119.38 0)
 			(effects
 				(font
@@ -6883,6 +7000,15 @@
 				(hide yes)
 			)
 		)
+		(property "partnum" ""
+			(at 184.15 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "94caa2f9-6fb8-42db-bc3f-733ee7cd0a16")
 		)
@@ -6925,7 +7051,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 222.25 72.39 0)
 			(effects
 				(font
@@ -6952,7 +7078,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "CL05A106MQ5NUNC"
+		(property "PARTNO" "GRM188R61E106KA73D"
 			(at 222.25 72.39 0)
 			(effects
 				(font
@@ -6962,6 +7088,15 @@
 			)
 		)
 		(property "DK" "490-5523-1-ND"
+			(at 222.25 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "partnum" ""
 			(at 222.25 72.39 0)
 			(effects
 				(font
@@ -7057,6 +7192,15 @@
 				(hide yes)
 			)
 		)
+		(property "partnum" ""
+			(at 172.72 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "480eb422-4bec-4d90-8115-2274eb2d9531")
 		)
@@ -7144,6 +7288,15 @@
 				(hide yes)
 			)
 		)
+		(property "partnum" ""
+			(at 62.23 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cc179cd0-6843-4f1b-afa1-21595d5ac04b")
 		)
@@ -7205,6 +7358,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 236.22 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "partnum" ""
 			(at 236.22 116.84 0)
 			(effects
 				(font
@@ -7297,6 +7459,15 @@
 				(hide yes)
 			)
 		)
+		(property "partnum" ""
+			(at 39.37 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dd0db243-aada-4ba2-8aba-4fd97f5d537a")
 		)
@@ -7377,6 +7548,15 @@
 		)
 		(property "DK" "587-5514-1-ND"
 			(at 59.69 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "partnum" ""
+			(at 59.69 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7472,6 +7652,15 @@
 				(hide yes)
 			)
 		)
+		(property "partnum" ""
+			(at 163.83 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "bd3d087e-6aee-400b-bef5-c043955c82b3")
 		)
@@ -7550,6 +7739,15 @@
 			)
 		)
 		(property "Partnum" "SN74AVC4T774PWR"
+			(at 195.58 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "partnum" ""
 			(at 195.58 36.83 0)
 			(effects
 				(font
@@ -7669,6 +7867,15 @@
 				(hide yes)
 			)
 		)
+		(property "partnum" ""
+			(at 236.22 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ae0be2bf-71de-4d26-a8f0-96784d1a5e1d")
 		)
@@ -7746,6 +7953,15 @@
 		)
 		(property "DK" "587-5514-1-ND"
 			(at 130.81 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "partnum" ""
+			(at 130.81 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7840,6 +8056,15 @@
 				(hide yes)
 			)
 		)
+		(property "partnum" ""
+			(at 116.84 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c0722c4e-98fb-4409-bdd8-09b5fbfd675d")
 		)
@@ -7927,6 +8152,15 @@
 				(hide yes)
 			)
 		)
+		(property "partnum" ""
+			(at 173.99 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c8a64d61-bbf4-4076-9ed4-705664e57e79")
 		)
@@ -8007,6 +8241,15 @@
 		)
 		(property "DK" "587-5514-1-ND"
 			(at 120.65 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "partnum" ""
+			(at 120.65 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8102,6 +8345,15 @@
 				(hide yes)
 			)
 		)
+		(property "partnum" ""
+			(at 232.41 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "166ac7cb-b568-4fa1-b969-02c04232aa0c")
 		)
@@ -8189,6 +8441,15 @@
 				(hide yes)
 			)
 		)
+		(property "partnum" ""
+			(at 229.87 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "32c80a89-92ad-4040-9445-883650d53d30")
 		)
@@ -8231,7 +8492,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 240.03 72.39 0)
 			(effects
 				(font
@@ -8258,7 +8519,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "CL05A106MQ5NUNC"
+		(property "PARTNO" "GRM188R61E106KA73D"
 			(at 240.03 72.39 0)
 			(effects
 				(font
@@ -8268,6 +8529,15 @@
 			)
 		)
 		(property "DK" "490-5523-1-ND"
+			(at 240.03 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "partnum" ""
 			(at 240.03 72.39 0)
 			(effects
 				(font
@@ -8363,6 +8633,15 @@
 				(hide yes)
 			)
 		)
+		(property "partnum" ""
+			(at 214.63 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "18fd37e7-8ab5-423a-96d4-aa08862e6436")
 		)
@@ -8450,6 +8729,15 @@
 				(hide yes)
 			)
 		)
+		(property "partnum" ""
+			(at 227.33 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fc95a12c-315f-4934-9597-d23cb6cfe37b")
 		)
@@ -8519,6 +8807,15 @@
 				(hide yes)
 			)
 		)
+		(property "partnum" ""
+			(at 236.22 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "97698c7c-c08c-4308-b77f-1f718232ca03")
 		)
@@ -8579,6 +8876,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 49.53 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "partnum" ""
 			(at 49.53 124.46 0)
 			(effects
 				(font
@@ -8671,6 +8977,15 @@
 				(hide yes)
 			)
 		)
+		(property "partnum" ""
+			(at 109.22 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1149a11f-dc6b-4160-8bc0-da96ff302ad4")
 		)
@@ -8713,7 +9028,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 118.11 72.39 0)
 			(effects
 				(font
@@ -8740,7 +9055,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "CL05A106MQ5NUNC"
+		(property "PARTNO" "GRM188R61E106KA73D"
 			(at 118.11 72.39 0)
 			(effects
 				(font
@@ -8750,6 +9065,15 @@
 			)
 		)
 		(property "DK" "490-5523-1-ND"
+			(at 118.11 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "partnum" ""
 			(at 118.11 72.39 0)
 			(effects
 				(font
@@ -8800,7 +9124,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 142.24 72.39 0)
 			(effects
 				(font
@@ -8827,7 +9151,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "CL05A106MQ5NUNC"
+		(property "PARTNO" "GRM188R61E106KA73D"
 			(at 142.24 72.39 0)
 			(effects
 				(font
@@ -8837,6 +9161,15 @@
 			)
 		)
 		(property "DK" "490-5523-1-ND"
+			(at 142.24 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "partnum" ""
 			(at 142.24 72.39 0)
 			(effects
 				(font
@@ -8933,6 +9266,15 @@
 				(hide yes)
 			)
 		)
+		(property "partnum" ""
+			(at 53.34 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e2e3597e-0eef-4335-9959-32043a905086")
 		)
@@ -9020,6 +9362,15 @@
 				(hide yes)
 			)
 		)
+		(property "partnum" ""
+			(at 172.72 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "831be45d-341d-4b97-889b-3054efd438aa")
 		)
@@ -9091,6 +9442,15 @@
 				(hide yes)
 			)
 		)
+		(property "partnum" ""
+			(at 161.29 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "93baca72-78ce-4f8f-80b5-bfd46b7e1d76")
 		)
@@ -9149,6 +9509,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 149.86 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "partnum" ""
 			(at 149.86 173.99 0)
 			(effects
 				(font
@@ -9241,6 +9610,15 @@
 				(hide yes)
 			)
 		)
+		(property "partnum" ""
+			(at 80.01 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c98a119f-21d9-445c-8f20-a6b233cd4f93")
 		)
@@ -9283,7 +9661,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 109.22 72.39 0)
 			(effects
 				(font
@@ -9310,7 +9688,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "CL05A106MQ5NUNC"
+		(property "PARTNO" "GRM188R61E106KA73D"
 			(at 109.22 72.39 0)
 			(effects
 				(font
@@ -9320,6 +9698,15 @@
 			)
 		)
 		(property "DK" "490-5523-1-ND"
+			(at 109.22 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "partnum" ""
 			(at 109.22 72.39 0)
 			(effects
 				(font
@@ -9415,6 +9802,15 @@
 				(hide yes)
 			)
 		)
+		(property "partnum" ""
+			(at 148.59 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "16aaa34f-28dc-4c97-9f6e-5850de189dc0")
 		)
@@ -9502,6 +9898,15 @@
 				(hide yes)
 			)
 		)
+		(property "partnum" ""
+			(at 69.85 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "90e069dc-0ad0-46d1-9539-f73135c47556")
 		)
@@ -9573,6 +9978,15 @@
 				(hide yes)
 			)
 		)
+		(property "partnum" ""
+			(at 71.12 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fd896a93-b44d-4944-9a51-de2f0c43bb58")
 		)
@@ -9612,7 +10026,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 213.36 72.39 0)
 			(effects
 				(font
@@ -9639,7 +10053,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "CL05A106MQ5NUNC"
+		(property "PARTNO" "GRM188R61E106KA73D"
 			(at 213.36 72.39 0)
 			(effects
 				(font
@@ -9649,6 +10063,15 @@
 			)
 		)
 		(property "DK" "490-5523-1-ND"
+			(at 213.36 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "partnum" ""
 			(at 213.36 72.39 0)
 			(effects
 				(font
@@ -9745,6 +10168,15 @@
 				(hide yes)
 			)
 		)
+		(property "partnum" ""
+			(at 177.8 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "62f4a4b8-4bdc-4fb8-a226-7848b4ee8fb2")
 		)
@@ -9832,6 +10264,15 @@
 				(hide yes)
 			)
 		)
+		(property "partnum" ""
+			(at 140.97 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "81302d78-5cab-4dff-8b8a-ee49086360c0")
 		)
@@ -9874,7 +10315,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 246.38 72.39 0)
 			(effects
 				(font
@@ -9901,7 +10342,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "CL05A106MQ5NUNC"
+		(property "PARTNO" "GRM188R61E106KA73D"
 			(at 246.38 72.39 0)
 			(effects
 				(font
@@ -9911,6 +10352,15 @@
 			)
 		)
 		(property "DK" "490-5523-1-ND"
+			(at 246.38 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "partnum" ""
 			(at 246.38 72.39 0)
 			(effects
 				(font
@@ -10006,6 +10456,15 @@
 				(hide yes)
 			)
 		)
+		(property "partnum" ""
+			(at 83.82 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "121a6e68-9c80-40fd-9ed4-39ed17099242")
 		)
@@ -10067,6 +10526,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 236.22 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "partnum" ""
 			(at 236.22 109.22 0)
 			(effects
 				(font
@@ -10159,6 +10627,15 @@
 				(hide yes)
 			)
 		)
+		(property "partnum" ""
+			(at 110.49 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d8ac067e-252e-43c5-8b51-e4455ce0dd77")
 		)
@@ -10239,6 +10716,15 @@
 		)
 		(property "DK" "587-5514-1-ND"
 			(at 234.95 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "partnum" ""
+			(at 234.95 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10334,6 +10820,15 @@
 				(hide yes)
 			)
 		)
+		(property "partnum" ""
+			(at 121.92 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9df070a4-99fb-4468-8366-d2a20fb569e9")
 		)
@@ -10405,6 +10900,15 @@
 				(hide yes)
 			)
 		)
+		(property "partnum" ""
+			(at 175.26 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9c1f0f28-0e3a-4659-8a02-428c9eed125c")
 		)
@@ -10461,6 +10965,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 83.82 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "partnum" ""
 			(at 83.82 45.72 0)
 			(effects
 				(font
@@ -10538,6 +11051,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 161.29 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "partnum" ""
 			(at 161.29 124.46 0)
 			(effects
 				(font
@@ -10631,6 +11153,15 @@
 				(hide yes)
 			)
 		)
+		(property "partnum" ""
+			(at 73.66 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6adb12fa-47d7-4bd2-8be3-55d923604003")
 		)
@@ -10673,7 +11204,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 127 72.39 0)
 			(effects
 				(font
@@ -10700,7 +11231,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "CL05A106MQ5NUNC"
+		(property "PARTNO" "GRM188R61E106KA73D"
 			(at 127 72.39 0)
 			(effects
 				(font
@@ -10710,6 +11241,15 @@
 			)
 		)
 		(property "DK" "490-5523-1-ND"
+			(at 127 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "partnum" ""
 			(at 127 72.39 0)
 			(effects
 				(font
@@ -10760,7 +11300,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 135.89 72.39 0)
 			(effects
 				(font
@@ -10787,7 +11327,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "CL05A106MQ5NUNC"
+		(property "PARTNO" "GRM188R61E106KA73D"
 			(at 135.89 72.39 0)
 			(effects
 				(font
@@ -10797,6 +11337,15 @@
 			)
 		)
 		(property "DK" "490-5523-1-ND"
+			(at 135.89 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "partnum" ""
 			(at 135.89 72.39 0)
 			(effects
 				(font
@@ -10867,6 +11416,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 199.39 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "partnum" ""
 			(at 199.39 116.84 0)
 			(effects
 				(font
@@ -11052,6 +11610,15 @@
 				(hide yes)
 			)
 		)
+		(property "partnum" ""
+			(at 49.53 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "aa3c6b84-faa9-408e-8e50-d6b72e09c146")
 		)
@@ -11113,6 +11680,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 80.01 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "partnum" ""
 			(at 80.01 173.99 0)
 			(effects
 				(font
@@ -11205,6 +11781,15 @@
 				(hide yes)
 			)
 		)
+		(property "partnum" ""
+			(at 224.79 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "76bdf351-e508-4eab-bfb4-108d5fc1b74e")
 		)
@@ -11285,6 +11870,15 @@
 		)
 		(property "DK" "587-5514-1-ND"
 			(at 153.67 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "partnum" ""
+			(at 153.67 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
