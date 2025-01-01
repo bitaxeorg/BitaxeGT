@@ -3547,15 +3547,15 @@
 			(pintype "passive")
 			(uuid "4ad7182f-088a-4324-bf22-05c078f64237")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_JST.3dshapes/JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical.wrl"
+		(model "${KIPRJMOD}/3d/BM04B-SRSS-TB.STEP"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 0.3 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -3929,6 +3929,17 @@
 			(pinfunction "Pin_4")
 			(pintype "passive")
 			(uuid "deaefcf2-1c71-4ef3-9636-c3fb9c2ab866")
+		)
+		(model "${KIPRJMOD}/3d/470531000.stp"
+			(offset
+				(xyz 3.8 -0.7 2.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
 		)
 	)
 	(footprint "bitaxe:logo-fcu"
