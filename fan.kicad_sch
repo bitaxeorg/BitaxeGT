@@ -3497,7 +3497,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
 			(at 265.43 106.68 0)
 			(effects
 				(font
@@ -3515,7 +3515,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "BM04B-SRSS-TB"
 			(at 265.43 106.68 0)
 			(effects
 				(font
@@ -3524,16 +3524,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" ""
-			(at 265.43 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "partnum" ""
+		(property "DK" "455-BM04B-SRSS-TBCT-ND"
 			(at 265.43 106.68 0)
 			(effects
 				(font
