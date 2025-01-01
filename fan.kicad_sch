@@ -2900,9 +2900,9 @@
 		(at 156.21 113.03 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "4a69cb53-9107-45a2-8753-b41c36f2873a")
 		(property "Reference" "R35"
 			(at 161.544 112.014 0)
@@ -3214,9 +3214,9 @@
 		(at 156.21 96.52 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "7151ca93-da12-4320-b0a9-25c3f2362bb4")
 		(property "Reference" "R33"
 			(at 161.544 95.504 0)
