@@ -602,6 +602,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 101.6) (xy 116.84 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67e33d57-e079-42a7-bb14-8c1785800b1a")
+	)
+	(wire
+		(pts
 			(xy 228.6 60.96) (xy 204.47 60.96)
 		)
 		(stroke
@@ -963,6 +973,17 @@
 		)
 		(uuid "1ef37afe-eff2-43d4-bcde-29cfb1e3bfa5")
 	)
+	(label "Vcore"
+		(at 105.41 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2acd8b88-594a-4a10-a7b6-fafa101a4cd7")
+	)
 	(label "5V"
 		(at 104.14 55.88 0)
 		(fields_autoplaced yes)
@@ -1017,6 +1038,17 @@
 			(justify left bottom)
 		)
 		(uuid "a59aaba9-53f1-4d5d-9620-dd56c43926ec")
+	)
+	(label "Vcore"
+		(at 173.99 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b26b25fd-9959-4c53-b9b7-4bc357802a48")
 	)
 	(label "5V"
 		(at 168.91 114.3 0)
@@ -2027,6 +2059,16 @@
 				(justify left)
 			)
 			(uuid "d20c4726-fcfa-4ede-a958-1d2e193a807f")
+		)
+		(pin "VDD" input
+			(at 116.84 101.6 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9e886989-f434-4a07-b821-e096966e3a23")
 		)
 		(instances
 			(project "BitaxeGT"

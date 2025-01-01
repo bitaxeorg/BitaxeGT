@@ -1849,12 +1849,6 @@
 		(uuid "46100c6b-02bb-4362-84ef-42ec21e79bfd")
 	)
 	(junction
-		(at 217.17 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4c2c2ee8-1057-41bf-bbb3-2eceb5d9318d")
-	)
-	(junction
 		(at 222.25 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2324,7 +2318,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 45.72) (xy 217.17 50.8)
+			(xy 217.17 45.72) (xy 217.17 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3644,6 +3638,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 50.8) (xy 213.36 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f88c1c5-4956-418a-8e71-a081fcdf2708")
+	)
+	(wire
+		(pts
 			(xy 121.92 144.78) (xy 121.92 151.13)
 		)
 		(stroke
@@ -4244,16 +4248,6 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 50.8) (xy 217.17 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b62cab51-7c78-48dc-9dc4-1d79978ef0f5")
-	)
-	(wire
-		(pts
 			(xy 135.89 104.14) (xy 158.75 104.14)
 		)
 		(stroke
@@ -4341,16 +4335,6 @@
 			(type default)
 		)
 		(uuid "bfdac4da-c733-4323-9a7d-6a7504cdfc39")
-	)
-	(wire
-		(pts
-			(xy 217.17 50.8) (xy 217.17 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1ceaf2a-c065-4846-bd2b-7054bb456641")
 	)
 	(wire
 		(pts
@@ -5180,6 +5164,17 @@
 			(justify right bottom)
 		)
 		(uuid "6fdb573d-3911-4308-92f3-4a846b2d4574")
+	)
+	(label "1V2"
+		(at 213.36 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "72e21020-2c25-4180-9183-fc424430c61d")
 	)
 	(label "CLKI"
 		(at 63.5 116.84 0)
