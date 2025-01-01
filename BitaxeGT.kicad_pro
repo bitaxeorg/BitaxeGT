@@ -58,26 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "clearance|140000000|73900000|26b029af-ded5-4920-9584-1b120f3f847a|f9370fae-0873-4691-b2f9-bbb41b4c68bb",
-        "clearance|140000000|74500000|0dbe788c-81a8-4e95-99e3-0dca65c0932d|f9370fae-0873-4691-b2f9-bbb41b4c68bb",
-        "clearance|140000000|75100000|304a4edf-1553-44d3-bae0-4106f236bf2c|f9370fae-0873-4691-b2f9-bbb41b4c68bb",
-        "clearance|140000000|75700000|c67c417c-2e93-47cc-9188-26e94b6758c5|f9370fae-0873-4691-b2f9-bbb41b4c68bb",
-        "clearance|140700000|73900000|ada7d866-a51a-4c1f-a078-9a65af84fcee|f9370fae-0873-4691-b2f9-bbb41b4c68bb",
-        "clearance|140700000|74500000|c9506552-7ee6-441c-bf2f-ee90ba38cf6b|f9370fae-0873-4691-b2f9-bbb41b4c68bb",
-        "clearance|140700000|75100000|6c1542de-4162-4653-959f-d5ce41c0d24d|f9370fae-0873-4691-b2f9-bbb41b4c68bb",
-        "clearance|140700000|75700000|fe68ee26-e33d-405a-a79e-6fc2a8372669|f9370fae-0873-4691-b2f9-bbb41b4c68bb",
-        "copper_sliver|127220013|69859475|00000000-0000-0000-0000-000000000000|F.Cu",
-        "hole_clearance|119300000|45215000|dc97595b-0b19-42d5-82dc-2395b508d5b3|d6638c96-db91-4cd5-b863-e83dc545398a",
-        "hole_clearance|125400000|45215000|6ece01bf-a2c2-4629-98bc-bd9503b31cfa|b98fe370-a1d4-4030-bf28-14df23d6c759",
-        "solder_mask_bridge|121150000|84750000|1a698aaa-fc80-4696-9ffc-13303b80f318|51c6311d-3322-49c8-9373-be4153a7b6f8",
-        "solder_mask_bridge|121312500|83750000|1a698aaa-fc80-4696-9ffc-13303b80f318|a493383f-7135-43b8-a831-19bd3245b9b6",
-        "solder_mask_bridge|121350000|84750000|1a698aaa-fc80-4696-9ffc-13303b80f318|467a5602-ab70-4816-86fe-8717065fac69",
-        "solder_mask_bridge|139241741|79506891|2ce0ff36-bc08-464b-b9c7-d0b55df2c24e|0dbe788c-81a8-4e95-99e3-0dca65c0932d",
-        "solder_mask_bridge|145500000|84750000|852b25e4-8c84-461e-9e77-51213871d51f|1644856b-bbb5-44c3-8dc3-ebdbfb7adab6",
-        "solder_mask_bridge|145662500|83750000|852b25e4-8c84-461e-9e77-51213871d51f|9f50eb76-3ed2-4330-8dac-b57fa4d7ad4e",
-        "solder_mask_bridge|145700000|84750000|852b25e4-8c84-461e-9e77-51213871d51f|15d2ed40-20b8-475e-a7b9-5ec91d30241b"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -138,8 +119,8 @@
         "min_clearance": 0.0,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.0,
-        "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
+        "min_hole_clearance": 0.15,
+        "min_hole_to_hole": 0.2,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
@@ -149,7 +130,7 @@
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.2,
         "min_via_annular_width": 0.05,
-        "min_via_diameter": 0.4,
+        "min_via_diameter": 0.3,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
