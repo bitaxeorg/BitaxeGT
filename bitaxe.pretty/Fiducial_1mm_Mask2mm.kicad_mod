@@ -1,0 +1,125 @@
+(footprint "Fiducial_1mm_Mask2mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Circular Fiducial, 1mm bare copper, 2mm soldermask opening (Level A)")
+	(tags "fiducial")
+	(property "Reference" "FID3"
+		(at -2.8558 0.108 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "feafd989-a84f-4387-98fa-37cb42653b6a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Fiducial_front"
+		(at 0 2 0)
+		(layer "F.Fab")
+		(uuid "b630f032-c393-4dfa-bf9a-3405995551f5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "68cefd98-b694-48fa-ba02-39b83b2bb0d3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7f4779d4-5669-4778-b0c5-c05d2d85864e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Fiducial Marker"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d17e4acb-0b54-44d0-9d5b-53cd60ea0ee7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "partnum" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b0e4e0fa-e0d6-419a-9a54-00fbbdbca05d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd exclude_from_bom)
+	(fp_circle
+		(center 0 0)
+		(end 1.25 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "2fa4ec3a-2301-48ff-aa33-924d7dd1ae9a")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "d97b9cab-3b27-4098-9d75-297b34e8c946")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "004b353d-c687-4f6c-99ef-4235ea0b4cbd")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.06)
+			)
+		)
+	)
+	(pad "" smd circle
+		(at 0.0022 -0.005)
+		(size 1 1)
+		(layers "F.Cu" "F.Mask")
+		(solder_mask_margin 0.5)
+		(clearance 0.5)
+		(uuid "a5322475-a03b-4437-a761-008840051ac7")
+	)
+)

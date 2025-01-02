@@ -562,6 +562,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 59.69) (xy 93.98 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51ca2182-fa31-4d70-ae7d-3105e8abca6d")
+	)
+	(wire
+		(pts
 			(xy 161.29 68.58) (xy 180.34 68.58)
 		)
 		(stroke
@@ -759,6 +769,26 @@
 			(type default)
 		)
 		(uuid "a967e56a-d70a-488d-87e7-926c1ad43245")
+	)
+	(wire
+		(pts
+			(xy 93.98 120.65) (xy 116.84 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af196227-9751-44df-a884-00e9901dafc7")
+	)
+	(wire
+		(pts
+			(xy 93.98 59.69) (xy 93.98 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afe88138-1517-448d-b282-95ef21b5660e")
 	)
 	(wire
 		(pts
@@ -2070,6 +2100,16 @@
 			)
 			(uuid "9e886989-f434-4a07-b821-e096966e3a23")
 		)
+		(pin "BAP_VIN" input
+			(at 116.84 120.65 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9a9f7aa2-e1f4-4396-9c65-3c2a7e02d25e")
+		)
 		(instances
 			(project "BitaxeGT"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
@@ -2207,6 +2247,16 @@
 				(justify left)
 			)
 			(uuid "edc85565-7107-4f2c-9314-c0c3b72907b8")
+		)
+		(pin "Vsupply" output
+			(at 116.84 59.69 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f17ce9c1-fced-42ba-92e1-fce179c9c14b")
 		)
 		(instances
 			(project "BitaxeGT"

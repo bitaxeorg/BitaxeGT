@@ -2439,6 +2439,12 @@
 		(uuid "161b881b-e298-4a97-9df1-108c9922fdf9")
 	)
 	(junction
+		(at 57.15 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b716ca0-da62-4089-b2dd-4442ea57ae10")
+	)
+	(junction
 		(at 34.29 224.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3961,6 +3967,16 @@
 			(type default)
 		)
 		(uuid "3220cb6e-6ae7-4351-82cf-1c3d57c6d7f8")
+	)
+	(wire
+		(pts
+			(xy 57.15 133.35) (xy 57.15 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3283ffdd-9834-40af-9f25-2577016203ef")
 	)
 	(wire
 		(pts
@@ -5931,6 +5947,16 @@
 			(type default)
 		)
 		(uuid "aaa51256-6efa-4898-9c36-3f5167858e1c")
+	)
+	(wire
+		(pts
+			(xy 62.23 133.35) (xy 57.15 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aad120be-ae15-4868-9028-1a53189084bd")
 	)
 	(wire
 		(pts
@@ -8190,6 +8216,18 @@
 			(justify right)
 		)
 		(uuid "67897138-da12-48bc-b813-0107e5b91a37")
+	)
+	(hierarchical_label "Vsupply"
+		(shape output)
+		(at 62.23 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "81633521-3ce5-4e64-9864-04e9cc556b5e")
 	)
 	(hierarchical_label "12V"
 		(shape output)

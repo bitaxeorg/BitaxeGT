@@ -3755,17 +3755,6 @@
 		)
 		(uuid "afa2c21d-ad1e-4775-9e31-6885767715ae")
 	)
-	(label "5V"
-		(at 232.41 106.68 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ba79f703-1411-4559-af27-2191f5fb4f66")
-	)
 	(label "SCL"
 		(at 220.98 91.44 180)
 		(fields_autoplaced yes)
@@ -3897,6 +3886,18 @@
 				(hide yes)
 			)
 		)
+	)
+	(hierarchical_label "BAP_VIN"
+		(shape input)
+		(at 232.41 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "084b0168-623a-4ca4-8e47-9c7ad7052231")
 	)
 	(hierarchical_label "SCL"
 		(shape input)
