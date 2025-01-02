@@ -5777,7 +5777,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1k"
 			(at 49.022 143.51 0)
 			(effects
 				(font
@@ -5910,15 +5910,6 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
-			(at 143.51 179.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DK" "587-5514-1-ND"
 			(at 143.51 179.07 90)
 			(effects
@@ -5929,6 +5920,15 @@
 			)
 		)
 		(property "partnum" ""
+			(at 143.51 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "EMK105BJ105MV-F"
 			(at 143.51 179.07 0)
 			(effects
 				(font
@@ -6375,6 +6375,24 @@
 				(hide yes)
 			)
 		)
+		(property "DK" "MCP1824T-1202E/OTCT-ND"
+			(at 57.15 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "MCP1824T-1202E/OT"
+			(at 57.15 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "719afa58-d8c0-4b22-bfad-064d94511c37")
 		)
@@ -6453,15 +6471,6 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
-			(at 163.83 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DK" "587-5514-1-ND"
 			(at 163.83 87.63 90)
 			(effects
@@ -6472,6 +6481,15 @@
 			)
 		)
 		(property "partnum" ""
+			(at 163.83 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "EMK105BJ105MV-F"
 			(at 163.83 87.63 0)
 			(effects
 				(font
@@ -6548,6 +6566,24 @@
 			)
 		)
 		(property "partnum" ""
+			(at 127 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "MCP1824T-0802E/OTCT-ND"
+			(at 127 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "MCP1824T-0802E/OT"
 			(at 127 175.26 0)
 			(effects
 				(font
@@ -6634,15 +6670,6 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
-			(at 245.11 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DK" "587-5514-1-ND"
 			(at 245.11 87.63 90)
 			(effects
@@ -6653,6 +6680,15 @@
 			)
 		)
 		(property "partnum" ""
+			(at 245.11 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "EMK105BJ105MV-F"
 			(at 245.11 87.63 0)
 			(effects
 				(font
@@ -6731,15 +6767,6 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
-			(at 67.31 142.24 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DK" "587-5514-1-ND"
 			(at 67.31 142.24 90)
 			(effects
@@ -6750,6 +6777,15 @@
 			)
 		)
 		(property "partnum" ""
+			(at 67.31 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "EMK105BJ105MV-F"
 			(at 67.31 142.24 0)
 			(effects
 				(font
@@ -6977,15 +7013,6 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
-			(at 184.15 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DK" "587-5514-1-ND"
 			(at 184.15 87.63 90)
 			(effects
@@ -6996,6 +7023,15 @@
 			)
 		)
 		(property "partnum" ""
+			(at 184.15 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "EMK105BJ105MV-F"
 			(at 184.15 87.63 0)
 			(effects
 				(font
@@ -7133,7 +7169,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20K"
+		(property "Value" "20k"
 			(at 178.054 53.34 0)
 			(effects
 				(font
@@ -7265,15 +7301,6 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
-			(at 62.23 142.24 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DK" "587-5514-1-ND"
 			(at 62.23 142.24 90)
 			(effects
@@ -7284,6 +7311,15 @@
 			)
 		)
 		(property "partnum" ""
+			(at 62.23 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "EMK105BJ105MV-F"
 			(at 62.23 142.24 0)
 			(effects
 				(font
@@ -7436,15 +7472,6 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
-			(at 39.37 179.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DK" "587-5514-1-ND"
 			(at 39.37 179.07 90)
 			(effects
@@ -7455,6 +7482,15 @@
 			)
 		)
 		(property "partnum" ""
+			(at 39.37 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "EMK105BJ105MV-F"
 			(at 39.37 179.07 0)
 			(effects
 				(font
@@ -7532,15 +7568,6 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
-			(at 59.69 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DK" "587-5514-1-ND"
 			(at 59.69 87.63 90)
 			(effects
@@ -7551,6 +7578,15 @@
 			)
 		)
 		(property "partnum" ""
+			(at 59.69 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "EMK105BJ105MV-F"
 			(at 59.69 87.63 0)
 			(effects
 				(font
@@ -7593,7 +7629,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1k"
 			(at 159.512 143.51 0)
 			(effects
 				(font
@@ -7733,7 +7769,7 @@
 				(hide yes)
 			)
 		)
-		(property "Partnum" "SN74AVC4T774PWR"
+		(property "partnum" ""
 			(at 195.58 36.83 0)
 			(effects
 				(font
@@ -7742,7 +7778,7 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
+		(property "PARTNO" "SN74AVC4T774PWR"
 			(at 195.58 36.83 0)
 			(effects
 				(font
@@ -7937,15 +7973,6 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
-			(at 130.81 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DK" "587-5514-1-ND"
 			(at 130.81 87.63 90)
 			(effects
@@ -7956,6 +7983,15 @@
 			)
 		)
 		(property "partnum" ""
+			(at 130.81 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "EMK105BJ105MV-F"
 			(at 130.81 87.63 0)
 			(effects
 				(font
@@ -8033,15 +8069,6 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
-			(at 116.84 142.24 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DK" "587-5514-1-ND"
 			(at 116.84 142.24 90)
 			(effects
@@ -8052,6 +8079,15 @@
 			)
 		)
 		(property "partnum" ""
+			(at 116.84 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "EMK105BJ105MV-F"
 			(at 116.84 142.24 0)
 			(effects
 				(font
@@ -8129,15 +8165,6 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
-			(at 173.99 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DK" "587-5514-1-ND"
 			(at 173.99 87.63 90)
 			(effects
@@ -8148,6 +8175,15 @@
 			)
 		)
 		(property "partnum" ""
+			(at 173.99 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "EMK105BJ105MV-F"
 			(at 173.99 87.63 0)
 			(effects
 				(font
@@ -8225,15 +8261,6 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
-			(at 120.65 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DK" "587-5514-1-ND"
 			(at 120.65 87.63 90)
 			(effects
@@ -8244,6 +8271,15 @@
 			)
 		)
 		(property "partnum" ""
+			(at 120.65 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "EMK105BJ105MV-F"
 			(at 120.65 87.63 0)
 			(effects
 				(font
@@ -8322,15 +8358,6 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
-			(at 232.41 142.24 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DK" "587-5514-1-ND"
 			(at 232.41 142.24 90)
 			(effects
@@ -8341,6 +8368,15 @@
 			)
 		)
 		(property "partnum" ""
+			(at 232.41 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "EMK105BJ105MV-F"
 			(at 232.41 142.24 0)
 			(effects
 				(font
@@ -8610,15 +8646,6 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
-			(at 214.63 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DK" "587-5514-1-ND"
 			(at 214.63 87.63 90)
 			(effects
@@ -8629,6 +8656,15 @@
 			)
 		)
 		(property "partnum" ""
+			(at 214.63 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "EMK105BJ105MV-F"
 			(at 214.63 87.63 0)
 			(effects
 				(font
@@ -8706,15 +8742,6 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
-			(at 227.33 142.24 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DK" "587-5514-1-ND"
 			(at 227.33 142.24 90)
 			(effects
@@ -8725,6 +8752,15 @@
 			)
 		)
 		(property "partnum" ""
+			(at 227.33 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "EMK105BJ105MV-F"
 			(at 227.33 142.24 0)
 			(effects
 				(font
@@ -8954,15 +8990,6 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
-			(at 109.22 179.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DK" "587-5514-1-ND"
 			(at 109.22 179.07 90)
 			(effects
@@ -8973,6 +9000,15 @@
 			)
 		)
 		(property "partnum" ""
+			(at 109.22 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "EMK105BJ105MV-F"
 			(at 109.22 179.07 0)
 			(effects
 				(font
@@ -9207,7 +9243,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 55.372 114.808 90)
 			(effects
 				(font
@@ -9339,15 +9375,6 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
-			(at 172.72 142.24 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DK" "587-5514-1-ND"
 			(at 172.72 142.24 90)
 			(effects
@@ -9358,6 +9385,15 @@
 			)
 		)
 		(property "partnum" ""
+			(at 172.72 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "EMK105BJ105MV-F"
 			(at 172.72 142.24 0)
 			(effects
 				(font
@@ -9587,15 +9623,6 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
-			(at 80.01 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DK" "587-5514-1-ND"
 			(at 80.01 87.63 90)
 			(effects
@@ -9606,6 +9633,15 @@
 			)
 		)
 		(property "partnum" ""
+			(at 80.01 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "EMK105BJ105MV-F"
 			(at 80.01 87.63 0)
 			(effects
 				(font
@@ -9743,7 +9779,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2K"
+		(property "Value" "2k"
 			(at 147.066 143.51 0)
 			(effects
 				(font
@@ -9875,15 +9911,6 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
-			(at 69.85 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DK" "587-5514-1-ND"
 			(at 69.85 87.63 90)
 			(effects
@@ -9894,6 +9921,15 @@
 			)
 		)
 		(property "partnum" ""
+			(at 69.85 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "EMK105BJ105MV-F"
 			(at 69.85 87.63 0)
 			(effects
 				(font
@@ -10145,15 +10181,6 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
-			(at 177.8 142.24 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DK" "587-5514-1-ND"
 			(at 177.8 142.24 90)
 			(effects
@@ -10164,6 +10191,15 @@
 			)
 		)
 		(property "partnum" ""
+			(at 177.8 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "EMK105BJ105MV-F"
 			(at 177.8 142.24 0)
 			(effects
 				(font
@@ -10241,15 +10277,6 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
-			(at 140.97 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DK" "587-5514-1-ND"
 			(at 140.97 87.63 90)
 			(effects
@@ -10260,6 +10287,15 @@
 			)
 		)
 		(property "partnum" ""
+			(at 140.97 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "EMK105BJ105MV-F"
 			(at 140.97 87.63 0)
 			(effects
 				(font
@@ -10604,15 +10640,6 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
-			(at 110.49 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DK" "587-5514-1-ND"
 			(at 110.49 87.63 90)
 			(effects
@@ -10623,6 +10650,15 @@
 			)
 		)
 		(property "partnum" ""
+			(at 110.49 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "EMK105BJ105MV-F"
 			(at 110.49 87.63 0)
 			(effects
 				(font
@@ -10700,15 +10736,6 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
-			(at 234.95 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DK" "587-5514-1-ND"
 			(at 234.95 87.63 90)
 			(effects
@@ -10719,6 +10746,15 @@
 			)
 		)
 		(property "partnum" ""
+			(at 234.95 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "EMK105BJ105MV-F"
 			(at 234.95 87.63 0)
 			(effects
 				(font
@@ -10797,15 +10833,6 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
-			(at 121.92 142.24 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DK" "587-5514-1-ND"
 			(at 121.92 142.24 90)
 			(effects
@@ -10816,6 +10843,15 @@
 			)
 		)
 		(property "partnum" ""
+			(at 121.92 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "EMK105BJ105MV-F"
 			(at 121.92 142.24 0)
 			(effects
 				(font
@@ -11130,15 +11166,6 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
-			(at 73.66 179.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DK" "587-5514-1-ND"
 			(at 73.66 179.07 90)
 			(effects
@@ -11149,6 +11176,15 @@
 			)
 		)
 		(property "partnum" ""
+			(at 73.66 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "EMK105BJ105MV-F"
 			(at 73.66 179.07 0)
 			(effects
 				(font
@@ -11587,15 +11623,6 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
-			(at 49.53 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DK" "587-5514-1-ND"
 			(at 49.53 87.63 90)
 			(effects
@@ -11606,6 +11633,15 @@
 			)
 		)
 		(property "partnum" ""
+			(at 49.53 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "EMK105BJ105MV-F"
 			(at 49.53 87.63 0)
 			(effects
 				(font
@@ -11758,15 +11794,6 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
-			(at 224.79 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DK" "587-5514-1-ND"
 			(at 224.79 87.63 90)
 			(effects
@@ -11777,6 +11804,15 @@
 			)
 		)
 		(property "partnum" ""
+			(at 224.79 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "EMK105BJ105MV-F"
 			(at 224.79 87.63 0)
 			(effects
 				(font
@@ -11854,15 +11890,6 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
-			(at 153.67 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DK" "587-5514-1-ND"
 			(at 153.67 87.63 90)
 			(effects
@@ -11873,6 +11900,15 @@
 			)
 		)
 		(property "partnum" ""
+			(at 153.67 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "EMK105BJ105MV-F"
 			(at 153.67 87.63 0)
 			(effects
 				(font
