@@ -8319,7 +8319,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "49.9R"
+		(property "Value" "49.9"
 			(at 313.69 98.298 90)
 			(effects
 				(font
@@ -8519,7 +8519,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 179.07 70.866 0)
 			(effects
 				(font
@@ -8616,7 +8616,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "0"
 			(at 67.818 84.582 90)
 			(effects
 				(font
@@ -8756,15 +8756,6 @@
 				)
 			)
 		)
-		(property "PARNO" "T495D336K025ATE300"
-			(at 193.04 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DK" "399-3882-1-ND"
 			(at 193.04 46.99 90)
 			(effects
@@ -8775,6 +8766,15 @@
 			)
 		)
 		(property "partnum" ""
+			(at 193.04 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "T495D336K025ATE300"
 			(at 193.04 46.99 0)
 			(effects
 				(font
@@ -8894,7 +8894,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "8.25K"
+		(property "Value" "8.25k"
 			(at 188.976 97.028 90)
 			(effects
 				(font
@@ -8990,7 +8990,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20K"
+		(property "Value" "20k"
 			(at 56.642 230.632 90)
 			(effects
 				(font
@@ -9235,7 +9235,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "TMK107B7105KA-T"
 			(at 77.47 193.04 90)
 			(effects
 				(font
@@ -9254,15 +9254,6 @@
 			)
 		)
 		(property "partnum" ""
-			(at 77.47 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
 			(at 77.47 193.04 0)
 			(effects
 				(font
@@ -9453,7 +9444,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "TMK107B7105KA-T"
 			(at 236.22 91.44 90)
 			(effects
 				(font
@@ -9472,15 +9463,6 @@
 			)
 		)
 		(property "partnum" ""
-			(at 236.22 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
 			(at 236.22 91.44 0)
 			(effects
 				(font
@@ -9900,6 +9882,24 @@
 				(hide yes)
 			)
 		)
+		(property "DK" "296-TPSM861253RDXRCT-ND"
+			(at 86.36 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "TPSM861253RDXR"
+			(at 86.36 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "17d18ee7-f650-4fa1-bc39-45080c8e5e1c")
 		)
@@ -10149,7 +10149,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "26.1K"
+		(property "Value" "26.1k"
 			(at 198.12 117.856 0)
 			(effects
 				(font
@@ -10321,7 +10321,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10R"
+		(property "Value" "10"
 			(at 227.33 66.294 90)
 			(effects
 				(font
@@ -10522,7 +10522,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "0"
 			(at 67.818 80.772 90)
 			(effects
 				(font
@@ -11112,7 +11112,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "TMK107B7105KA-T"
 			(at 219.71 68.58 90)
 			(effects
 				(font
@@ -11131,15 +11131,6 @@
 			)
 		)
 		(property "partnum" ""
-			(at 219.71 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
 			(at 219.71 68.58 0)
 			(effects
 				(font
@@ -12164,7 +12155,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "49.9R"
+		(property "Value" "49.9"
 			(at 296.418 64.77 0)
 			(effects
 				(font
@@ -12540,7 +12531,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 179.07 84.836 0)
 			(effects
 				(font
@@ -12713,7 +12704,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "56.2K"
+		(property "Value" "56.2k"
 			(at 215.9 117.856 0)
 			(effects
 				(font
@@ -12999,7 +12990,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7K"
+		(property "Value" "4.7k"
 			(at 76.454 75.692 0)
 			(effects
 				(font
@@ -13268,7 +13259,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 280.162 212.598 90)
 			(effects
 				(font
@@ -13497,15 +13488,6 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
-			(at 124.46 120.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DK" "587-5514-1-ND"
 			(at 124.46 120.65 90)
 			(effects
@@ -13516,6 +13498,15 @@
 			)
 		)
 		(property "partnum" ""
+			(at 124.46 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "EMK105BJ105MV-F"
 			(at 124.46 120.65 0)
 			(effects
 				(font
@@ -13653,7 +13644,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1R"
+		(property "Value" "1"
 			(at 278.384 67.056 0)
 			(effects
 				(font
@@ -13977,15 +13968,6 @@
 				)
 			)
 		)
-		(property "PARNO" "T495D336K025ATE300"
-			(at 193.04 161.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DK" "399-3882-1-ND"
 			(at 193.04 161.29 90)
 			(effects
@@ -13995,7 +13977,7 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
+		(property "PARTNO" "T495D336K025ATE300"
 			(at 193.04 161.29 0)
 			(effects
 				(font
@@ -14285,7 +14267,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "TMK107B7105KA-T"
 			(at 219.71 182.88 90)
 			(effects
 				(font
@@ -14304,15 +14286,6 @@
 			)
 		)
 		(property "partnum" ""
-			(at 219.71 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
 			(at 219.71 182.88 0)
 			(effects
 				(font
@@ -14399,7 +14372,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "TMK107B7105KA-T"
 			(at 49.53 193.04 90)
 			(effects
 				(font
@@ -14418,15 +14391,6 @@
 			)
 		)
 		(property "partnum" ""
-			(at 49.53 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
 			(at 49.53 193.04 0)
 			(effects
 				(font
@@ -14762,7 +14726,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7K"
+		(property "Value" "4.7k"
 			(at 91.694 75.692 0)
 			(effects
 				(font
@@ -14902,7 +14866,7 @@
 				)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "TMK107B7105KA-T"
 			(at 215.9 46.99 90)
 			(effects
 				(font
@@ -14911,7 +14875,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "587-1291-1-ND"
+		(property "DK" "587-2984-1-ND"
 			(at 215.9 46.99 90)
 			(effects
 				(font
@@ -14921,15 +14885,6 @@
 			)
 		)
 		(property "partnum" ""
-			(at 215.9 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
 			(at 215.9 46.99 0)
 			(effects
 				(font
@@ -14972,7 +14927,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "0"
 			(at 67.818 88.392 90)
 			(effects
 				(font
@@ -15358,8 +15313,8 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNUM" "NCS21671SQ050T2G"
-			(at 105.41 110.49 0)
+		(property "partnum" ""
+			(at 107.95 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15367,7 +15322,7 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
+		(property "PARTNO" "NCS21671SQ050T2G"
 			(at 107.95 128.27 0)
 			(effects
 				(font
@@ -15421,7 +15376,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10R"
+		(property "Value" "10"
 			(at 227.33 180.594 90)
 			(effects
 				(font
@@ -15517,7 +15472,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 208.28 87.376 0)
 			(effects
 				(font
@@ -16044,7 +15999,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 69.85 233.426 0)
 			(effects
 				(font
@@ -16185,7 +16140,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "TMK107B7105KA-T"
 			(at 236.22 205.74 90)
 			(effects
 				(font
@@ -16204,15 +16159,6 @@
 			)
 		)
 		(property "partnum" ""
-			(at 236.22 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
 			(at 236.22 205.74 0)
 			(effects
 				(font
@@ -16567,7 +16513,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7K"
+		(property "Value" "4.7k"
 			(at 84.074 75.692 0)
 			(effects
 				(font
@@ -16990,7 +16936,7 @@
 				)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "TMK107B7105KA-T"
 			(at 215.9 161.29 90)
 			(effects
 				(font
@@ -16999,7 +16945,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "587-1291-1-ND"
+		(property "DK" "587-2984-1-ND"
 			(at 215.9 161.29 90)
 			(effects
 				(font
@@ -17009,15 +16955,6 @@
 			)
 		)
 		(property "partnum" ""
-			(at 215.9 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
 			(at 215.9 161.29 0)
 			(effects
 				(font
@@ -17463,7 +17400,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1R"
+		(property "Value" "1"
 			(at 278.384 181.356 0)
 			(effects
 				(font
