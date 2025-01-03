@@ -2835,7 +2835,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "0"
 			(at 71.374 107.696 90)
 			(effects
 				(font
@@ -2880,7 +2880,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "311-100LRCT-ND"
+		(property "DK" "311-0.0JRCT-ND"
 			(at 71.12 105.41 0)
 			(effects
 				(font
@@ -2889,7 +2889,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "RC0402FR-07100RL"
+		(property "PARTNO" "RC0402JR-070RL"
 			(at 71.12 105.41 0)
 			(effects
 				(font
@@ -3185,7 +3185,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "KGM05AR71C104KH"
+		(property "PARTNO" "GRM1555C1H471JA01D"
 			(at 81.28 87.63 0)
 			(effects
 				(font
@@ -3194,7 +3194,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "478-KGM05AR71C104KHCT-ND"
+		(property "DK" "490-1297-1-ND"
 			(at 81.28 87.63 0)
 			(effects
 				(font
@@ -3639,6 +3639,33 @@
 				(hide yes)
 			)
 		)
+		(property "DK" "4713-GMC31X5R476M25NTCT-ND"
+			(at 219.71 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "GMC31X5R476M25NT"
+			(at 219.71 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "voltage" "25V"
+			(at 219.71 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2c0b21de-386e-4329-8858-f241a564ef53")
 		)
@@ -3708,7 +3735,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "KGM05AR71C104KH"
+		(property "PARTNO" "GRM1555C1H471JA01D"
 			(at 81.28 110.49 0)
 			(effects
 				(font
@@ -3717,7 +3744,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "478-KGM05AR71C104KHCT-ND"
+		(property "DK" "490-1297-1-ND"
 			(at 81.28 110.49 0)
 			(effects
 				(font
@@ -3872,7 +3899,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "0"
 			(at 71.374 117.856 90)
 			(effects
 				(font
@@ -3917,7 +3944,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "311-100LRCT-ND"
+		(property "DK" "311-0.0JRCT-ND"
 			(at 71.12 115.57 0)
 			(effects
 				(font
@@ -3926,7 +3953,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "RC0402FR-07100RL"
+		(property "PARTNO" "RC0402JR-070RL"
 			(at 71.12 115.57 0)
 			(effects
 				(font
@@ -4259,7 +4286,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "0"
 			(at 71.628 94.996 90)
 			(effects
 				(font
@@ -4304,7 +4331,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "311-100LRCT-ND"
+		(property "DK" "311-0.0JRCT-ND"
 			(at 71.12 92.71 0)
 			(effects
 				(font
@@ -4313,7 +4340,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "RC0402FR-07100RL"
+		(property "PARTNO" "RC0402JR-070RL"
 			(at 71.12 92.71 0)
 			(effects
 				(font
@@ -4355,7 +4382,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "0"
 			(at 71.628 84.836 90)
 			(effects
 				(font
@@ -4391,7 +4418,7 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
+		(property "DK" "311-0.0JRCT-ND"
 			(at 71.12 82.55 0)
 			(effects
 				(font
@@ -4400,16 +4427,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "311-100LRCT-ND"
-			(at 71.12 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "RC0402FR-07100RL"
+		(property "PARTNO" "RC0402JR-070RL"
 			(at 71.12 82.55 0)
 			(effects
 				(font
