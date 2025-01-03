@@ -2917,17 +2917,17 @@
 			(uuid "9809fb67-27f5-4215-bd90-e4070a660435")
 		)
 	)
-	(footprint "bitaxe:Fiducial_1mm_Mask2mm"
+	(footprint "Fiducial:Fiducial_1mm_Mask2mm"
 		(layer "F.Cu")
 		(uuid "5e9cdb28-133c-474d-819b-352508807760")
 		(at 154.7 148.5)
 		(descr "Circular Fiducial, 1mm bare copper, 2mm soldermask opening (Level A)")
 		(tags "fiducial")
 		(property "Reference" "FID3"
-			(at -2.8558 0.108 0)
+			(at 0 -2 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "b3e38d9d-caa9-402f-84f9-c401192a809a")
+			(uuid "a39cf12a-983a-4ac8-9057-0c2c38e0d240")
 			(effects
 				(font
 					(size 1 1)
@@ -2938,7 +2938,7 @@
 		(property "Value" "Fiducial_front"
 			(at 0 2 0)
 			(layer "F.Fab")
-			(uuid "620458b2-9cdb-4943-a66e-ee655a6ae184")
+			(uuid "5a470a55-a417-4127-be00-21feb8c52b05")
 			(effects
 				(font
 					(size 1 1)
@@ -2946,12 +2946,12 @@
 				)
 			)
 		)
-		(property "Footprint" "bitaxe:Fiducial_1mm_Mask2mm"
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "79d4b2df-23d7-4002-951d-86a4620083ac")
+			(uuid "d58620e0-3008-43d1-886a-9a18b0bcbe95")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2964,7 +2964,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c9d12303-a791-4f54-b351-3279417071c4")
+			(uuid "18fcab1e-1bb2-47b8-a094-7c4771a3743e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2977,7 +2977,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ace7f7da-4196-4716-a31a-7000854c6f80")
+			(uuid "96c07306-d344-4bd6-aaa4-72dda8ebd8ca")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2990,7 +2990,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e1dfce92-bcab-4cc6-bd0f-60a2a1db0872")
+			(uuid "9a493c42-406f-4ece-8204-f1b746783ecc")
 			(effects
 				(font
 					(size 1 1)
@@ -3012,7 +3012,7 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "6bbea92c-5330-4b75-9d59-70828577d365")
+			(uuid "33fdf922-8c07-48cf-94c1-7a973b1e9229")
 		)
 		(fp_circle
 			(center 0 0)
@@ -3023,12 +3023,12 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "575c9de6-2cff-4a6b-91f9-e80a93ff9366")
+			(uuid "0e466faa-de2e-4fec-90bc-b9d57b43ee0a")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "3cc1cd1c-7f37-4e37-9dc3-619179b51be6")
+			(uuid "425133ca-9be8-4cfd-9f7a-f1ca24c904d8")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -3037,12 +3037,12 @@
 			)
 		)
 		(pad "" smd circle
-			(at 0.0022 -0.005)
+			(at 0 0)
 			(size 1 1)
 			(layers "F.Cu" "F.Mask")
 			(solder_mask_margin 0.5)
 			(clearance 0.5)
-			(uuid "24ae91ff-b2a6-41f9-b655-7f6e6fc90ce4")
+			(uuid "568fca9f-f3ea-4aa2-9180-812adf195c14")
 		)
 	)
 	(footprint "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical"
@@ -3546,17 +3546,17 @@
 			)
 		)
 	)
-	(footprint "bitaxe:Fiducial_1mm_Mask2mm"
+	(footprint "Fiducial:Fiducial_1mm_Mask2mm"
 		(layer "F.Cu")
 		(uuid "74a01b74-92dc-4258-a2fa-ec553978a48d")
 		(at 106.8332 148.44)
 		(descr "Circular Fiducial, 1mm bare copper, 2mm soldermask opening (Level A)")
 		(tags "fiducial")
 		(property "Reference" "FID2"
-			(at -2.8558 0.108 0)
+			(at 0 -2 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "1f36721b-7475-44cb-bfd6-2e2031e49445")
+			(uuid "bad0b7e0-7936-485d-be9e-0bdf173906b7")
 			(effects
 				(font
 					(size 1 1)
@@ -3567,7 +3567,7 @@
 		(property "Value" "Fiducial_front"
 			(at 0 2 0)
 			(layer "F.Fab")
-			(uuid "974c1567-e9a5-4b0b-91db-2e9868b666cf")
+			(uuid "309ab978-7b0c-4338-acdb-3c147b82131d")
 			(effects
 				(font
 					(size 1 1)
@@ -3575,12 +3575,12 @@
 				)
 			)
 		)
-		(property "Footprint" "bitaxe:Fiducial_1mm_Mask2mm"
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "820150e4-fca6-4c02-84a9-1383dcb3819c")
+			(uuid "23ea5efe-7853-4f5f-a3ca-92b54378012f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3593,7 +3593,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "503068b7-a6ad-47ec-b66c-86b7d18c7d66")
+			(uuid "85cd4e25-f945-4306-9638-36051cf88850")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3606,7 +3606,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cccc2e4b-9b31-4646-b269-82de01a4ee1b")
+			(uuid "f7c1da82-8596-4c76-b558-bc3fe98fae31")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3619,7 +3619,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b450c310-7be7-4e6d-b9b5-f9e80afcd273")
+			(uuid "d0b2bee3-b1d2-4404-91ac-7aec99111d92")
 			(effects
 				(font
 					(size 1 1)
@@ -3641,7 +3641,7 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "492c8291-0ab8-49ce-9c61-96ae23b985cb")
+			(uuid "361b9978-a7d3-4944-af17-7ca205f2f339")
 		)
 		(fp_circle
 			(center 0 0)
@@ -3652,12 +3652,12 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "65656c3b-b31b-4d60-8f90-88f6601ec526")
+			(uuid "582d8a95-9459-471d-b3e1-890af1147f1a")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "2077b05c-f7af-4c6f-8f08-3ec4ee8c7873")
+			(uuid "89b447ef-b716-4ef0-b370-8550de1bde01")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -3666,12 +3666,12 @@
 			)
 		)
 		(pad "" smd circle
-			(at 0.0022 -0.005)
+			(at 0 0)
 			(size 1 1)
 			(layers "F.Cu" "F.Mask")
 			(solder_mask_margin 0.5)
 			(clearance 0.5)
-			(uuid "0c0519b4-2556-44bf-a7f3-9ee36549253b")
+			(uuid "269380b4-7956-4d3c-8825-5035cdc883bb")
 		)
 	)
 	(footprint "bitaxe:470531000"
@@ -3742,6 +3742,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "258decb6-ede2-4e17-b4b7-bee3a29d702b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DK" "WM4330-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0f003c8f-bedb-4be5-92dc-fa1084802df7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "PARTNO" "0470531000"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6a3b1e76-1103-4002-9389-9a3197adc76f")
 			(effects
 				(font
 					(size 1 1)
@@ -5757,7 +5783,7 @@
 		(path "/4f458685-abc8-43b7-b070-5915b8bf867f")
 		(sheetname "Root")
 		(sheetfile "BitaxeGT.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_line
 			(start -30 -30)
 			(end 30 -30)
@@ -6374,17 +6400,17 @@
 			)
 		)
 	)
-	(footprint "bitaxe:Fiducial_1mm_Mask2mm"
+	(footprint "Fiducial:Fiducial_1mm_Mask2mm"
 		(layer "F.Cu")
 		(uuid "ca5539cd-5bc1-42f9-b10c-19a9347adbdf")
 		(at 107.6528 39.782)
 		(descr "Circular Fiducial, 1mm bare copper, 2mm soldermask opening (Level A)")
 		(tags "fiducial")
 		(property "Reference" "FID1"
-			(at -2.8558 0.108 0)
+			(at 0 -2 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "6c9e8f57-cead-41f9-9948-d8f3c52c6559")
+			(uuid "49dfb5af-4e02-418d-bfb3-78ba878a7411")
 			(effects
 				(font
 					(size 1 1)
@@ -6395,7 +6421,7 @@
 		(property "Value" "Fiducial_front"
 			(at 0 2 0)
 			(layer "F.Fab")
-			(uuid "ea6c1fbb-bd65-448f-ad66-395bfc9a53f5")
+			(uuid "eacf5e5b-def3-4922-80f4-c6e07c60c623")
 			(effects
 				(font
 					(size 1 1)
@@ -6403,12 +6429,12 @@
 				)
 			)
 		)
-		(property "Footprint" "bitaxe:Fiducial_1mm_Mask2mm"
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c7d4cfb7-b05a-42a5-8f73-a9e99ef9e2b5")
+			(uuid "505d76f3-9e41-4274-acd7-e9fdb977278e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6421,7 +6447,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9972318b-1971-45b6-83ee-8a64c13c761e")
+			(uuid "2798cb9a-c930-441e-9a43-da1c5a3cfe5e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6434,7 +6460,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "99653c73-d96e-46b2-959f-a6e90339b386")
+			(uuid "ca5a76a8-2899-40bc-b00a-64f262021345")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6447,7 +6473,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "66233983-1272-4ee4-99c9-71bbd32b4c9b")
+			(uuid "2c579875-a598-404c-ae23-9bca95fb66b2")
 			(effects
 				(font
 					(size 1 1)
@@ -6469,7 +6495,7 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "0fd5fcd6-27bf-46d6-bb2c-a85e0a153277")
+			(uuid "e7451ddb-b6b5-4aa3-a54a-bf0336689fa8")
 		)
 		(fp_circle
 			(center 0 0)
@@ -6480,12 +6506,12 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "15ceb019-5d82-42ed-9e5c-499f65aa3616")
+			(uuid "70325032-35e2-4577-b868-8522d7adc646")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "745fb7a3-c291-41a5-91de-76ce17a344aa")
+			(uuid "833b9b69-e98f-49f9-bbd4-cdb49437903d")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -6494,12 +6520,12 @@
 			)
 		)
 		(pad "" smd circle
-			(at 0.0022 -0.005)
+			(at 0 0)
 			(size 1 1)
 			(layers "F.Cu" "F.Mask")
 			(solder_mask_margin 0.5)
 			(clearance 0.5)
-			(uuid "11d75c61-4385-48c0-8f70-5839d5d8c5b3")
+			(uuid "60c519e8-f927-4fc0-a6fc-d7c758d656e4")
 		)
 	)
 	(footprint "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
@@ -6747,7 +6773,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "100"
 			(at 0 -1.17 90)
 			(layer "B.Fab")
 			(uuid "3d3ca2d2-b87e-4ddf-820f-ef887b06ac99")
@@ -6807,6 +6833,34 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "2090623e-d050-411e-a96f-34252d253110")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "DK" "311-100LRCT-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6449f808-9000-4a7f-bad3-dbd9c711c05b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "PARTNO" "RC0402FR-07100RL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "dc9c1da8-bd1e-454d-b531-508d4fe21ba5")
 			(effects
 				(font
 					(size 1 1)
@@ -7502,7 +7556,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "4.7K"
+		(property "Value" "4.7k"
 			(at 0 -1.17 0)
 			(layer "B.Fab")
 			(uuid "f2f3f4f5-45f8-420e-b9fa-88bfc18e4b5f")
@@ -8294,7 +8348,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "26.1K"
+		(property "Value" "26.1k"
 			(at 0 -1.17 0)
 			(layer "B.Fab")
 			(uuid "6b5cb23c-9272-4eee-bd58-482292eb6af9")
@@ -8887,20 +8941,6 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "ebd485e9-9db8-478b-b88d-23aee0a83eb6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "DK" "587-5514-1-ND"
 			(at 0 0 -90)
 			(unlocked yes)
@@ -8921,6 +8961,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "c2fb6c41-7dbf-41fb-8001-272712f1c583")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "PARTNO" "EMK105BJ105MV-F"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e5efc1c0-2d1e-49bd-bd12-b3534378aa47")
 			(effects
 				(font
 					(size 1 1)
@@ -10630,20 +10684,6 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "b530344c-8e45-4216-a430-a2c5316193c3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "DK" "587-5514-1-ND"
 			(at 0 0 -90)
 			(unlocked yes)
@@ -10664,6 +10704,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "81dd8131-5607-4058-934a-7535c6f9bf84")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "PARTNO" "EMK105BJ105MV-F"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4b4bfb0a-ec7f-4077-93db-f2cc592a4da1")
 			(effects
 				(font
 					(size 1 1)
@@ -11010,7 +11064,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 0 -1.17 0)
 			(layer "B.Fab")
 			(uuid "7351c084-1193-44aa-afc2-57dee31d7b19")
@@ -11328,6 +11382,34 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "7f86ca33-4508-44fc-8e6a-e5a7a0bbd591")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "DK" "MCP1824T-1202E/OTCT-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "010401be-17d4-477a-8d8c-84c438d67fb9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "PARTNO" "MCP1824T-1202E/OT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "936d4013-1455-44c9-8c2d-b679a1be5d13")
 			(effects
 				(font
 					(size 1 1)
@@ -12598,17 +12680,17 @@
 			)
 		)
 	)
-	(footprint "bitaxe:Fiducial_1mm_Mask2mm"
+	(footprint "Fiducial:Fiducial_1mm_Mask2mm"
 		(layer "B.Cu")
 		(uuid "1cc83e9d-d6bf-4c20-9812-e4c2956ef493")
 		(at 106.8332 148.44 180)
 		(descr "Circular Fiducial, 1mm bare copper, 2mm soldermask opening (Level A)")
 		(tags "fiducial")
 		(property "Reference" "FID5"
-			(at -2.8558 -0.108 0)
+			(at 0 2 0)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "ea0d956b-b636-4bf2-b0b6-4db2b24a5564")
+			(uuid "3f092eb9-e49b-440c-b34b-a23db9b6a7a6")
 			(effects
 				(font
 					(size 1 1)
@@ -12620,7 +12702,7 @@
 		(property "Value" "Fiducial_back"
 			(at 0 -2 0)
 			(layer "B.Fab")
-			(uuid "ec9abcb4-16da-41e5-8159-8355b218e6b2")
+			(uuid "538d21b6-d463-4e98-a686-26a45bbc0c22")
 			(effects
 				(font
 					(size 1 1)
@@ -12629,12 +12711,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "bitaxe:Fiducial_1mm_Mask2mm"
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "2ca32581-e3a3-4f3c-9144-7ca4fe0460b9")
+			(uuid "3b036205-8b0f-4cb3-b552-23111b02f851")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12648,7 +12730,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "56a56ed1-7468-45a7-829d-36a2f9937182")
+			(uuid "c2a2611f-66e3-4e89-941a-a79369ee91f7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12662,7 +12744,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "641ddfc2-eee5-4d03-889f-12cbd5debe1f")
+			(uuid "9f899735-369d-476f-9c8a-dc636ffefe1d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12672,11 +12754,11 @@
 			)
 		)
 		(property "partnum" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "c6143081-2da4-4abe-bd3a-ea2d6ddd9668")
+			(uuid "c9e2818c-dc9a-4e59-b083-a2c996877537")
 			(effects
 				(font
 					(size 1 1)
@@ -12699,7 +12781,7 @@
 			)
 			(fill none)
 			(layer "B.CrtYd")
-			(uuid "07e08aa2-276b-4ce9-a388-ed36fa21e1e7")
+			(uuid "c9a0a293-f157-4273-a096-591c4dd4ffca")
 		)
 		(fp_circle
 			(center 0 0)
@@ -12710,12 +12792,12 @@
 			)
 			(fill none)
 			(layer "B.Fab")
-			(uuid "91e6f01f-71a2-4ccb-8cf2-44f6f4968feb")
+			(uuid "6d55898a-3b6d-4aac-84dc-5f7cdb0fa53b")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "B.Fab")
-			(uuid "d1763a16-c63f-4b96-8096-731c4bc829b6")
+			(uuid "403c90e9-42e8-459b-9c69-13445cb6499b")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -12725,12 +12807,12 @@
 			)
 		)
 		(pad "" smd circle
-			(at 0.0022 0.005 180)
+			(at 0 0 180)
 			(size 1 1)
 			(layers "B.Cu" "B.Mask")
 			(solder_mask_margin 0.5)
 			(clearance 0.5)
-			(uuid "9ce96763-a669-4ba0-8013-b8c5b0125de1")
+			(uuid "383fa8eb-6a77-4004-a2f9-ddbdee217a1c")
 		)
 	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
@@ -12805,20 +12887,6 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "1aa2832e-0f31-4f2f-ae98-75bb3edc425b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "DK" "587-5514-1-ND"
 			(at 0 0 -90)
 			(unlocked yes)
@@ -12839,6 +12907,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "f6b0bfd2-80c7-4632-98c6-3f7d108344d7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "PARTNO" "EMK105BJ105MV-F"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0d66d08e-72d0-461a-8897-300ea2fd48cb")
 			(effects
 				(font
 					(size 1 1)
@@ -13066,20 +13148,6 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "b624e21b-0cc3-4d4b-a3f9-bd8e02fcd87c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "DK" "587-5514-1-ND"
 			(at 0 0 -90)
 			(unlocked yes)
@@ -13100,6 +13168,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "3f89cbcd-872e-4dd3-ab80-9b8cd40e9c6c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "PARTNO" "EMK105BJ105MV-F"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0e2dd15a-4738-4f37-95a4-baea29059621")
 			(effects
 				(font
 					(size 1 1)
@@ -13327,20 +13409,6 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "4636b166-cb97-45e1-816c-66337bfb294a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "DK" "587-5514-1-ND"
 			(at 0 0 -90)
 			(unlocked yes)
@@ -13361,6 +13429,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "c57ce4b8-5aa0-40b4-9f1d-cef444fcccb0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "PARTNO" "EMK105BJ105MV-F"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2fd57d2e-cc57-46cc-babe-45d7d6208d4c")
 			(effects
 				(font
 					(size 1 1)
@@ -13588,20 +13670,6 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "33e4e2b3-88e2-475a-8be4-580ed40f6c22")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "DK" "587-5514-1-ND"
 			(at 0 0 90)
 			(unlocked yes)
@@ -13622,6 +13690,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "fe9fcead-4f3a-4649-8a77-904e41e19ab1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "PARTNO" "EMK105BJ105MV-F"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9df6b51a-6efc-4e09-9982-095cd538c937")
 			(effects
 				(font
 					(size 1 1)
@@ -14998,7 +15080,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1k"
 			(at 0 -1.17 0)
 			(layer "B.Fab")
 			(uuid "50ee6448-4c1a-43cd-97b8-532f43b6107d")
@@ -15259,7 +15341,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "4.7K"
+		(property "Value" "4.7k"
 			(at 0 -1.17 0)
 			(layer "B.Fab")
 			(uuid "91d049f4-c666-4085-a340-49e0174d520c")
@@ -15709,20 +15791,6 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "d0b317ec-98c7-4504-8e24-f3a374fe7dbb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "DK" "587-5514-1-ND"
 			(at 0 0 -90)
 			(unlocked yes)
@@ -15743,6 +15811,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "e188c3a9-d14c-467b-a3b2-d56174e35f0c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "PARTNO" "EMK105BJ105MV-F"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1f5b14a3-5eec-4f8f-83ca-8e0a845817da")
 			(effects
 				(font
 					(size 1 1)
@@ -16245,20 +16327,6 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "ff141d94-528d-425b-b34e-3a9fbc2c48a9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "DK" "587-5514-1-ND"
 			(at 0 0 90)
 			(unlocked yes)
@@ -16279,6 +16347,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "b7dc87fb-485a-420a-b930-40f58bfbb9ce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "PARTNO" "EMK105BJ105MV-F"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7643883b-36ba-4be5-8334-cfd7d311ee4a")
 			(effects
 				(font
 					(size 1 1)
@@ -16452,7 +16534,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "20K"
+		(property "Value" "20k"
 			(at 0 -1.17 0)
 			(layer "B.Fab")
 			(uuid "68729336-0165-4110-a2fe-a9579bf5aae6")
@@ -17617,7 +17699,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 0 -1.17 0)
 			(layer "B.Fab")
 			(uuid "32957e0c-cf42-44bd-9e94-85a67efd5831")
@@ -18605,6 +18687,34 @@
 				(justify mirror)
 			)
 		)
+		(property "DK" "296-TPSM861253RDXRCT-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "42b6ef56-10c8-48cb-b7d2-ca2201ad4c83")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "PARTNO" "TPSM861253RDXR"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b290b1bd-d8fa-47fc-9e7a-dc00a3fc2aa7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Texas*B3QFN*1EP*5x5.5mm*P0.65mm*")
 		(path "/24036843-8461-4d4b-b738-f953c909ed6c/22767fdd-2563-4a94-90c3-8ac50a77cd86")
 		(sheetname "Power")
@@ -19089,7 +19199,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "49.9R"
+		(property "Value" "49.9"
 			(at 0 -1.17 0)
 			(layer "B.Fab")
 			(uuid "0824c7cc-0f95-4050-8e1d-80c738cb522a")
@@ -19350,7 +19460,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "100"
 			(at 0 -1.17 90)
 			(layer "B.Fab")
 			(uuid "139e80c7-e787-4d3a-979f-ea11e8ef308f")
@@ -19410,6 +19520,34 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "00665e65-ba07-4939-830d-46fea435b40e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "DK" "311-100LRCT-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "66a4c5ab-e267-4165-837d-78823001d789")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "PARTNO" "RC0402FR-07100RL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9bb50b8c-4252-429d-9643-8ee6752fcb9c")
 			(effects
 				(font
 					(size 1 1)
@@ -19637,20 +19775,6 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "4b783819-f84c-4dd3-b4dc-cd22d09f90a9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "DK" "587-5514-1-ND"
 			(at 0 0 90)
 			(unlocked yes)
@@ -19671,6 +19795,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "7fc61406-8714-4ee9-a7ef-82ce5730eb95")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "PARTNO" "EMK105BJ105MV-F"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a81eedc2-522c-40e2-bb3a-8bf5c9416ded")
 			(effects
 				(font
 					(size 1 1)
@@ -19824,6 +19962,117 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "bitaxe:NetTie-2_SMD_Pad0.2mmx1mm"
+		(layer "B.Cu")
+		(uuid "3fe95c9e-dc17-4c5d-aba8-8e004fa31cca")
+		(at 145.6 84.33 90)
+		(descr "Net tie, 2 pin, 0.5mm square SMD pads")
+		(tags "net tie")
+		(property "Reference" "NT1"
+			(at 0 1.2 90)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "ed94dff1-e0a9-475f-923b-44ecc677c52f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 0 -1.2 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "64bcc9b3-c019-40d1-9536-e7684fab5bee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "bitaxe:NetTie-2_SMD_Pad0.2mmx1mm"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "99d1bbbf-bcf1-440b-b1e2-9e8674eed2ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "078b78f5-41e4-41f2-aaf3-e1a7c4b203b3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "03907d50-3412-42ce-a143-ed821b5e2cda")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "Net*Tie*")
+		(path "/24036843-8461-4d4b-b738-f953c909ed6c/6e40b786-8884-4c05-9a68-444f4ea6f42e")
+		(sheetname "Power")
+		(sheetfile "Power.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(net_tie_pad_groups "1, 2")
+		(fp_poly
+			(pts
+				(xy -0.5 0.1) (xy 0.5 0.1) (xy 0.5 -0.1) (xy -0.5 -0.1)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill solid)
+			(layer "B.Cu")
+			(uuid "bcc5290b-a11b-487d-982a-2c9ee0f45678")
+		)
+		(pad "1" smd circle
+			(at -0.5 0 90)
+			(size 0.2 0.2)
+			(layers "B.Cu")
+			(net 127 "GND")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "a120dba2-f37d-4d3c-ac0a-eefb4054f71e")
+		)
+		(pad "2" smd circle
+			(at 0.5 0 90)
+			(size 0.2 0.2)
+			(layers "B.Cu")
+			(net 2 "/Power/AGND1")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "15ccd3c2-86fd-4fed-949e-9ebf77b9870b")
 		)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
@@ -20119,7 +20368,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "56.2K"
+		(property "Value" "56.2k"
 			(at 0 -1.17 0)
 			(layer "B.Fab")
 			(uuid "7fd8c4e3-ea26-45e9-b417-0fdbcefb22a9")
@@ -20434,20 +20683,6 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "4d20d647-0595-4be2-bd2a-87bbb35af580")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "DK" "587-5514-1-ND"
 			(at 0 0 -90)
 			(unlocked yes)
@@ -20468,6 +20703,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "20090b01-08cb-46cc-9549-35be31e4b7d0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "PARTNO" "EMK105BJ105MV-F"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "923f74c2-47f3-44f6-9a55-0b1dfd903c2f")
 			(effects
 				(font
 					(size 1 1)
@@ -20695,20 +20944,6 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "37aa9787-a219-4362-9fd8-77b49dd41257")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "DK" "587-5514-1-ND"
 			(at 0 0 0)
 			(unlocked yes)
@@ -20729,6 +20964,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "e2e674f7-f45d-4654-a1d4-ab2e065705af")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "PARTNO" "EMK105BJ105MV-F"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ce02f183-8b3c-4648-81fb-7ce79776ab6d")
 			(effects
 				(font
 					(size 1 1)
@@ -21177,7 +21426,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "0"
 			(at 0 -1.17 0)
 			(layer "B.Fab")
 			(uuid "4423cb65-dba1-4542-a8e2-eadc18369e0f")
@@ -24254,20 +24503,6 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "be595754-2a6e-49d3-bacd-bbb605913252")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "DK" "587-5514-1-ND"
 			(at 0 0 -90)
 			(unlocked yes)
@@ -24288,6 +24523,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "d0759469-443e-4b13-9bdb-a67b1dd5b35b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "PARTNO" "EMK105BJ105MV-F"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4cc4ddf4-a919-4366-b2ce-027ba9f30ec9")
 			(effects
 				(font
 					(size 1 1)
@@ -24596,7 +24845,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 0 -1.17 0)
 			(layer "B.Fab")
 			(uuid "89875a30-545d-4d0e-a09d-ce00d63e9e9d")
@@ -24911,20 +25160,6 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "aecba1f1-772d-4636-977c-6490a681e277")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "DK" "587-5514-1-ND"
 			(at 0 0 -90)
 			(unlocked yes)
@@ -24945,6 +25180,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "e346b443-f20d-4aa8-8ed8-08ed2b854670")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "PARTNO" "EMK105BJ105MV-F"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e7a9b38d-21b4-4317-bfda-0fbce8577c1d")
 			(effects
 				(font
 					(size 1 1)
@@ -26794,7 +27043,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "4.7K"
+		(property "Value" "4.7k"
 			(at 0 -1.17 0)
 			(layer "B.Fab")
 			(uuid "fa1cc5dc-e6bc-4a07-ad6f-443ef58ad278")
@@ -27055,7 +27304,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 0 -1.17 0)
 			(layer "B.Fab")
 			(uuid "1bd8338e-63c0-4370-a9fa-578e6ff32720")
@@ -27370,20 +27619,6 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "ea8e7951-96bc-4ffb-ad69-7b5c949cf5d3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "DK" "587-5514-1-ND"
 			(at 0 0 -90)
 			(unlocked yes)
@@ -27404,6 +27639,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "8acc512b-e147-4490-ae4c-3b5cda9a8f15")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "PARTNO" "EMK105BJ105MV-F"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b764e085-fc4a-4836-8f2b-57d35ac3d0f9")
 			(effects
 				(font
 					(size 1 1)
@@ -27878,7 +28127,7 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "TMK107B7105KA-T"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -27912,20 +28161,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "6e18f64f-4058-4463-98c3-4cd934c6bd2b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "44bc01f1-4845-46ef-8454-279c0870c387")
 			(effects
 				(font
 					(size 1 1)
@@ -28374,7 +28609,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "100"
 			(at 0 -1.17 90)
 			(layer "B.Fab")
 			(uuid "eb411f1f-c39b-4614-8de5-3ece9ab8be59")
@@ -28434,6 +28669,34 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "ee2eefb3-f0a1-4131-bbad-508b121138c9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "DK" "311-100LRCT-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "810f7603-34b4-4ac2-8ed0-a26b3b63b89a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "PARTNO" "RC0402FR-07100RL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c1b75b70-58b2-4c76-a3c7-add621fcbf88")
 			(effects
 				(font
 					(size 1 1)
@@ -28607,7 +28870,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "100"
 			(at 0 -1.17 90)
 			(layer "B.Fab")
 			(uuid "fdc0ef73-1678-4a50-b889-652ef5290717")
@@ -28667,6 +28930,34 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "cbcc9e21-2163-4092-a61a-a32f45138eec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "DK" "311-100LRCT-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5784e3a8-2650-4892-a47a-ccd7c4972df5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "PARTNO" "RC0402FR-07100RL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ac455abd-5da0-48fc-b5a5-6ca96495b2ee")
 			(effects
 				(font
 					(size 1 1)
@@ -28894,20 +29185,6 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "0cc7a268-b827-4b32-9674-609271ae9214")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "DK" "587-5514-1-ND"
 			(at 0 0 90)
 			(unlocked yes)
@@ -28928,6 +29205,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "8c8fe6cb-065d-452f-a7b3-1b1c279207a5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "PARTNO" "EMK105BJ105MV-F"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "fc998954-c0b2-4db1-81ee-d810072491ce")
 			(effects
 				(font
 					(size 1 1)
@@ -29567,7 +29858,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 0 -1.17 0)
 			(layer "B.Fab")
 			(uuid "8f0e7a5d-46f6-48e9-b28d-3f634eac8130")
@@ -29828,7 +30119,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "1R"
+		(property "Value" "1"
 			(at 0 -1.65 90)
 			(layer "B.Fab")
 			(uuid "e2a58375-9b35-48f9-85ca-ecef6c619a42")
@@ -30292,7 +30583,7 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "TMK107B7105KA-T"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -30326,20 +30617,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "c51230ef-8d0b-4395-b1d0-be55e1c85301")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "ccbddbb5-9c42-4522-911b-0017114d686b")
 			(effects
 				(font
 					(size 1 1)
@@ -30581,7 +30858,7 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "TMK107B7105KA-T"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -30595,7 +30872,7 @@
 				(justify mirror)
 			)
 		)
-		(property "DK" "587-1291-1-ND"
+		(property "DK" "587-2984-1-ND"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -30615,20 +30892,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "dffea823-bc68-4d98-8b3f-fd127dc873e7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "ee26ecdf-286a-42f6-9fd1-e60bc3d9be4a")
 			(effects
 				(font
 					(size 1 1)
@@ -30870,7 +31133,7 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "TMK107B7105KA-T"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -30884,7 +31147,7 @@
 				(justify mirror)
 			)
 		)
-		(property "DK" "587-1291-1-ND"
+		(property "DK" "587-2984-1-ND"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -30904,20 +31167,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "e30f11dd-87ba-4809-8009-955f9aa82fec")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "a2d521fe-b9c1-464a-8b24-2ab4c757aad4")
 			(effects
 				(font
 					(size 1 1)
@@ -31091,7 +31340,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "49.9R"
+		(property "Value" "49.9"
 			(at 0 -1.17 90)
 			(layer "B.Fab")
 			(uuid "b38a1270-29cb-4f6f-b3a7-fbbf91916317")
@@ -31417,12 +31666,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Partnum" "SN74AVC4T774PWR"
-			(at 0 0 90)
+		(property "partnum" ""
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "a9e63a42-897b-4a0b-9968-207f213fb4ea")
+			(uuid "eee063d2-9db5-4ad5-ac4e-b65b6be653f3")
 			(effects
 				(font
 					(size 1 1)
@@ -31431,12 +31680,12 @@
 				(justify mirror)
 			)
 		)
-		(property "partnum" ""
+		(property "PARTNO" "SN74AVC4T774PWR"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "eee063d2-9db5-4ad5-ac4e-b65b6be653f3")
+			(uuid "a2b51166-3b41-4cfa-a0fe-32c94bbf0210")
 			(effects
 				(font
 					(size 1 1)
@@ -31847,20 +32096,6 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "82db72e1-5e26-4a02-ae06-a1324848fa07")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "DK" "587-5514-1-ND"
 			(at 0 0 -90)
 			(unlocked yes)
@@ -31881,6 +32116,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "0e66745d-ab9e-419c-9390-859386f4dd58")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "PARTNO" "EMK105BJ105MV-F"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9b43ba6b-6951-44c6-8e35-5799d12d0638")
 			(effects
 				(font
 					(size 1 1)
@@ -32122,7 +32371,7 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "TMK107B7105KA-T"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -32156,20 +32405,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "3b8ff70c-6e38-4f4d-b543-dd10090dcc74")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "0b33a87d-f1fb-4508-88c2-59bc82823ff2")
 			(effects
 				(font
 					(size 1 1)
@@ -32532,20 +32767,6 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "5c22b320-93f9-406c-9b1f-2f427c9b3f82")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "DK" "587-5514-1-ND"
 			(at 0 0 90)
 			(unlocked yes)
@@ -32566,6 +32787,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "4c37c35a-52ce-4576-abb4-0aac92eb0a0a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "PARTNO" "EMK105BJ105MV-F"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "88574bec-569b-4683-8ead-060bd17c8aa5")
 			(effects
 				(font
 					(size 1 1)
@@ -32793,20 +33028,6 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "c6b985c4-3e42-4bd6-8ca2-27da369c64eb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "DK" "587-5514-1-ND"
 			(at 0 0 90)
 			(unlocked yes)
@@ -32827,6 +33048,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "9cdb98c7-7836-4b9f-8295-882b69456161")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "PARTNO" "EMK105BJ105MV-F"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "04f87d10-d271-430d-8cc9-1b969e5ccbd1")
 			(effects
 				(font
 					(size 1 1)
@@ -32982,6 +33217,117 @@
 			)
 		)
 	)
+	(footprint "bitaxe:NetTie-2_SMD_Pad0.2mmx1mm"
+		(layer "B.Cu")
+		(uuid "895d51f3-2790-4f7c-8d72-b914a2147e52")
+		(at 121.25 84.35 90)
+		(descr "Net tie, 2 pin, 0.5mm square SMD pads")
+		(tags "net tie")
+		(property "Reference" "NT2"
+			(at 0 1.2 90)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "65958d1f-94c4-44fd-a382-d41c7c9413ce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 0 -1.2 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4b961e40-cae8-4580-8d23-61ad4011d5e0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "bitaxe:NetTie-2_SMD_Pad0.2mmx1mm"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "fa0c33f8-612d-4d20-9b66-db9e552e97b2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a2452599-03c5-401f-bfdf-2d35e13b8070")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "dbfa00ff-0a14-4710-aca5-09fc7b84f574")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "Net*Tie*")
+		(path "/24036843-8461-4d4b-b738-f953c909ed6c/81b4efa8-d684-4ef0-8aa6-171e7322e73c")
+		(sheetname "Power")
+		(sheetfile "Power.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(net_tie_pad_groups "1, 2")
+		(fp_poly
+			(pts
+				(xy -0.5 0.1) (xy 0.5 0.1) (xy 0.5 -0.1) (xy -0.5 -0.1)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill solid)
+			(layer "B.Cu")
+			(uuid "e85c60c2-981b-4d9f-95f9-419c9e49d454")
+		)
+		(pad "1" smd circle
+			(at -0.5 0 90)
+			(size 0.2 0.2)
+			(layers "B.Cu")
+			(net 127 "GND")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "20d90f4d-6147-4ee2-be86-5f9cefbf848f")
+		)
+		(pad "2" smd circle
+			(at 0.5 0 90)
+			(size 0.2 0.2)
+			(layers "B.Cu")
+			(net 143 "/Power/AGND2")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "9dc2ff79-decb-46b6-9d83-9d4031708820")
+		)
+	)
 	(footprint "Package_TO_SOT_SMD:SOT-23-5"
 		(layer "B.Cu")
 		(uuid "89f03f0a-66fa-41ac-8d6c-e122ce7e05c9")
@@ -33057,6 +33403,34 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "957e1d06-2176-4115-a079-0fd5f91c47cf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "DK" "MCP1824T-0802E/OTCT-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5832f735-27d8-4aea-8811-c8fa9a825f41")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "PARTNO" "MCP1824T-0802E/OT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "31e61a66-1443-4d84-af4c-bae5484a197d")
 			(effects
 				(font
 					(size 1 1)
@@ -33767,7 +34141,7 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "TMK107B7105KA-T"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -33801,20 +34175,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "f4591740-cbcd-4e46-aa51-07653a1a7e2e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "8cd392e4-4308-48f7-9df2-baf4ace0249b")
 			(effects
 				(font
 					(size 1 1)
@@ -33988,7 +34348,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 0 -1.17 90)
 			(layer "B.Fab")
 			(uuid "d3d46dfe-eb6a-428c-ac36-5d2f373663ee")
@@ -34231,17 +34591,17 @@
 			)
 		)
 	)
-	(footprint "bitaxe:Fiducial_1mm_Mask2mm"
+	(footprint "Fiducial:Fiducial_1mm_Mask2mm"
 		(layer "B.Cu")
 		(uuid "8fd30cd2-ce45-4a2a-9c05-273ad763ae3a")
 		(at 107.6528 39.782 180)
 		(descr "Circular Fiducial, 1mm bare copper, 2mm soldermask opening (Level A)")
 		(tags "fiducial")
 		(property "Reference" "FID4"
-			(at -2.8558 -0.108 0)
+			(at 0 2 0)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "13559fca-6bc3-46fe-941a-1f6718e83802")
+			(uuid "2033f55b-bea1-448b-903c-23d410b085f2")
 			(effects
 				(font
 					(size 1 1)
@@ -34253,7 +34613,7 @@
 		(property "Value" "Fiducial_back"
 			(at 0 -2 0)
 			(layer "B.Fab")
-			(uuid "2b85d3b0-d629-486c-aae7-895ca95b1426")
+			(uuid "aeadaaef-7c2b-470c-a239-9eb447f60e4f")
 			(effects
 				(font
 					(size 1 1)
@@ -34262,12 +34622,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "bitaxe:Fiducial_1mm_Mask2mm"
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "1fac0f31-8a5c-4ee6-bdea-d06e564002e2")
+			(uuid "e83113da-f181-48e1-afbd-3a2967ce2168")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34281,7 +34641,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "6ef30ad6-aa0f-4ac2-9830-66c67a5a0026")
+			(uuid "f47be38c-3410-4abe-90c8-6defc9285f6a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34295,7 +34655,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "ab880654-c2fb-4a80-8a58-5d102666c215")
+			(uuid "c1849239-dd70-48ae-8a6d-5d9dee02b4ba")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34305,11 +34665,11 @@
 			)
 		)
 		(property "partnum" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "f80bf4b5-a990-4424-a706-a80edca2b26b")
+			(uuid "afc9d51b-4d48-4786-8590-c507d3719ef5")
 			(effects
 				(font
 					(size 1 1)
@@ -34332,7 +34692,7 @@
 			)
 			(fill none)
 			(layer "B.CrtYd")
-			(uuid "797a20b3-ad94-48a7-88e6-f4aa96cb2c0f")
+			(uuid "96a23c1d-ec9f-4650-90f4-11d82d3cfb91")
 		)
 		(fp_circle
 			(center 0 0)
@@ -34343,12 +34703,12 @@
 			)
 			(fill none)
 			(layer "B.Fab")
-			(uuid "78e30b22-f0cf-4d88-9b11-3948d52e8de8")
+			(uuid "3437d242-86fa-4241-96c8-5559700e34ab")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "B.Fab")
-			(uuid "a01bc376-f9fc-447d-a308-1e7b3e0f545e")
+			(uuid "a234eb06-23e5-446f-9f3e-c3ae9ed01247")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -34358,12 +34718,12 @@
 			)
 		)
 		(pad "" smd circle
-			(at 0.0022 0.005 180)
+			(at 0 0 180)
 			(size 1 1)
 			(layers "B.Cu" "B.Mask")
 			(solder_mask_margin 0.5)
 			(clearance 0.5)
-			(uuid "070c3ceb-e163-48b6-8078-16cd1a42b54a")
+			(uuid "6b605b4b-6e11-44a9-b0b9-395b39239d73")
 		)
 	)
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
@@ -34587,12 +34947,12 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNUM" "NCS21671SQ050T2G"
+		(property "partnum" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "7adac102-d391-45d1-91c3-306255b2f2fa")
+			(uuid "dfe941d8-b3cc-45da-b99e-c82d18091aeb")
 			(effects
 				(font
 					(size 1 1)
@@ -34601,12 +34961,12 @@
 				(justify mirror)
 			)
 		)
-		(property "partnum" ""
-			(at 0 0 180)
+		(property "PARTNO" "NCS21671SQ050T2G"
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "dfe941d8-b3cc-45da-b99e-c82d18091aeb")
+			(uuid "d654db5e-9055-47c1-ac7a-48c4da7b5226")
 			(effects
 				(font
 					(size 1 1)
@@ -34897,20 +35257,6 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "73c059df-d743-44f7-8890-1976fbccd6ec")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "DK" "587-5514-1-ND"
 			(at 0 0 90)
 			(unlocked yes)
@@ -34931,6 +35277,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "a99b5557-1a1a-4f7c-9e95-134ff38aa006")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "PARTNO" "EMK105BJ105MV-F"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1471f47f-8dd9-44cd-af5f-dbae23442822")
 			(effects
 				(font
 					(size 1 1)
@@ -35158,20 +35518,6 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "585370fa-4348-4f34-84d9-1b3c8fb97463")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "DK" "587-5514-1-ND"
 			(at 0 0 -90)
 			(unlocked yes)
@@ -35192,6 +35538,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "c0f26f4d-a0d2-4c48-b8b1-e4e5bea564e6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "PARTNO" "EMK105BJ105MV-F"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "44c12760-8065-41fa-90c2-222a2c53901f")
 			(effects
 				(font
 					(size 1 1)
@@ -36409,7 +36769,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "1R"
+		(property "Value" "1"
 			(at 0 -1.65 90)
 			(layer "B.Fab")
 			(uuid "a35130dd-0f14-42fd-aab1-eb763344197d")
@@ -36787,16 +37147,16 @@
 			(uuid "470bfd37-8a91-48da-a267-dcadf964c65c")
 		)
 	)
-	(footprint "Resistor_SMD:R_0402_1005Metric"
+	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "9d312d91-d59e-459d-b552-38b72fce2828")
 		(at 111 142.15)
-		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
-		(tags "resistor")
+		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+		(tags "capacitor")
 		(property "Reference" "C48"
-			(at 2.45 0.25 0)
+			(at 0 1.16 180)
 			(layer "B.SilkS")
-			(uuid "8d1a461f-2221-4af6-ac04-00d6f17b2465")
+			(uuid "b8e2072d-4f6a-4326-aa03-1f6cd91ba452")
 			(effects
 				(font
 					(size 1 1)
@@ -36806,9 +37166,9 @@
 			)
 		)
 		(property "Value" "12pF"
-			(at 0 -1.17 0)
+			(at 0 -1.16 180)
 			(layer "B.Fab")
-			(uuid "b05063bd-79df-4735-8aa7-57150ae4e2c0")
+			(uuid "8ff0702e-da55-49e7-890c-0f94d82bb44c")
 			(effects
 				(font
 					(size 1 1)
@@ -36817,12 +37177,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "57f30937-137b-4bc4-b96a-a6af36062074")
+			(uuid "6a84e8fc-5062-472e-8c1f-662ffb480e3c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36836,7 +37196,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "7a5d0696-e37d-4fc4-881a-e6fbedd5de34")
+			(uuid "1861dd66-4463-4866-9440-2f2a91d9b7e0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36850,7 +37210,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "2a9b2cf7-81f2-4a83-84eb-6b7f72cefab3")
+			(uuid "c7b37bc2-b62f-4c0c-9870-42f1fb919957")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36864,7 +37224,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "16310df1-e489-4d47-bc1b-df227cb66681")
+			(uuid "9d9c59d5-1e89-49b3-9b5c-dd934206fef7")
 			(effects
 				(font
 					(size 1 1)
@@ -36879,136 +37239,136 @@
 		(sheetfile "ESP32.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start 0.153641 -0.38)
-			(end -0.153641 -0.38)
+			(start 0.107836 -0.36)
+			(end -0.107836 -0.36)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "09ca315b-8429-4283-8a1f-d8d9ddc322a1")
+			(uuid "f06d33d2-7ebd-4499-a838-81ef4e233f42")
 		)
 		(fp_line
-			(start 0.153641 0.38)
-			(end -0.153641 0.38)
+			(start 0.107836 0.36)
+			(end -0.107836 0.36)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "d0809087-5a88-4d5f-a9ed-d36defcf67c3")
+			(uuid "e0eac0ca-b683-403c-a550-485dbc2c4595")
 		)
 		(fp_line
-			(start -0.93 -0.47)
-			(end 0.93 -0.47)
+			(start -0.91 -0.46)
+			(end 0.91 -0.46)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "9eb4ab92-eec9-45f6-a8ea-12c0828db2fe")
+			(uuid "252b98a1-1880-4135-a422-24ba13b7a8ec")
 		)
 		(fp_line
-			(start -0.93 0.47)
-			(end -0.93 -0.47)
+			(start -0.91 0.46)
+			(end -0.91 -0.46)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "85212389-d2ac-41f3-b6ad-bb262ba910df")
+			(uuid "fd1ab2cf-2b3d-45ca-8782-4896cff27f4e")
 		)
 		(fp_line
-			(start 0.93 -0.47)
-			(end 0.93 0.47)
+			(start 0.91 -0.46)
+			(end 0.91 0.46)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "a5652b17-c96b-4c18-88ec-ca976c0e93e9")
+			(uuid "5b7f824a-db5d-40a7-b474-845d4b8a7bb7")
 		)
 		(fp_line
-			(start 0.93 0.47)
-			(end -0.93 0.47)
+			(start 0.91 0.46)
+			(end -0.91 0.46)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "4cee323f-1943-4b46-8b4d-54ba324aa5d9")
+			(uuid "b0590e32-4bb0-488d-855e-6ecdf70b0fa0")
 		)
 		(fp_line
-			(start -0.525 -0.27)
-			(end 0.525 -0.27)
+			(start -0.5 -0.25)
+			(end 0.5 -0.25)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "af8ed0da-0604-4f34-817f-9a88a5151eb0")
+			(uuid "137afdb2-91f1-458e-9d22-05ad15c8c879")
 		)
 		(fp_line
-			(start -0.525 0.27)
-			(end -0.525 -0.27)
+			(start -0.5 0.25)
+			(end -0.5 -0.25)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "c3bd1c11-170d-45af-b945-6802956da49e")
+			(uuid "934eb7d5-37f8-4dbb-bbb1-7c32457fbb70")
 		)
 		(fp_line
-			(start 0.525 -0.27)
-			(end 0.525 0.27)
+			(start 0.5 -0.25)
+			(end 0.5 0.25)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "b4324101-e3be-4516-9444-9c72fc4c2967")
+			(uuid "02de2307-0e5b-4c0e-9aac-c648f74e59f4")
 		)
 		(fp_line
-			(start 0.525 0.27)
-			(end -0.525 0.27)
+			(start 0.5 0.25)
+			(end -0.5 0.25)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "3fa3a28d-01dc-4a3d-94d5-2a927ce26b02")
+			(uuid "b6bf544c-b521-4cc3-9d90-7f489583bb6d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
-			(uuid "aeb5ed54-8fc0-4a04-a0a6-293f690f9cf0")
+			(uuid "2c4ca492-44dd-4665-9303-d5249d26bb48")
 			(effects
 				(font
-					(size 0.26 0.26)
+					(size 0.25 0.25)
 					(thickness 0.04)
 				)
 				(justify mirror)
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.51 0)
-			(size 0.54 0.64)
+			(at -0.48 0)
+			(size 0.56 0.62)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.25)
 			(net 137 "/ESP32/EN")
 			(pintype "passive")
-			(uuid "626079b9-2fb9-4c9f-93f2-b01a672eebf8")
+			(uuid "12729894-555d-43c0-b102-0fda9c40300d")
 		)
 		(pad "2" smd roundrect
-			(at 0.51 0)
-			(size 0.54 0.64)
+			(at 0.48 0)
+			(size 0.56 0.62)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.25)
 			(net 127 "GND")
 			(pintype "passive")
-			(uuid "d90e6e88-05c2-45bb-9c1f-87b3855fec3d")
+			(uuid "61634e65-f976-440d-97f9-b443521406fd")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.wrl"
+		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -37038,7 +37398,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "5.6K"
+		(property "Value" "5.6k"
 			(at 0 -1.17 0)
 			(layer "B.Fab")
 			(uuid "5f22ee9a-3172-4799-b03b-7b23f0dd8e6d")
@@ -37098,6 +37458,34 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "ad5b41c2-aedc-4164-8528-e9cda179c9ff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "DK" "311-5.6KLRCT-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "58224eba-9964-450d-a81b-f047118e03b6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "PARTNO" "RC0402FR-075K6L"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "02c9d7c2-bf72-4295-aa27-55fed81d445a")
 			(effects
 				(font
 					(size 1 1)
@@ -37339,20 +37727,6 @@
 				(justify mirror)
 			)
 		)
-		(property "PARNO" "T495D336K025ATE300"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "e4f2612e-e5ee-44db-8a83-3d7976a47fc6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "DK" "399-3882-1-ND"
 			(at 0 0 180)
 			(unlocked yes)
@@ -37373,6 +37747,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "81c8ba24-0ad2-4729-a2c5-ffc382f9ce52")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "PARTNO" "T495D336K025ATE300"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c90f206a-480a-4536-97b1-cdab90ae8509")
 			(effects
 				(font
 					(size 1 1)
@@ -37620,20 +38008,6 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "ab50eec4-1cc5-4553-94c1-79bfb7a639e5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "DK" "587-5514-1-ND"
 			(at 0 0 90)
 			(unlocked yes)
@@ -37654,6 +38028,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "e9c1877b-bd5a-4cca-b3c1-550be7a0f92e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "PARTNO" "EMK105BJ105MV-F"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "01cec55d-90b4-457b-8b87-087b9228bc46")
 			(effects
 				(font
 					(size 1 1)
@@ -38596,7 +38984,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "8.25K"
+		(property "Value" "8.25k"
 			(at 0 -1.17 0)
 			(layer "B.Fab")
 			(uuid "68fe26a8-5ca5-4f8d-93e1-0b3b7df2e135")
@@ -40354,20 +40742,6 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "7d1a08bd-7148-4f37-bb03-e1da3a2a5cd6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "DK" "587-5514-1-ND"
 			(at 0 0 0)
 			(unlocked yes)
@@ -40388,6 +40762,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "40c1c11d-4101-4c46-b986-5fb04fe2b47f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "PARTNO" "EMK105BJ105MV-F"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b0ced346-9804-49e0-adef-fb8a1b7db60f")
 			(effects
 				(font
 					(size 1 1)
@@ -42808,17 +43196,17 @@
 			)
 		)
 	)
-	(footprint "bitaxe:Fiducial_1mm_Mask2mm"
+	(footprint "Fiducial:Fiducial_1mm_Mask2mm"
 		(layer "B.Cu")
 		(uuid "c26516a4-30e1-40ef-aa8a-bee3515a5c81")
 		(at 154.7 148.5 180)
 		(descr "Circular Fiducial, 1mm bare copper, 2mm soldermask opening (Level A)")
 		(tags "fiducial")
 		(property "Reference" "FID6"
-			(at -2.8558 -0.108 0)
+			(at 0 2 0)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "8bc6a47b-e83b-4b46-b346-127642a2e67c")
+			(uuid "324dcbe2-febb-4feb-ae8b-cde8197d81d2")
 			(effects
 				(font
 					(size 1 1)
@@ -42830,7 +43218,7 @@
 		(property "Value" "Fiducial_back"
 			(at 0 -2 0)
 			(layer "B.Fab")
-			(uuid "0a006135-ddab-4bcb-8832-3e6e3250048d")
+			(uuid "c6b726e2-4867-4a22-a7b2-a15d0450c01d")
 			(effects
 				(font
 					(size 1 1)
@@ -42839,12 +43227,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "bitaxe:Fiducial_1mm_Mask2mm"
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "98467c08-c4b5-4214-b4a7-8b02ca142f99")
+			(uuid "a675b3d1-ac4c-426f-88bf-eaeadacf3ffb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42858,7 +43246,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "8578efb3-1e89-4d2f-aef2-4d4a4bfe0423")
+			(uuid "c473fb69-be5c-44ba-9998-8e961a161581")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42872,7 +43260,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "01346cfe-8aec-4bf7-85b4-c2bd3e9da884")
+			(uuid "fa6d625b-af84-4094-8547-a170352f5984")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42882,11 +43270,11 @@
 			)
 		)
 		(property "partnum" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "34491a70-8f58-4c53-afd0-ccdf560d74b7")
+			(uuid "8b5e7ecb-9dd8-4f81-831b-4586a6eeae83")
 			(effects
 				(font
 					(size 1 1)
@@ -42909,7 +43297,7 @@
 			)
 			(fill none)
 			(layer "B.CrtYd")
-			(uuid "7e33fde5-5a74-4cd3-ab85-77cb14711d6a")
+			(uuid "07ba33d7-39fb-46f6-a5a2-83c2c4729572")
 		)
 		(fp_circle
 			(center 0 0)
@@ -42920,12 +43308,12 @@
 			)
 			(fill none)
 			(layer "B.Fab")
-			(uuid "1f9a869d-54a3-41af-b968-0ea68d7d1d5a")
+			(uuid "1bfff375-2da1-4334-9f51-93652744ecae")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "B.Fab")
-			(uuid "db49f4fa-f062-4177-adfb-b7003ad1c487")
+			(uuid "4d5720fa-ee09-48c9-abb9-521573db799e")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -42935,12 +43323,12 @@
 			)
 		)
 		(pad "" smd circle
-			(at 0.0022 0.005 180)
+			(at 0 0 180)
 			(size 1 1)
 			(layers "B.Cu" "B.Mask")
 			(solder_mask_margin 0.5)
 			(clearance 0.5)
-			(uuid "6d714471-ef55-410f-a671-4e39d14fc0ba")
+			(uuid "8739a319-eff6-4641-9e5a-e295668f08a7")
 		)
 	)
 	(footprint "Package_DFN_QFN:QFN-16-1EP_4x4mm_P0.65mm_EP2.1x2.1mm"
@@ -43538,20 +43926,6 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "6dd4b9b9-e3a2-4819-9ed6-64d73752a78a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "DK" "587-5514-1-ND"
 			(at 0 0 -90)
 			(unlocked yes)
@@ -43572,6 +43946,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "e132e324-c7b5-4d1f-b29d-dc545676aeeb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "PARTNO" "EMK105BJ105MV-F"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d23f96bc-eba5-400e-ad03-06e2204fc153")
 			(effects
 				(font
 					(size 1 1)
@@ -43799,20 +44187,6 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "86574002-ec48-44fd-a6ca-d0d758e51099")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "DK" "587-5514-1-ND"
 			(at 0 0 -90)
 			(unlocked yes)
@@ -43833,6 +44207,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "4354a534-0a57-4882-bcfc-d73f0e661d52")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "PARTNO" "EMK105BJ105MV-F"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b61ef7c2-ba1b-4fc5-8ce3-16fd80e55ac0")
 			(effects
 				(font
 					(size 1 1)
@@ -44567,7 +44955,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 0 -1.17 90)
 			(layer "B.Fab")
 			(uuid "183aad5d-7ace-4930-8947-c4e014863145")
@@ -44896,6 +45284,34 @@
 				(justify mirror)
 			)
 		)
+		(property "PARTNO" "KGM05AR71C104KH"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d6bebd7a-8b2c-40f1-8b1d-3521befb25ec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "DK" "478-KGM05AR71C104KHCT-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d94658ca-6a5d-4fb1-a215-2cf62517e0d3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/0703810a-9d38-4b42-b83c-c94ab6e668a1/abb9729d-7f19-45e6-8f19-c590d0bf75a5")
 		(sheetname "ESP32")
@@ -45129,20 +45545,6 @@
 				(justify mirror)
 			)
 		)
-		(property "PARNO" "T495D336K025ATE300"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "abd34eaf-0efe-4d14-a782-afec6d014e23")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "DK" "399-3882-1-ND"
 			(at 0 0 90)
 			(unlocked yes)
@@ -45157,12 +45559,12 @@
 				(justify mirror)
 			)
 		)
-		(property "partnum" ""
+		(property "PARTNO" "T495D336K025ATE300"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "acae28a3-1235-4ec7-8bc5-597cab2fc3e9")
+			(uuid "207a95f1-434e-4f63-9b3f-3434c870024c")
 			(effects
 				(font
 					(size 1 1)
@@ -46221,20 +46623,6 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "fb5b1d25-5cb0-4b0d-ac74-eb5b395cf699")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "DK" "587-5514-1-ND"
 			(at 0 0 -90)
 			(unlocked yes)
@@ -46255,6 +46643,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "d586d560-706d-4e1d-9239-4ac45c9632ce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "PARTNO" "EMK105BJ105MV-F"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1f872922-b7c8-4e34-9b40-a862c56a4534")
 			(effects
 				(font
 					(size 1 1)
@@ -46496,7 +46898,7 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "TMK107B7105KA-T"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -46530,20 +46932,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "75e6fac3-5fe7-41e1-b4f0-922af3e5a01b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "d2a9df31-477e-4ee4-9971-77a75f6ff7f4")
 			(effects
 				(font
 					(size 1 1)
@@ -46852,7 +47240,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1k"
 			(at 0 -1.17 0)
 			(layer "B.Fab")
 			(uuid "1020b003-862e-4dbc-8be7-6723f0fc63d1")
@@ -47113,7 +47501,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "10R"
+		(property "Value" "10"
 			(at 0 -1.17 0)
 			(layer "B.Fab")
 			(uuid "d20452a6-d367-4f2b-b2ae-6147c8ebd1bf")
@@ -47374,7 +47762,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "0"
 			(at 0 -1.17 0)
 			(layer "B.Fab")
 			(uuid "711c394e-304c-40a3-b308-a98f549b6877")
@@ -47635,7 +48023,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "20K"
+		(property "Value" "20k"
 			(at 0 -1.17 0)
 			(layer "B.Fab")
 			(uuid "79bcbb3c-5837-4ed3-8fc4-d8bc3bf3f5cd")
@@ -48031,7 +48419,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "10R"
+		(property "Value" "10"
 			(at 0 -1.17 0)
 			(layer "B.Fab")
 			(uuid "9e1cfc7a-70c0-4861-bd95-d4b80fbdd287")
@@ -48958,7 +49346,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "0"
 			(at 0 -1.17 0)
 			(layer "B.Fab")
 			(uuid "aad14137-8eac-4be9-87ef-81f2513eb386")
@@ -49219,7 +49607,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 0 -1.17 0)
 			(layer "B.Fab")
 			(uuid "4a638912-867f-48fe-b203-3cfdb651cea2")
@@ -49809,20 +50197,6 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "41b7d897-e3fd-4094-a558-c81a56f6f066")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "DK" "587-5514-1-ND"
 			(at 0 0 0)
 			(unlocked yes)
@@ -49843,6 +50217,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "b43c9cb6-66e5-439b-9cd0-9cf2cc461a60")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "PARTNO" "EMK105BJ105MV-F"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "57997873-a0ad-4214-8af5-87f273f9c957")
 			(effects
 				(font
 					(size 1 1)
@@ -50070,20 +50458,6 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "87a0fc88-4676-44bb-a82a-8444289286f3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "DK" "587-5514-1-ND"
 			(at 0 0 90)
 			(unlocked yes)
@@ -50104,6 +50478,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "263ce121-d7aa-4e57-9398-6b3a5338d562")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "PARTNO" "EMK105BJ105MV-F"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0b584358-5911-4e3c-8720-025b41b222eb")
 			(effects
 				(font
 					(size 1 1)
@@ -50277,7 +50665,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "2K"
+		(property "Value" "2k"
 			(at 0 -1.17 0)
 			(layer "B.Fab")
 			(uuid "df3dcb39-8b3f-4c8d-96bb-f0ee26ea0ae3")
@@ -50606,7 +50994,7 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "TMK107B7105KA-T"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -50640,20 +51028,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "e5d423c9-3a1e-4fe8-ad79-7c2cb4eefc57")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "86076099-a9b2-40cb-b7fa-c6e6751a79b0")
 			(effects
 				(font
 					(size 1 1)
@@ -51291,20 +51665,6 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "f8205168-85d2-4cce-871b-302a9b86088a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "DK" "587-5514-1-ND"
 			(at 0 0 90)
 			(unlocked yes)
@@ -51325,6 +51685,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "11424c7f-6863-4d82-848d-8d1c55888d5d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "PARTNO" "EMK105BJ105MV-F"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2e29cc59-a175-4fd2-81b4-bd4f44bfb108")
 			(effects
 				(font
 					(size 1 1)
@@ -52349,20 +52723,6 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTNUM" "EMK105BJ105MV-F"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "f15336f6-33b4-4106-833e-daa777020568")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "DK" "587-5514-1-ND"
 			(at 0 0 -90)
 			(unlocked yes)
@@ -52383,6 +52743,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "306dd8be-eaa4-4ea7-8bc4-219cb271d29f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "PARTNO" "EMK105BJ105MV-F"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "66b40b79-6c41-444d-a625-8434988ae99e")
 			(effects
 				(font
 					(size 1 1)
@@ -53523,29 +53897,6 @@
 				(xyz 0 0 0)
 			)
 		)
-	)
-	(gr_rect
-		(start 145.575 84.125)
-		(end 145.625 84.625)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(fill none)
-		(layer "B.Cu")
-		(net 127)
-		(uuid "0859cbfb-5cec-41a8-9078-934431d7be91")
-	)
-	(gr_rect
-		(start 121.225 84.1)
-		(end 121.275 84.6)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(fill none)
-		(layer "B.Cu")
-		(uuid "720a2f39-0ece-4fbe-a48a-0058fb94efde")
 	)
 	(gr_arc
 		(start 160.5 38)
