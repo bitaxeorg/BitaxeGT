@@ -4196,6 +4196,24 @@
 				(hide yes)
 			)
 		)
+		(property "DK" "2073-USB4105-GF-ACT-ND"
+			(at 257.81 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "USB4105-GF-A"
+			(at 257.81 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "B7"
 			(uuid "24bd7065-f2ee-4b03-a6fa-5b59b61b2b2d")
 		)
@@ -4398,7 +4416,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "490-5523-1-ND"
+		(property "DK" "490-18214-1-ND"
 			(at 50.8 133.35 0)
 			(effects
 				(font
@@ -5168,6 +5186,33 @@
 			)
 		)
 		(property "partnum" ""
+			(at 66.04 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "311-1016-1-ND"
+			(at 66.04 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "CC0402JRNPO9BN120"
+			(at 66.04 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "voltage" "50V"
 			(at 66.04 58.42 0)
 			(effects
 				(font

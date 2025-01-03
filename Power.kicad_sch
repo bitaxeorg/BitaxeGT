@@ -9540,7 +9540,7 @@
 				(hide yes)
 			)
 		)
-		(property "voltage" "5V"
+		(property "voltage" "50V"
 			(at 307.594 84.836 90)
 			(effects
 				(font
@@ -9549,7 +9549,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "KGM05AR71C104KH"
+		(property "PARTNO" "CC0402JRNPO9BN101"
 			(at 303.53 90.17 0)
 			(effects
 				(font
@@ -9558,7 +9558,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "478-KGM05AR71C104KHCT-ND"
+		(property "DK" "311-1024-1-ND"
 			(at 303.53 90.17 0)
 			(effects
 				(font
@@ -9948,7 +9948,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 191.008 85.09 0)
 			(effects
 				(font
@@ -9984,7 +9984,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "KGM21NR71E104KT"
+		(property "PARTNO" "KGM05AR71C104KH"
 			(at 182.88 83.82 90)
 			(effects
 				(font
@@ -9993,7 +9993,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "478-KGM21NR71E104KTCT-ND"
+		(property "DK" "478-KGM05AR71C104KHCT-ND"
 			(at 182.88 83.82 90)
 			(effects
 				(font
@@ -10044,7 +10044,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1nF"
+		(property "Value" "1000pF"
 			(at 282.702 174.752 0)
 			(effects
 				(font
@@ -10470,7 +10470,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "490-5523-1-ND"
+		(property "DK" "490-18214-1-ND"
 			(at 200.66 161.29 0)
 			(effects
 				(font
@@ -10818,7 +10818,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 271.526 162.052 90)
 			(effects
 				(font
@@ -10854,7 +10854,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "KGM21NR71E104KT"
+		(property "PARTNO" "KGM05AR71C104KH"
 			(at 274.32 165.1 90)
 			(effects
 				(font
@@ -10863,7 +10863,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "478-KGM21NR71E104KTCT-ND"
+		(property "DK" "478-KGM05AR71C104KHCT-ND"
 			(at 274.32 165.1 90)
 			(effects
 				(font
@@ -11276,7 +11276,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10mOhm"
+		(property "Value" "10m"
 			(at 85.344 148.336 90)
 			(effects
 				(font
@@ -11612,7 +11612,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "490-5523-1-ND"
+		(property "DK" "490-18214-1-ND"
 			(at 208.28 161.29 0)
 			(effects
 				(font
@@ -11802,7 +11802,7 @@
 				(hide yes)
 			)
 		)
-		(property "voltage" "5V"
+		(property "voltage" "25V"
 			(at 310.134 117.094 90)
 			(effects
 				(font
@@ -13400,7 +13400,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "490-5523-1-ND"
+		(property "DK" "490-18214-1-ND"
 			(at 34.29 229.87 0)
 			(effects
 				(font
@@ -13548,7 +13548,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 271.526 47.752 90)
 			(effects
 				(font
@@ -13584,7 +13584,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "KGM21NR71E104KT"
+		(property "PARTNO" "KGM05AR71C104KH"
 			(at 274.32 50.8 90)
 			(effects
 				(font
@@ -13593,7 +13593,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "478-KGM21NR71E104KTCT-ND"
+		(property "DK" "478-KGM05AR71C104KHCT-ND"
 			(at 274.32 50.8 90)
 			(effects
 				(font
@@ -13855,7 +13855,7 @@
 				(hide yes)
 			)
 		)
-		(property "voltage" "5V"
+		(property "voltage" "25V"
 			(at 293.624 231.394 90)
 			(effects
 				(font
@@ -16408,7 +16408,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1nF"
+		(property "Value" "1000pF"
 			(at 282.702 60.452 0)
 			(effects
 				(font
@@ -16737,7 +16737,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "490-5523-1-ND"
+		(property "DK" "490-18214-1-ND"
 			(at 208.28 46.99 0)
 			(effects
 				(font
@@ -16841,7 +16841,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "490-5523-1-ND"
+		(property "DK" "490-18214-1-ND"
 			(at 200.66 46.99 0)
 			(effects
 				(font
@@ -17253,7 +17253,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "490-5523-1-ND"
+		(property "DK" "490-18214-1-ND"
 			(at 125.73 236.22 0)
 			(effects
 				(font
@@ -17349,7 +17349,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "490-5523-1-ND"
+		(property "DK" "490-18214-1-ND"
 			(at 116.84 236.22 0)
 			(effects
 				(font
