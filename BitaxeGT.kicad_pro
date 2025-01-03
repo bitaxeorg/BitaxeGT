@@ -506,7 +506,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Manufacturing Files/gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -517,7 +517,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "",
+    "bom_export_filename": "Manufacturing Files/BitaxeGT BOM.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -566,7 +566,7 @@
           "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
