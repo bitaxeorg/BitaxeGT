@@ -13662,7 +13662,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-csr_csrn.pdf"
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/esr-e.pdf"
 			(at 276.86 66.04 0)
 			(effects
 				(font
@@ -13680,7 +13680,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "CSR1206FT1R00"
+		(property "PARTNO" "ESR10EZPJ1R0"
 			(at 276.86 66.04 0)
 			(effects
 				(font
@@ -13689,7 +13689,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "CSR1206FT1R00CT-ND"
+		(property "DK" "RHM1KTR-ND"
 			(at 276.86 66.04 0)
 			(effects
 				(font
@@ -17418,7 +17418,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-csr_csrn.pdf"
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/esr-e.pdf"
 			(at 276.86 180.34 0)
 			(effects
 				(font
@@ -17436,7 +17436,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "CSR1206FT1R00"
+		(property "PARTNO" "ESR10EZPJ1R0"
 			(at 276.86 180.34 0)
 			(effects
 				(font
@@ -17445,7 +17445,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "CSR1206FT1R00CT-ND"
+		(property "DK" "RHM1KTR-ND"
 			(at 276.86 180.34 0)
 			(effects
 				(font
