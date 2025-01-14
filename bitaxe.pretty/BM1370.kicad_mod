@@ -37,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -49,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 			(justify mirror)
 		)
@@ -62,6 +64,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 			(justify mirror)
 		)
@@ -619,7 +622,7 @@
 		(thermal_bridge_angle 45)
 		(uuid "3937522a-7f3f-45cf-81bb-ed0a1877dbbb")
 	)
-	(model "${KIPRJMOD}/3d/BM1368xx.stp"
+	(model "${KIPRJMOD}/3d/bm1370.step"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -627,7 +630,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 180)
+			(xyz 0 0 0)
 		)
 	)
 )
