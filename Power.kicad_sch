@@ -8519,7 +8519,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "75k"
 			(at 179.07 70.866 0)
 			(effects
 				(font
@@ -8555,7 +8555,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "RC0402JR-0710KL"
+		(property "PARTNO" "RC0402FR-0775KL"
 			(at 173.99 69.85 0)
 			(effects
 				(font
@@ -8564,16 +8564,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "311-10KJRCT-ND"
-			(at 173.99 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "partnum" ""
+		(property "DK" "311-75KLRCT-ND"
 			(at 173.99 69.85 0)
 			(effects
 				(font
@@ -16409,7 +16400,7 @@
 			)
 		)
 		(property "Value" "1000pF"
-			(at 282.702 60.452 0)
+			(at 286.258 60.452 0)
 			(effects
 				(font
 					(size 1.27 1.27)
