@@ -3,7 +3,11 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "0ac5dbfe-214a-4efe-98f6-b7ee8a2ea6e9")
-	(paper "A4")
+	(paper "A3")
+	(title_block
+		(title "Bitaxe Gamma Turbo")
+		(rev "800")
+	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers hide)
