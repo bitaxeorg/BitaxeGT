@@ -2600,12 +2600,6 @@
 		)
 	)
 	(junction
-		(at 59.69 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0044b6e0-d8be-479d-a74b-a2319053ee7e")
-	)
-	(junction
 		(at 66.04 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2616,12 +2610,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1a806c4d-d0f6-4c6e-9924-d25f667cb930")
-	)
-	(junction
-		(at 50.8 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "23ec64a4-4ec3-4db8-834b-5fb43725ec4e")
 	)
 	(junction
 		(at 66.04 54.61)
@@ -2740,16 +2728,6 @@
 			(type default)
 		)
 		(uuid "0a19e561-e466-4d3f-9a60-fe7a729e9ff5")
-	)
-	(wire
-		(pts
-			(xy 59.69 135.89) (xy 59.69 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e3bd00a-e009-4d08-9efa-6f596ba3e908")
 	)
 	(wire
 		(pts
@@ -3003,16 +2981,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 127) (xy 59.69 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7573b925-5eac-4ace-86c1-adffceb55c89")
-	)
-	(wire
-		(pts
 			(xy 52.07 52.07) (xy 49.53 52.07)
 		)
 		(stroke
@@ -3053,7 +3021,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 127) (xy 85.09 127)
+			(xy 50.8 127) (xy 85.09 127)
 		)
 		(stroke
 			(width 0)
@@ -3070,16 +3038,6 @@
 			(type default)
 		)
 		(uuid "88ecb2d8-0f6f-4895-b0cd-0bcdc451a130")
-	)
-	(wire
-		(pts
-			(xy 50.8 127) (xy 59.69 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f2e5430-74cb-4b7f-bb7f-8e2986c53800")
 	)
 	(wire
 		(pts
@@ -3160,16 +3118,6 @@
 			(type default)
 		)
 		(uuid "b629fd0f-a8fe-45e9-a32a-637f1277bfc9")
-	)
-	(wire
-		(pts
-			(xy 50.8 140.97) (xy 59.69 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b64e01d0-ba7c-43ed-ba11-caa6794b8e55")
 	)
 	(wire
 		(pts
@@ -5034,102 +4982,6 @@
 			(project "BitaxeGT"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/0703810a-9d38-4b42-b83c-c94ab6e668a1"
 					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 59.69 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "abb9729d-7f19-45e6-8f19-c590d0bf75a5")
-		(property "Reference" "C50"
-			(at 65.786 132.588 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 67.056 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 59.69 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/KGM_X7R.pdf"
-			(at 59.69 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 59.69 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "partnum" ""
-			(at 59.69 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "KGM05AR71C104KH"
-			(at 59.69 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK" "478-KGM05AR71C104KHCT-ND"
-			(at 59.69 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ba03b327-5a90-40b0-9037-44c86d663b62")
-		)
-		(pin "2"
-			(uuid "b78705b3-93ec-43a3-bc89-333b6f354ec1")
-		)
-		(instances
-			(project "BitaxeGT"
-				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/0703810a-9d38-4b42-b83c-c94ab6e668a1"
-					(reference "C50")
 					(unit 1)
 				)
 			)
