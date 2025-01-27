@@ -12843,7 +12843,7 @@
 				)
 			)
 		)
-		(property "Value" "270nH"
+		(property "Value" "300nH"
 			(at 297.18 52.07 90)
 			(effects
 				(font
@@ -12851,7 +12851,7 @@
 				)
 			)
 		)
-		(property "Footprint" "bitaxe:L_Coilcraft_SLC1175"
+		(property "Footprint" "Inductor_SMD:L_Sunlord_MWSA1003S"
 			(at 297.18 54.61 0)
 			(effects
 				(font
@@ -12860,7 +12860,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.coilcraft.com/getmedia/59efd6f6-bdf3-4b2c-9ea4-f86f22cfee4e/slc1175.pdf"
+		(property "Datasheet" "https://products.sumida.com/products/pdf/104CDMCCDS.pdf"
 			(at 297.18 54.61 0)
 			(effects
 				(font
@@ -12878,7 +12878,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "SLC1175-271MEB"
+		(property "PARTNO" "104CDMCCDS-R30MC"
 			(at 297.18 54.61 90)
 			(effects
 				(font
@@ -14556,92 +14556,6 @@
 			(project "BitaxeGT"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/24036843-8461-4d4b-b738-f953c909ed6c"
 					(reference "C26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
-		(at 298.45 168.91 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aa5391c0-8eca-4905-a114-8def42501844")
-		(property "Reference" "L2"
-			(at 298.45 163.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "270nH"
-			(at 298.45 166.37 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "bitaxe:L_Coilcraft_SLC1175"
-			(at 298.45 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.coilcraft.com/getmedia/59efd6f6-bdf3-4b2c-9ea4-f86f22cfee4e/slc1175.pdf"
-			(at 298.45 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 298.45 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "SLC1175-271MEB"
-			(at 298.45 168.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "partnum" ""
-			(at 298.45 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d319ca91-82bd-4709-8a3c-0c754756c4c0")
-		)
-		(pin "2"
-			(uuid "5537f3e7-1398-4702-b9d8-523fecbb5aaf")
-		)
-		(instances
-			(project "BitaxeGT"
-				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/24036843-8461-4d4b-b738-f953c909ed6c"
-					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -16608,6 +16522,92 @@
 			(project "BitaxeGT"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/24036843-8461-4d4b-b738-f953c909ed6c"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 298.45 168.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e323a267-7ac0-4955-904a-db7af3aaf77a")
+		(property "Reference" "L2"
+			(at 298.45 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "300nH"
+			(at 298.45 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_Sunlord_MWSA1003S"
+			(at 298.45 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://products.sumida.com/products/pdf/104CDMCCDS.pdf"
+			(at 298.45 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 298.45 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "104CDMCCDS-R30MC"
+			(at 298.45 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "partnum" ""
+			(at 298.45 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a262c3a-f847-4742-b19f-a68aeb40477e")
+		)
+		(pin "2"
+			(uuid "4b881fad-34a2-4ccf-bd90-b9573a67e00d")
+		)
+		(instances
+			(project "BitaxeGT"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/24036843-8461-4d4b-b738-f953c909ed6c"
+					(reference "L2")
 					(unit 1)
 				)
 			)
