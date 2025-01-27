@@ -7280,7 +7280,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C37"
-			(at -2.35 0.15 0)
+			(at -1.1 1.4 0)
 			(layer "B.SilkS")
 			(uuid "62003dbf-98e1-46a9-8da7-073837bdbf35")
 			(effects
@@ -34126,7 +34126,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "9549a17c-68e9-4428-a266-bce802c34b69")
-		(at 140.725 47.9 90)
+		(at 140.925 47.9 90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C39"
@@ -35584,7 +35584,7 @@
 		(descr "Tantalum Capacitor SMD Kemet-D (7343-31 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor tantalum")
 		(property "Reference" "C1"
-			(at -5.5375 -1.6 90)
+			(at 4.85 0 90)
 			(layer "B.SilkS")
 			(uuid "a9a64b6c-0393-4fb2-a44e-eb2afcddc0d7")
 			(effects
@@ -43402,7 +43402,7 @@
 		(descr "Tantalum Capacitor SMD Kemet-D (7343-31 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor tantalum")
 		(property "Reference" "C22"
-			(at -5.2 -0.05 0)
+			(at 4.65 -0.075 0)
 			(layer "B.SilkS")
 			(uuid "952e7da6-eb30-498e-a4a2-69aa57e57992")
 			(effects
@@ -46875,7 +46875,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C16"
-			(at 1.75 0.2 180)
+			(at -1.075 -0.375 180)
 			(layer "B.SilkS")
 			(uuid "f806d1b5-4a97-4f4b-a631-2a7cf764cf5d")
 			(effects
@@ -53853,44 +53853,20 @@
 		(uuid "fe00ec38-9730-4156-8f6a-c27e07b896f1")
 	)
 	(segment
+		(start 135.5 86.675)
+		(end 141.825 86.675)
+		(width 0.2)
+		(layer "In3.Cu")
+		(net 3)
+		(uuid "125c5502-e5f2-4fef-b650-e684e04f2295")
+	)
+	(segment
 		(start 133.325 92.775)
-		(end 133.325 90.375)
+		(end 133.325 88.85)
 		(width 0.2)
 		(layer "In3.Cu")
 		(net 3)
-		(uuid "0ee2881c-23d5-4307-add6-7ae0d17b7063")
-	)
-	(segment
-		(start 136.5 87.2)
-		(end 141.3 87.2)
-		(width 0.2)
-		(layer "In3.Cu")
-		(net 3)
-		(uuid "312ca460-8f14-4a4d-981f-4a5539d59263")
-	)
-	(segment
-		(start 142.1 86.4)
-		(end 142.1 83.6)
-		(width 0.2)
-		(layer "In3.Cu")
-		(net 3)
-		(uuid "4c9fe89e-9e40-41d4-9148-2d2e5b9289dd")
-	)
-	(segment
-		(start 141.3 87.2)
-		(end 142.1 86.4)
-		(width 0.2)
-		(layer "In3.Cu")
-		(net 3)
-		(uuid "861ae388-fa35-4c24-a31e-d637608d476c")
-	)
-	(segment
-		(start 133.325 90.375)
-		(end 136.5 87.2)
-		(width 0.2)
-		(layer "In3.Cu")
-		(net 3)
-		(uuid "8fa7a6d3-4832-4ead-bc6e-b79ac42b8543")
+		(uuid "2db2fb13-40c6-4af3-8eec-682a47ab009f")
 	)
 	(segment
 		(start 142.1 83.6)
@@ -53898,7 +53874,31 @@
 		(width 0.2)
 		(layer "In3.Cu")
 		(net 3)
-		(uuid "b3990319-378d-4458-8d70-553d7c24b088")
+		(uuid "2ed702f4-4352-46a0-9407-838cc0d230f9")
+	)
+	(segment
+		(start 142.1 86.4)
+		(end 142.1 83.6)
+		(width 0.2)
+		(layer "In3.Cu")
+		(net 3)
+		(uuid "4b98e6d6-908d-444a-8453-9d78791b99f9")
+	)
+	(segment
+		(start 141.825 86.675)
+		(end 142.1 86.4)
+		(width 0.2)
+		(layer "In3.Cu")
+		(net 3)
+		(uuid "660dac5a-578e-4e8b-8bc5-c8f184da5b0d")
+	)
+	(segment
+		(start 133.325 88.85)
+		(end 135.5 86.675)
+		(width 0.2)
+		(layer "In3.Cu")
+		(net 3)
+		(uuid "ebf3e3c6-8832-4750-b9ec-d0063c954c2c")
 	)
 	(segment
 		(start 108.55 67.6)
