@@ -2619,12 +2619,6 @@
 		(uuid "451cbed1-dfa1-4fe0-8e66-f7c811243582")
 	)
 	(junction
-		(at 43.18 237.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "45a983d5-92dd-4980-81eb-1c2206a7989e")
-	)
-	(junction
 		(at 181.61 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2905,12 +2899,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae310f59-59f0-4331-bb44-06dadc791181")
-	)
-	(junction
-		(at 43.18 224.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b0eb048c-54e1-4b33-bc37-cf32c7f3dee2")
 	)
 	(junction
 		(at 271.78 71.12)
@@ -3600,7 +3588,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 224.79) (xy 34.29 224.79)
+			(xy 34.29 224.79) (xy 52.07 224.79)
 		)
 		(stroke
 			(width 0)
@@ -3737,16 +3725,6 @@
 			(type default)
 		)
 		(uuid "25aa9ebc-cccf-437c-8be5-8289024ebc95")
-	)
-	(wire
-		(pts
-			(xy 34.29 237.49) (xy 43.18 237.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2662a93b-c811-414a-abb6-d87d704be4cf")
 	)
 	(wire
 		(pts
@@ -4480,16 +4458,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 224.79) (xy 52.07 224.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52276cb0-2625-4416-aa7b-9284a5fa628c")
-	)
-	(wire
-		(pts
 			(xy 302.26 168.91) (xy 312.42 168.91)
 		)
 		(stroke
@@ -4930,7 +4898,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 237.49) (xy 64.77 237.49)
+			(xy 34.29 237.49) (xy 64.77 237.49)
 		)
 		(stroke
 			(width 0)
@@ -5167,16 +5135,6 @@
 			(type default)
 		)
 		(uuid "7a073cdb-648c-4623-a3ef-e4a16f5e3c50")
-	)
-	(wire
-		(pts
-			(xy 43.18 224.79) (xy 43.18 227.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a691599-c9e7-4172-933e-a62bdb5066ae")
 	)
 	(wire
 		(pts
@@ -5817,16 +5775,6 @@
 			(type default)
 		)
 		(uuid "a329e0d0-da8a-4562-849c-bd8fc6ead134")
-	)
-	(wire
-		(pts
-			(xy 43.18 232.41) (xy 43.18 237.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3399b9c-132b-46fb-94f1-20bf5145ddf6")
 	)
 	(wire
 		(pts
@@ -10596,9 +10544,9 @@
 		(at 231.14 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "314a69fb-6530-4d26-a390-ed4203fad4f5")
 		(property "Reference" "C27"
 			(at 232.918 156.464 90)
@@ -11358,9 +11306,9 @@
 		(at 231.14 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "4e74b76e-d11c-46fd-99e0-23beedf687a7")
 		(property "Reference" "C6"
 			(at 232.918 42.164 90)
@@ -14514,9 +14462,9 @@
 		(at 223.52 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "aa3f9efa-1c1e-4c85-9c95-30af2379dbf8")
 		(property "Reference" "C26"
 			(at 225.298 156.464 90)
@@ -14800,9 +14748,9 @@
 		(at 215.9 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "ae7be589-2e05-44e2-9f69-4359eabeb11b")
 		(property "Reference" "C4"
 			(at 217.678 42.164 90)
@@ -15067,102 +15015,6 @@
 			(project "BitaxeGT"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/24036843-8461-4d4b-b738-f953c909ed6c"
 					(reference "TP17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 43.18 229.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b548c760-61a1-4002-bcca-a375345b1e22")
-		(property "Reference" "C40"
-			(at 49.276 229.108 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 50.8 231.394 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 43.18 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/KGM_X7R.pdf"
-			(at 43.18 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 43.18 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "KGM05AR71C104KH"
-			(at 43.18 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK" "478-KGM05AR71C104KHCT-ND"
-			(at 43.18 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "partnum" ""
-			(at 43.18 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eec08945-707c-4341-bcad-49b0574e801c")
-		)
-		(pin "2"
-			(uuid "da777325-1fff-4eb6-a16b-0c461ea85cfd")
-		)
-		(instances
-			(project "BitaxeGT"
-				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/24036843-8461-4d4b-b738-f953c909ed6c"
-					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -15546,9 +15398,9 @@
 		(at 223.52 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "c57df920-4b57-43fb-a154-55a4ffc0bfd5")
 		(property "Reference" "C5"
 			(at 225.298 42.164 90)
@@ -16870,9 +16722,9 @@
 		(at 215.9 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "e7fbc1d4-6328-4671-827d-17ac3fc4f9c8")
 		(property "Reference" "C25"
 			(at 217.678 156.464 90)

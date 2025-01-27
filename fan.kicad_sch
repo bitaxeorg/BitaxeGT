@@ -1232,12 +1232,6 @@
 		(uuid "126aa072-b1a8-4d3a-8f01-378f0debf688")
 	)
 	(junction
-		(at 226.06 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1fd41618-977b-46e6-8e74-4746991c1348")
-	)
-	(junction
 		(at 222.25 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1290,12 +1284,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b36a6c9f-db69-429f-9c95-9cb6ccf37c40")
-	)
-	(junction
-		(at 226.06 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bfacddab-67d7-41ad-829d-e42f6b977875")
 	)
 	(junction
 		(at 81.28 105.41)
@@ -1429,16 +1417,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 123.19) (xy 234.95 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a8bfeda-d93b-4fb1-b989-d70fa221d4bc")
-	)
-	(wire
-		(pts
 			(xy 222.25 81.28) (xy 222.25 86.36)
 		)
 		(stroke
@@ -1449,7 +1427,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 109.22) (xy 226.06 109.22)
+			(xy 219.71 109.22) (xy 246.38 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1569,16 +1547,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 118.11) (xy 226.06 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e3a0d32-3e51-4a22-9869-f419b5275501")
-	)
-	(wire
-		(pts
 			(xy 48.26 49.53) (xy 59.69 49.53)
 		)
 		(stroke
@@ -1679,7 +1647,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 123.19) (xy 226.06 123.19)
+			(xy 219.71 123.19) (xy 234.95 123.19)
 		)
 		(stroke
 			(width 0)
@@ -1789,16 +1757,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 109.22) (xy 246.38 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f785ec2-85d8-4840-9d94-2ec749cba67e")
-	)
-	(wire
-		(pts
 			(xy 48.26 74.93) (xy 59.69 74.93)
 		)
 		(stroke
@@ -1886,16 +1844,6 @@
 			(type default)
 		)
 		(uuid "9f43dc8a-0095-44c2-8114-d64eb91b0c0e")
-	)
-	(wire
-		(pts
-			(xy 226.06 109.22) (xy 226.06 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1f78123-2add-4eba-82ad-d65fe36f52fe")
 	)
 	(wire
 		(pts
@@ -2722,102 +2670,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 226.06 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0bf82f80-965f-4b9a-b654-7aab306542b5")
-		(property "Reference" "C97"
-			(at 232.156 114.808 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 232.156 117.094 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 226.06 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/KGM_X7R.pdf"
-			(at 226.06 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 226.06 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "KGM05AR71C104KH"
-			(at 226.06 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK" "478-KGM05AR71C104KHCT-ND"
-			(at 226.06 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "partnum" ""
-			(at 226.06 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "65bbf8de-18ae-4f18-935e-5ecb00010ccd")
-		)
-		(pin "2"
-			(uuid "59363814-dcb5-46f7-a314-c342ad13c633")
-		)
-		(instances
-			(project "BitaxeGT"
-				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/edab3562-ad75-4c4e-afab-a1841dcf5714"
-					(reference "C97")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 71.12 105.41 270)
 		(unit 1)
@@ -3577,112 +3429,6 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 219.71 115.57 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9972ee13-664e-42fd-9905-aeeda6c9f963")
-		(property "Reference" "C96"
-			(at 213.614 114.808 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "47uF"
-			(at 213.614 117.094 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 219.71 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 219.71 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 219.71 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "partnum" ""
-			(at 219.71 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK" "4713-GMC31X5R476M25NTCT-ND"
-			(at 219.71 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "GMC31X5R476M25NT"
-			(at 219.71 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "voltage" "25V"
-			(at 219.71 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2c0b21de-386e-4329-8858-f241a564ef53")
-		)
-		(pin "2"
-			(uuid "7bbc4112-7515-4c59-803d-a1b592f0e5d2")
-		)
-		(instances
-			(project "BitaxeGT"
-				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/edab3562-ad75-4c4e-afab-a1841dcf5714"
-					(reference "C96")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
 		(at 81.28 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4359,6 +4105,110 @@
 			(project "BitaxeGT"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/edab3562-ad75-4c4e-afab-a1841dcf5714"
 					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 219.71 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f265a769-90bf-4661-915f-65606dca0c87")
+		(property "Reference" "C41"
+			(at 221.742 110.744 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10uF"
+			(at 223.774 114.554 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 219.71 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 219.71 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 223.774 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "GRM188R61E106KA73D"
+			(at 219.71 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "490-18214-1-ND"
+			(at 219.71 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "partnum" ""
+			(at 219.71 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "989ea682-453e-4267-a892-023b110c8f31")
+		)
+		(pin "2"
+			(uuid "a8b04b88-b36c-4176-869f-63392e09eb0c")
+		)
+		(instances
+			(project "BitaxeGT"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/edab3562-ad75-4c4e-afab-a1841dcf5714"
+					(reference "C41")
 					(unit 1)
 				)
 			)
