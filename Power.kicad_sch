@@ -7178,7 +7178,7 @@
 		)
 		(uuid 84b24d98-4a16-455c-879d-d2acaa6eefd2)
 	)
-	(text "@20A \nvoltage drop across shunt=60mV\n@gain=50, Sense voltage = 3V\nPower dissipation = 1.2W"
+	(text "@12A \nvoltage drop across shunt=36mV\n@gain=50, Sense voltage = 1.8V\nPower dissipation = 0.43W"
 		(exclude_from_sim no)
 		(at 113.284 155.702 0)
 		(effects
@@ -11243,7 +11243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://bourns.com/docs/product-datasheets/cre.pdf"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-pa_e_51_rohs.pdf"
 			(at 88.9 146.05 0)
 			(effects
 				(font
@@ -11261,7 +11261,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "CRE2512-FZ-R003E-3"
+		(property "PARTNO" "PA2512FKF070R003E"
 			(at 88.9 146.05 90)
 			(effects
 				(font
@@ -11270,7 +11270,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "CRE2512-FZ-R003E-3CT-ND"
+		(property "DK" "YAG2138CT-ND"
 			(at 88.9 146.05 90)
 			(effects
 				(font
@@ -11279,7 +11279,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power" "3W"
+		(property "Power" "1W"
 			(at 88.9 150.368 90)
 			(effects
 				(font
