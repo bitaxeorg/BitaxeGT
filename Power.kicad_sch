@@ -7178,6 +7178,16 @@
 		)
 		(uuid 84b24d98-4a16-455c-879d-d2acaa6eefd2)
 	)
+	(text "@20A \nvoltage drop across shunt=60mV\n@gain=50, Sense voltage = 3V\nPower dissipation = 1.2W"
+		(exclude_from_sim no)
+		(at 113.284 155.702 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "171916aa-de1b-45ee-86a5-2a90caa923f1")
+	)
 	(text "External PMBUS connection pads\nfor TI GUI tool or I2C debug"
 		(exclude_from_sim no)
 		(at 125.476 77.216 0)
@@ -7228,9 +7238,9 @@
 		)
 		(uuid "b9edd18d-0b34-48bf-a9d9-de598107c02c")
 	)
-	(text "Current shunt\namplifier"
+	(text "Current shunt\namplifier\nGain=50"
 		(exclude_from_sim no)
-		(at 107.95 137.414 0)
+		(at 107.95 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11215,8 +11225,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10m"
-			(at 85.344 148.336 90)
+		(property "Value" "3m"
+			(at 87.122 148.336 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11233,7 +11243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-pe_521_rohs_l.pdf"
+		(property "Datasheet" "https://bourns.com/docs/product-datasheets/cre.pdf"
 			(at 88.9 146.05 0)
 			(effects
 				(font
@@ -11251,7 +11261,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "PE2512FKE070R01L"
+		(property "PARTNO" "CRE2512-FZ-R003E-3"
 			(at 88.9 146.05 90)
 			(effects
 				(font
@@ -11260,7 +11270,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "YAG2151CT-ND"
+		(property "DK" "CRE2512-FZ-R003E-3CT-ND"
 			(at 88.9 146.05 90)
 			(effects
 				(font
@@ -11269,7 +11279,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power" "1W"
+		(property "Power" "3W"
 			(at 88.9 150.368 90)
 			(effects
 				(font
@@ -15070,16 +15080,7 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 107.95 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "NCS21671SQ050T2G"
+		(property "PARTNO" "NCS21671SQ025T2G"
 			(at 107.95 128.27 0)
 			(effects
 				(font
