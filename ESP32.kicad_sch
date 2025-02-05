@@ -3839,7 +3839,7 @@
 			)
 		)
 	)
-	(hierarchical_label "BAP_VIN"
+	(hierarchical_label "VIN"
 		(shape input)
 		(at 232.41 106.68 180)
 		(fields_autoplaced yes)
