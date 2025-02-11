@@ -37,7 +37,7 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 2.2,
+          "drill": 4.2,
           "height": 6.0,
           "width": 6.0
         },
@@ -509,7 +509,7 @@
       "plot": "Manufacturing Files/gerbers/",
       "pos_files": "../PnP/800x",
       "specctra_dsn": "",
-      "step": "",
+      "step": "BitaxeGT.step",
       "svg": "",
       "vrml": ""
     },

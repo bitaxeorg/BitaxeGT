@@ -1,0 +1,155 @@
+(footprint "Sinhoo SMTSO3015CTJ"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Mounting Hole 4.3mm, M4, DIN965")
+	(tags "mounting hole 4.3mm m4 din965")
+	(property "Reference" "REF**"
+		(at 0 -4.75 0)
+		(layer "F.SilkS")
+		(uuid "ad70758d-8ef1-4296-80f8-02d2b7a53342")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MountingHole_4.3mm_M4_DIN965_Pad"
+		(at 0 4.75 0)
+		(layer "F.Fab")
+		(uuid "ce4fcbd3-d1df-4a08-a39d-501eb4fe9c9f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2d3af447-3ac9-42f1-b7b4-7ac378136f34")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0bbf8fc5-11ec-4693-9b13-ca7a9701b6ba")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "46f0f9ef-d0ee-48bd-942f-deab391035df")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_arc
+		(start -2.537928 -0.410389)
+		(mid -1.85 -1.8)
+		(end -0.489578 -2.543988)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(layer "F.Paste")
+		(uuid "4b6d9f09-ff35-4e53-9c65-140c27477617")
+	)
+	(fp_arc
+		(start -0.410389 2.537928)
+		(mid -1.8 1.85)
+		(end -2.543988 0.489578)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(layer "F.Paste")
+		(uuid "6e6610c9-eb8f-4f31-9a9f-1a45760061fa")
+	)
+	(fp_arc
+		(start 0.396477 -2.54835)
+		(mid 1.786088 -1.860422)
+		(end 2.530076 -0.5)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(layer "F.Paste")
+		(uuid "eb99c80b-8c5b-4704-a756-5980d3036552")
+	)
+	(fp_arc
+		(start 2.537928 0.410389)
+		(mid 1.85 1.8)
+		(end 0.489578 2.543988)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(layer "F.Paste")
+		(uuid "d74cadb7-8958-4cba-9a4d-ca11f6bb45bd")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.25 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "51edeb43-5b03-4041-9fa4-eec7883d1e94")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.5 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "fbd99f90-839f-46af-8421-a8f9a0d5c755")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "02a3a233-edac-43df-a0cb-c1dd7cab69d5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 6 6)
+		(drill 4.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7be95409-ac94-4836-8e33-e19d71b67bd0")
+	)
+)
