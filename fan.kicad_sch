@@ -576,261 +576,6 @@
 				)
 			)
 		)
-		(symbol "bitaxe:Conn_01x04_MountingPin"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J7"
-				(at 2.54 -1.6257 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Conn_01x04"
-				(at 0 -9.525 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "PARTNO" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "DK" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??-1MP*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x04_MountingPin_1_1"
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -6.35)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 -7.112) (xy 1.016 -7.112)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "Mounting"
-					(at 0 -6.731 0)
-					(effects
-						(font
-							(size 0.381 0.381)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -10.16 90)
-					(length 3.048)
-					(name "MountPin"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "bitaxe:EMC2103-2"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1226,12 +971,6 @@
 		(uuid "0d360f35-1394-4587-b208-52a61a3bb5a6")
 	)
 	(junction
-		(at 246.38 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "126aa072-b1a8-4d3a-8f01-378f0debf688")
-	)
-	(junction
 		(at 222.25 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1250,28 +989,10 @@
 		(uuid "48fe3d64-2d77-4d01-8766-ac250dc4e776")
 	)
 	(junction
-		(at 246.38 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4c52b607-1644-4031-9bba-c6b5f295e053")
-	)
-	(junction
 		(at 231.14 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5428d199-6d0b-465c-a217-5801e9abfe5c")
-	)
-	(junction
-		(at 246.38 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "56bbae75-0b4b-473a-852c-1eebd3f44398")
-	)
-	(junction
-		(at 246.38 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "94dac989-37ac-402f-89c5-743ff8176161")
 	)
 	(junction
 		(at 102.87 67.31)
@@ -1324,16 +1045,6 @@
 	(no_connect
 		(at 135.89 101.6)
 		(uuid "bb7bcd9a-b1bb-4a21-a5c2-740c9b984d80")
-	)
-	(wire
-		(pts
-			(xy 246.38 104.14) (xy 260.35 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00cad281-a7fd-4991-aa53-733688cc1359")
 	)
 	(wire
 		(pts
@@ -1407,16 +1118,6 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 111.76) (xy 260.35 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a5f704f-f632-4a6d-9352-6e63199bd14a")
-	)
-	(wire
-		(pts
 			(xy 222.25 81.28) (xy 222.25 86.36)
 		)
 		(stroke
@@ -1444,16 +1145,6 @@
 			(type default)
 		)
 		(uuid "2b605b10-6257-4b36-9cdc-fadd7159816f")
-	)
-	(wire
-		(pts
-			(xy 246.38 109.22) (xy 260.35 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b754435-c84b-4eb1-bdf2-825818601b0a")
 	)
 	(wire
 		(pts
@@ -1574,16 +1265,6 @@
 			(type default)
 		)
 		(uuid "45a4dcaa-929d-4dbe-bd8b-75973aebf8b4")
-	)
-	(wire
-		(pts
-			(xy 265.43 116.84) (xy 265.43 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45ea58c8-0447-42bc-9ed9-e61331389082")
 	)
 	(wire
 		(pts
@@ -1837,16 +1518,6 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 106.68) (xy 260.35 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f43dc8a-0095-44c2-8114-d64eb91b0c0e")
-	)
-	(wire
-		(pts
 			(xy 102.87 74.93) (xy 102.87 78.74)
 		)
 		(stroke
@@ -2064,16 +1735,6 @@
 			(type default)
 		)
 		(uuid "e3a33919-09b1-4144-8134-802d07d534f0")
-	)
-	(wire
-		(pts
-			(xy 259.08 123.19) (xy 265.43 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4bd1730-6119-4714-893e-e6c1ea393da3")
 	)
 	(wire
 		(pts
@@ -2307,17 +1968,6 @@
 			(justify right bottom)
 		)
 		(uuid "6bb807fb-481d-4bac-a249-359030086b13")
-	)
-	(label "GND"
-		(at 259.08 123.19 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "727f276e-0a9a-40b9-8441-f4a84fd8fa60")
 	)
 	(label "SCL"
 		(at 149.86 93.98 180)
@@ -3326,102 +2976,6 @@
 			(project "BitaxeGT"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/edab3562-ad75-4c4e-afab-a1841dcf5714"
 					(reference "TP20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "bitaxe:Conn_01x04_MountingPin")
-		(at 265.43 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "85447df3-3010-426c-874a-ed6d90b3f3ec")
-		(property "Reference" "J6"
-			(at 264.16 100.838 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x04"
-			(at 265.43 116.205 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "bitaxe:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical"
-			(at 265.43 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
-			(at 265.43 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 265.43 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "BM04B-SRSS-TB"
-			(at 265.43 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK" "455-BM04B-SRSS-TBCT-ND"
-			(at 265.43 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "7abf800d-d0dd-4401-917c-0af45afa9128")
-		)
-		(pin "3"
-			(uuid "80d09206-bacc-4f0f-9634-57852b55e9a6")
-		)
-		(pin "2"
-			(uuid "73db8338-5f02-4696-8994-2ad22aff06e0")
-		)
-		(pin "1"
-			(uuid "db71939a-64b0-4737-a372-fd19f483df97")
-		)
-		(pin "MP"
-			(uuid "bcb050dd-887b-48d0-859a-af0ef7b51db0")
-		)
-		(instances
-			(project ""
-				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/edab3562-ad75-4c4e-afab-a1841dcf5714"
-					(reference "J6")
 					(unit 1)
 				)
 			)
