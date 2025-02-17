@@ -8377,7 +8377,7 @@
 		(path "/579edd0f-bcf0-441b-9434-248e81b782a7")
 		(sheetname "Root")
 		(sheetfile "BitaxeGT.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(fp_arc
 			(start 2.530076 0.5)
 			(mid 1.786088 1.860422)
@@ -8559,7 +8559,7 @@
 		(path "/571baa72-b80b-4d56-a3ed-f094aefddcc3")
 		(sheetname "Root")
 		(sheetfile "BitaxeGT.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(fp_arc
 			(start 2.530076 0.5)
 			(mid 1.786088 1.860422)
@@ -11408,7 +11408,7 @@
 		(path "/24036843-8461-4d4b-b738-f953c909ed6c/e945de00-26fc-4943-aac7-02320ba994b0")
 		(sheetname "Power")
 		(sheetfile "Power.kicad_sch")
-		(attr through_hole)
+		(attr smd)
 		(fp_line
 			(start 2.65 3.65)
 			(end 2.15 3.65)
@@ -18239,7 +18239,7 @@
 		(path "/24036843-8461-4d4b-b738-f953c909ed6c/22767fdd-2563-4a94-90c3-8ac50a77cd86")
 		(sheetname "Power")
 		(sheetfile "Power.kicad_sch")
-		(attr through_hole)
+		(attr smd)
 		(fp_poly
 			(pts
 				(xy 1.849999 1.575001) (xy 1.849999 1.425001) (xy 1.799999 1.375001) (xy 1.45 1.375001) (xy 1.4 1.425001)
@@ -25064,7 +25064,7 @@
 		(path "/24036843-8461-4d4b-b738-f953c909ed6c/6baa8229-1245-4cd3-9cdb-3893c1258d1b")
 		(sheetname "Power")
 		(sheetfile "Power.kicad_sch")
-		(attr through_hole)
+		(attr smd)
 		(fp_line
 			(start 2.65 3.65)
 			(end 2.15 3.65)
@@ -42360,7 +42360,7 @@
 		(path "/55571f22-a93c-4d77-81ad-0aeb57566573")
 		(sheetname "Root")
 		(sheetfile "BitaxeGT.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(fp_arc
 			(start 2.530076 0.5)
 			(mid 1.786088 1.860422)
@@ -45860,7 +45860,7 @@
 		(path "/71361519-3893-460d-a461-3dca25e9855b")
 		(sheetname "Root")
 		(sheetfile "BitaxeGT.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(fp_arc
 			(start 2.530076 0.5)
 			(mid 1.786088 1.860422)
