@@ -64,7 +64,7 @@
           "logo"
         ],
         [
-          "solder_mask_bridge|121150000|84850000|e85c60c2-981b-4d9f-95f9-419c9e49d454|afd98ee8-1857-480f-9723-86eaddd34c92",
+          "solder_mask_bridge|121150000|84850000|e85c60c2-981b-4d9f-95f9-419c9e49d454|0cc4dcbb-2e8b-4576-9642-0260081413d8",
           "net-tie"
         ],
         [
@@ -72,11 +72,11 @@
           "net-tie"
         ],
         [
-          "solder_mask_bridge|121350000|84850000|e85c60c2-981b-4d9f-95f9-419c9e49d454|afd98ee8-1857-480f-9723-86eaddd34c92",
+          "solder_mask_bridge|121350000|84850000|e85c60c2-981b-4d9f-95f9-419c9e49d454|5d8f042e-6d5c-4a4b-9a38-0d0d372526e4",
           "net-tie"
         ],
         [
-          "solder_mask_bridge|145500000|84830000|bcc5290b-a11b-487d-982a-2c9ee0f45678|334a37b1-7cab-4efd-9175-234b7c107252",
+          "solder_mask_bridge|145500000|84830000|bcc5290b-a11b-487d-982a-2c9ee0f45678|f17884af-fdf8-47dc-9058-ddc3ea73ba8f",
           "net-tie"
         ],
         [
@@ -84,7 +84,7 @@
           "net-tie"
         ],
         [
-          "solder_mask_bridge|145700000|84830000|bcc5290b-a11b-487d-982a-2c9ee0f45678|334a37b1-7cab-4efd-9175-234b7c107252",
+          "solder_mask_bridge|145700000|84830000|bcc5290b-a11b-487d-982a-2c9ee0f45678|3375acfe-c802-4b60-921e-7a0e2301dc2f",
           "net-tie"
         ]
       ],
