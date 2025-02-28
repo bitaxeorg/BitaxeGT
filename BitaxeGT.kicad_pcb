@@ -879,12 +879,13 @@
 	(footprint "bitaxe:SW_CS1213AGF260_CRS"
 		(layer "F.Cu")
 		(uuid "37ea5ba7-ec12-4384-b34d-e98913b8d1f3")
-		(at 124.85 145.69)
+		(at 124.85 145.74)
 		(tags "CS1213AGF260 ")
 		(property "Reference" "SW2"
 			(at 0.05 2.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "93b091ba-98b0-4255-afec-fad9f2a88bbc")
 			(effects
 				(font
@@ -897,6 +898,7 @@
 			(at -0.13 -3.27 0)
 			(unlocked yes)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "ac9e68a2-863e-4307-8609-fd845479ea44")
 			(effects
 				(font
@@ -1977,6 +1979,7 @@
 			(at 0 -2.51 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "82e0ece7-1972-4222-9da9-e04064dc04cc")
 			(effects
 				(font
@@ -1989,6 +1992,7 @@
 			(at -0.13 -3.27 180)
 			(unlocked yes)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "41e4a521-3d3e-405c-9a88-b0fe43bd6c82")
 			(effects
 				(font
@@ -48118,6 +48122,30 @@
 			(font
 				(size 2 2)
 				(thickness 0.2)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "RESET"
+		(at 110.3 149.025 0)
+		(layer "F.SilkS")
+		(uuid "63141218-ff40-4afd-aba7-4bc40f12869d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "BOOT"
+		(at 122.825 149.025 0)
+		(layer "F.SilkS")
+		(uuid "7f0fef8e-ff4a-4e7c-ac80-3f872d11aff2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
