@@ -6,7 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "Bitaxe Gamma Turbo")
-		(rev "800")
+		(date "2025-02-28")
+		(rev "800xx")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x04"
@@ -3826,7 +3827,7 @@
 			)
 		)
 	)
-	(hierarchical_label "VIN"
+	(hierarchical_label "12V"
 		(shape input)
 		(at 232.41 106.68 180)
 		(effects
