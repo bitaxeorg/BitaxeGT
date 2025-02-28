@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "61fe8d2c-9301-4ad9-8caf-c47acfa835b0")
 	(paper "A3")
 	(title_block
@@ -88,109 +88,16 @@
 					)
 				)
 			)
-		)
-		(symbol "Mechanical:Heatsink"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim yes)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "HS"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Heatsink"
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.3048 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0.3048 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Heatsink"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "thermal heat temperature"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Heatsink_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Heatsink_0_1"
-				(polyline
-					(pts
-						(xy -0.3302 1.27) (xy -0.9652 1.27) (xy -0.9652 3.81) (xy -1.6002 3.81) (xy -1.6002 1.27) (xy -2.2352 1.27)
-						(xy -2.2352 3.81) (xy -2.8702 3.81) (xy -2.8702 0) (xy -0.9652 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3302 1.27) (xy -0.3302 3.81) (xy 0.3048 3.81) (xy 0.3048 1.27) (xy 0.9398 1.27) (xy 0.9398 3.81)
-						(xy 1.5748 3.81) (xy 1.5748 1.27) (xy 2.2098 1.27) (xy 2.2098 3.81) (xy 2.8448 3.81) (xy 2.8448 0)
-						(xy -0.9652 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
+			(embedded_fonts no)
 		)
 		(symbol "Mechanical:MountingHole_Pad"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim yes)
 			(in_bom no)
 			(on_board yes)
@@ -288,6 +195,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(junction
@@ -972,7 +880,6 @@
 	)
 	(label "3V3"
 		(at 104.14 116.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -983,7 +890,6 @@
 	)
 	(label "GND"
 		(at 80.01 182.88 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -994,7 +900,6 @@
 	)
 	(label "3V3"
 		(at 104.14 50.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1005,7 +910,6 @@
 	)
 	(label "Vcore"
 		(at 105.41 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1016,7 +920,6 @@
 	)
 	(label "5V"
 		(at 104.14 55.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1027,7 +930,6 @@
 	)
 	(label "3V3"
 		(at 168.91 118.11 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1038,7 +940,6 @@
 	)
 	(label "5V"
 		(at 217.17 48.26 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1049,7 +950,6 @@
 	)
 	(label "3V3"
 		(at 217.17 52.07 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1060,7 +960,6 @@
 	)
 	(label "12V"
 		(at 104.14 45.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1071,7 +970,6 @@
 	)
 	(label "Vcore"
 		(at 173.99 50.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1082,7 +980,6 @@
 	)
 	(label "5V"
 		(at 168.91 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1093,7 +990,6 @@
 	)
 	(label "12V"
 		(at 168.91 110.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1104,7 +1000,6 @@
 	)
 	(label "5V"
 		(at 104.14 113.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1282,79 +1177,6 @@
 			(project "BitaxeGT"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
 					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:Heatsink")
-		(at 120.65 171.45 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4f458685-abc8-43b7-b070-5915b8bf867f")
-		(property "Reference" "HS1"
-			(at 124.46 168.2749 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Heatsink"
-			(at 124.46 170.8149 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "bitaxe:Heatsink-BitaxeGT"
-			(at 120.9548 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 120.9548 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Heatsink"
-			(at 120.65 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "partnum" ""
-			(at 120.65 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project ""
-				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
-					(reference "HS1")
 					(unit 1)
 				)
 			)
@@ -2257,6 +2079,10 @@
 	(sheet
 		(at 116.84 88.9)
 		(size 25.4 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2286,133 +2112,133 @@
 		)
 		(pin "SDA" input
 			(at 142.24 96.52 0)
+			(uuid "22c3cee0-37db-40a2-9ed4-6707fc157443")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "22c3cee0-37db-40a2-9ed4-6707fc157443")
 		)
 		(pin "SCL" input
 			(at 142.24 100.33 0)
+			(uuid "e6ecbd0f-7e6e-4b2f-8ca8-12d3bbb7b389")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e6ecbd0f-7e6e-4b2f-8ca8-12d3bbb7b389")
 		)
 		(pin "5V" input
 			(at 116.84 113.03 180)
+			(uuid "8d37d5d8-6034-4dbe-a6ed-4e392ca97255")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "8d37d5d8-6034-4dbe-a6ed-4e392ca97255")
 		)
 		(pin "cur_sense" input
 			(at 116.84 105.41 180)
+			(uuid "e248212b-9d13-40b5-9249-c17b0691755a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "e248212b-9d13-40b5-9249-c17b0691755a")
 		)
 		(pin "SMB_ALRT" output
 			(at 142.24 92.71 0)
+			(uuid "ed2b49ea-a9f3-4ee2-a901-af8035590016")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ed2b49ea-a9f3-4ee2-a901-af8035590016")
 		)
 		(pin "PGOOD" input
 			(at 116.84 97.79 180)
+			(uuid "de26fd3c-3b39-4bea-810f-9d66842a991d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "de26fd3c-3b39-4bea-810f-9d66842a991d")
 		)
 		(pin "PWR_EN" output
 			(at 116.84 92.71 180)
+			(uuid "45a2e24c-5a96-4b1d-a194-7fe4999fc0f7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "45a2e24c-5a96-4b1d-a194-7fe4999fc0f7")
 		)
 		(pin "TX_3V3" input
 			(at 142.24 111.76 0)
+			(uuid "62cf6029-e231-4dc8-84dd-b55e2d1348c8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "62cf6029-e231-4dc8-84dd-b55e2d1348c8")
 		)
 		(pin "RX_3V3" input
 			(at 142.24 115.57 0)
+			(uuid "42fcedbd-f090-4f43-8fb3-313d86098cf8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "42fcedbd-f090-4f43-8fb3-313d86098cf8")
 		)
 		(pin "RST_3V3" output
 			(at 142.24 107.95 0)
+			(uuid "cf16ae45-bcdb-487f-8874-8f625f45b587")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "cf16ae45-bcdb-487f-8874-8f625f45b587")
 		)
 		(pin "3V3" input
 			(at 116.84 116.84 180)
+			(uuid "d20c4726-fcfa-4ede-a958-1d2e193a807f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d20c4726-fcfa-4ede-a958-1d2e193a807f")
 		)
 		(pin "VDD" input
 			(at 116.84 101.6 180)
+			(uuid "9e886989-f434-4a07-b821-e096966e3a23")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "9e886989-f434-4a07-b821-e096966e3a23")
 		)
 		(pin "BAP_VIN" input
 			(at 116.84 120.65 180)
+			(uuid "9a9f7aa2-e1f4-4396-9c65-3c2a7e02d25e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "9a9f7aa2-e1f4-4396-9c65-3c2a7e02d25e")
 		)
 		(instances
 			(project "BitaxeGT"
@@ -2425,6 +2251,10 @@
 	(sheet
 		(at 116.84 43.18)
 		(size 25.4 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2454,113 +2284,113 @@
 		)
 		(pin "Vcore" output
 			(at 142.24 50.8 0)
+			(uuid "de1eb332-e7d7-474f-bd28-dd3314bf2094")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "de1eb332-e7d7-474f-bd28-dd3314bf2094")
 		)
 		(pin "SCL" input
 			(at 142.24 66.04 0)
+			(uuid "a45450f1-1f80-4494-8367-79fe157d8f14")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a45450f1-1f80-4494-8367-79fe157d8f14")
 		)
 		(pin "SDA" bidirectional
 			(at 142.24 69.85 0)
+			(uuid "d772c037-b678-48a2-a18c-ec5a4fa8afd0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d772c037-b678-48a2-a18c-ec5a4fa8afd0")
 		)
 		(pin "PWR_EN" input
 			(at 116.84 73.66 180)
+			(uuid "d3382f81-486a-43ce-a506-3248c0190571")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d3382f81-486a-43ce-a506-3248c0190571")
 		)
 		(pin "SMB_ALRT" output
 			(at 142.24 73.66 0)
+			(uuid "ec40d5b8-ef23-4c5c-924b-6a83fa161e1e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ec40d5b8-ef23-4c5c-924b-6a83fa161e1e")
 		)
 		(pin "PGOOD" input
 			(at 116.84 68.58 180)
+			(uuid "75d9d3be-67b4-4422-abb6-4ad231cd5432")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "75d9d3be-67b4-4422-abb6-4ad231cd5432")
 		)
 		(pin "3V3" output
 			(at 116.84 50.8 180)
+			(uuid "ffba2355-2155-4d15-a46e-920b0549329d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ffba2355-2155-4d15-a46e-920b0549329d")
 		)
 		(pin "5V" output
 			(at 116.84 55.88 180)
+			(uuid "5a27480d-f35d-4335-a7c2-1f96d7e7aa5a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5a27480d-f35d-4335-a7c2-1f96d7e7aa5a")
 		)
 		(pin "cur_sense" output
 			(at 116.84 63.5 180)
+			(uuid "88dafbcd-c625-42f1-8d62-e9b39abb3e69")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "88dafbcd-c625-42f1-8d62-e9b39abb3e69")
 		)
 		(pin "12V" output
 			(at 116.84 45.72 180)
+			(uuid "edc85565-7107-4f2c-9314-c0c3b72907b8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "edc85565-7107-4f2c-9314-c0c3b72907b8")
 		)
 		(pin "Vsupply" output
 			(at 116.84 59.69 180)
+			(uuid "f17ce9c1-fced-42ba-92e1-fce179c9c14b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f17ce9c1-fced-42ba-92e1-fce179c9c14b")
 		)
 		(instances
 			(project "BitaxeGT"
@@ -2573,6 +2403,10 @@
 	(sheet
 		(at 180.34 43.18)
 		(size 24.13 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2602,103 +2436,103 @@
 		)
 		(pin "Vcore" input
 			(at 180.34 50.8 180)
+			(uuid "e4c6da4d-b4da-459e-b31b-1f3e57cf5a0a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "e4c6da4d-b4da-459e-b31b-1f3e57cf5a0a")
 		)
 		(pin "5V" input
 			(at 204.47 48.26 0)
+			(uuid "92697100-c6b1-4e84-828a-2a9ecddba258")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "92697100-c6b1-4e84-828a-2a9ecddba258")
 		)
 		(pin "3V3" input
 			(at 204.47 52.07 0)
+			(uuid "fde0c5d1-04d7-4735-9351-fc19150e9e03")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "fde0c5d1-04d7-4735-9351-fc19150e9e03")
 		)
 		(pin "RST_3V3" input
 			(at 180.34 64.77 180)
+			(uuid "110f0e1a-23b2-4349-beb7-3af5e0282524")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "110f0e1a-23b2-4349-beb7-3af5e0282524")
 		)
 		(pin "TX_3V3" input
 			(at 180.34 68.58 180)
+			(uuid "316b3159-49fe-47eb-9ac0-cd13e8e09150")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "316b3159-49fe-47eb-9ac0-cd13e8e09150")
 		)
 		(pin "RX_3V3" output
 			(at 180.34 72.39 180)
+			(uuid "f3836b2b-b9a0-436e-800d-8391ee33ff99")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f3836b2b-b9a0-436e-800d-8391ee33ff99")
 		)
 		(pin "TEMP1_N" output
 			(at 204.47 68.58 0)
+			(uuid "bdb2f6d5-5e00-42fa-a13c-895df59e49ea")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "bdb2f6d5-5e00-42fa-a13c-895df59e49ea")
 		)
 		(pin "TEMP2_P" output
 			(at 204.47 64.77 0)
+			(uuid "5d921980-051c-429f-925c-37b22209610b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "5d921980-051c-429f-925c-37b22209610b")
 		)
 		(pin "TEMP2_N" output
 			(at 204.47 60.96 0)
+			(uuid "7dbf653d-9560-490a-a42c-5c276512f58b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "7dbf653d-9560-490a-a42c-5c276512f58b")
 		)
 		(pin "TEMP1_P" output
 			(at 204.47 72.39 0)
+			(uuid "36e6b16c-5322-47ac-bc37-f6563cc45624")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "36e6b16c-5322-47ac-bc37-f6563cc45624")
 		)
 		(instances
 			(project "BitaxeGT"
@@ -2711,6 +2545,10 @@
 	(sheet
 		(at 180.34 90.17)
 		(size 24.13 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2740,93 +2578,93 @@
 		)
 		(pin "3V3" input
 			(at 180.34 118.11 180)
+			(uuid "1e536002-ad2e-4198-8de0-97b841f9038c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "1e536002-ad2e-4198-8de0-97b841f9038c")
 		)
 		(pin "5V" input
 			(at 180.34 114.3 180)
+			(uuid "b8bdcede-b6f5-4524-aabe-d4f2e6d8613c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b8bdcede-b6f5-4524-aabe-d4f2e6d8613c")
 		)
 		(pin "12V" input
 			(at 180.34 110.49 180)
+			(uuid "2003ec2b-1cfc-4881-ae0b-39f66962a128")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "2003ec2b-1cfc-4881-ae0b-39f66962a128")
 		)
 		(pin "SCL" input
 			(at 180.34 100.33 180)
+			(uuid "8ae7ebb9-caff-43fd-a319-122d81947b3c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "8ae7ebb9-caff-43fd-a319-122d81947b3c")
 		)
 		(pin "SDA" bidirectional
 			(at 180.34 96.52 180)
+			(uuid "b885ed11-066a-45a4-a899-27bfbdbb107c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b885ed11-066a-45a4-a899-27bfbdbb107c")
 		)
 		(pin "TEMP1_N" input
 			(at 204.47 99.06 0)
+			(uuid "eeacaca1-5e86-4f64-9632-ba0c3f88d85a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "eeacaca1-5e86-4f64-9632-ba0c3f88d85a")
 		)
 		(pin "TEMP2_P" input
 			(at 204.47 102.87 0)
+			(uuid "bda3b8ed-516b-4bd5-b89b-5cc7816e57ac")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "bda3b8ed-516b-4bd5-b89b-5cc7816e57ac")
 		)
 		(pin "TEMP2_N" input
 			(at 204.47 106.68 0)
+			(uuid "091ca15f-cfa8-4635-b7ed-6fb379b7be51")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "091ca15f-cfa8-4635-b7ed-6fb379b7be51")
 		)
 		(pin "TEMP1_P" input
 			(at 204.47 95.25 0)
+			(uuid "72d7061f-7e48-483e-837c-366af74d9933")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "72d7061f-7e48-483e-837c-366af74d9933")
 		)
 		(instances
 			(project "BitaxeGT"
@@ -2841,4 +2679,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
