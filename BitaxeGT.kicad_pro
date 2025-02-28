@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 4.2,
-          "height": 6.0,
-          "width": 6.0
+          "drill": 0.0,
+          "height": 0.599999,
+          "width": 0.22
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -58,7 +58,36 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "copper_sliver|127220013|69859475|00000000-0000-0000-0000-000000000000|F.Cu",
+          "logo"
+        ],
+        [
+          "solder_mask_bridge|121150000|84850000|e85c60c2-981b-4d9f-95f9-419c9e49d454|afd98ee8-1857-480f-9723-86eaddd34c92",
+          "net-tie"
+        ],
+        [
+          "solder_mask_bridge|121312500|83850000|e85c60c2-981b-4d9f-95f9-419c9e49d454|a493383f-7135-43b8-a831-19bd3245b9b6",
+          "net-tie"
+        ],
+        [
+          "solder_mask_bridge|121350000|84850000|e85c60c2-981b-4d9f-95f9-419c9e49d454|afd98ee8-1857-480f-9723-86eaddd34c92",
+          "net-tie"
+        ],
+        [
+          "solder_mask_bridge|145500000|84830000|bcc5290b-a11b-487d-982a-2c9ee0f45678|334a37b1-7cab-4efd-9175-234b7c107252",
+          "net-tie"
+        ],
+        [
+          "solder_mask_bridge|145662500|83830000|bcc5290b-a11b-487d-982a-2c9ee0f45678|9f50eb76-3ed2-4330-8dac-b57fa4d7ad4e",
+          "net-tie"
+        ],
+        [
+          "solder_mask_bridge|145700000|84830000|bcc5290b-a11b-487d-982a-2c9ee0f45678|334a37b1-7cab-4efd-9175-234b7c107252",
+          "net-tie"
+        ]
+      ],
       "meta": {
         "version": 2
       },

@@ -6,7 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "Bitaxe Gamma Turbo")
-		(rev "800")
+		(date "2025-02-28")
+		(rev "800xx")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
