@@ -5,7 +5,7 @@
 	(uuid "551b6106-d015-4505-85b2-5a55573752f4")
 	(paper "A3")
 	(title_block
-		(title "Bitaxe Gamma Turbo")
+		(title "bitaxeGamma Turbo")
 		(date "2025-02-28")
 		(rev "800xx")
 	)
@@ -2019,179 +2019,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "bitaxe:XT30PW-M"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at -0.254 -10.922 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "XT30"
-				(at -0.254 10.668 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "bitaxe:XT30PW-M"
-				(at 0.254 -15.748 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.588 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "PARTNO" "XT30PW-M"
-				(at 0.254 -13.462 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "DK" "~"
-				(at 5.588 -7.112 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "XT30PW-M_1_1"
-				(rectangle
-					(start -3.81 8.89)
-					(end 3.81 -8.89)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -7.62 7.62 0)
-					(length 3.81)
-					(name "MNT1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -7.62 2.54 0)
-					(length 3.81)
-					(name "+V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -7.62 -2.54 0)
-					(length 3.81)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -7.62 0)
-					(length 3.81)
-					(name "MNT2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(rectangle
 		(start 58.42 93.98)
@@ -3028,14 +2855,6 @@
 	(no_connect
 		(at 96.52 237.49)
 		(uuid "62aefb0a-8d62-4132-ae8b-808f477f754e")
-	)
-	(no_connect
-		(at 88.9 153.67)
-		(uuid "89b56de8-e70f-48d8-a38f-44480b9e1787")
-	)
-	(no_connect
-		(at 88.9 138.43)
-		(uuid "b3f1f9a3-eb20-4909-9551-9e1a76ff0569")
 	)
 	(no_connect
 		(at 269.24 210.82)
@@ -4560,16 +4379,6 @@
 			(type default)
 		)
 		(uuid "61a49655-40a0-45fc-b85a-9961600c74f1")
-	)
-	(wire
-		(pts
-			(xy 88.9 143.51) (xy 102.87 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61d97274-6dd8-4560-9a27-0ad0b6b6bdbb")
 	)
 	(wire
 		(pts
@@ -6773,26 +6582,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 148.59) (xy 102.87 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff648c6f-7094-4f80-a563-3190a2766130")
-	)
-	(wire
-		(pts
-			(xy 83.82 64.77) (xy 100.33 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff9f6e91-c347-4f71-8347-f9e049b5ba30")
-	)
-	(wire
-		(pts
 			(xy 208.28 151.13) (xy 215.9 151.13)
 		)
 		(stroke
@@ -7241,16 +7030,6 @@
 		)
 		(uuid "8a81d734-3a4c-483f-bcf1-517ee21e5427")
 	)
-	(label "cur_sense"
-		(at 100.33 64.77 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8b7c2a34-cbc4-45aa-b005-0ac0c2f16cd0")
-	)
 	(label "PWR_EN"
 		(at 100.33 39.37 180)
 		(effects
@@ -7260,16 +7039,6 @@
 			(justify right bottom)
 		)
 		(uuid "9143ab3c-5bd8-4367-8ac5-69bafd011594")
-	)
-	(label "VIN"
-		(at 100.33 143.51 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "959c724a-e3db-40db-bade-bfb2a8dff802")
 	)
 	(label "3V3"
 		(at 67.31 85.09 0)
@@ -7310,16 +7079,6 @@
 			(justify right bottom)
 		)
 		(uuid "98d19224-df24-47c5-ab42-d2723ea17fc1")
-	)
-	(label "GND"
-		(at 100.33 148.59 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a21be445-5206-42d9-82dd-35dbccc78280")
 	)
 	(label "SW1"
 		(at 285.75 54.61 0)
@@ -7533,22 +7292,22 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 102.87 148.59 0)
+		(at 312.42 191.77 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "3a24350f-951f-439c-bf2d-202d9c88a586")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.7257 148.59 0)
+			(at 305.5643 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7651,17 +7410,6 @@
 			(justify right)
 		)
 		(uuid "db85e5d2-53f1-41bc-a8d5-b238d12afd81")
-	)
-	(hierarchical_label "cur_sense"
-		(shape output)
-		(at 83.82 64.77 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "dc622614-9848-49e0-a370-1543adffec1e")
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
@@ -10889,108 +10637,6 @@
 			(project "BitaxeGT"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/24036843-8461-4d4b-b738-f953c909ed6c"
 					(reference "C24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "bitaxe:XT30PW-M")
-		(at 81.28 146.05 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5925d073-261b-415f-b97e-316e7b5ac330")
-		(property "Reference" "J1"
-			(at 81.28 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "XT30"
-			(at 81.28 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "bitaxe:XT30PW-M"
-			(at 81.026 161.798 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 75.692 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 81.28 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "XT30PW-M"
-			(at 81.026 159.512 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK" "~"
-			(at 75.692 153.162 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "partnum" ""
-			(at 81.28 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "85569538-4001-4f95-a5d8-99ed0c96dddb")
-		)
-		(pin "2"
-			(uuid "0c2dffd3-0f0a-41d3-b9f4-3c84fd93d298")
-		)
-		(pin "4"
-			(uuid "fac1f1f7-a2ee-4da1-883c-072c65dd6d1d")
-		)
-		(pin "1"
-			(uuid "73df1f6a-fca6-4ee7-826e-034f5cd131e1")
-		)
-		(instances
-			(project "BitaxeGT"
-				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/24036843-8461-4d4b-b738-f953c909ed6c"
-					(reference "J1")
 					(unit 1)
 				)
 			)
