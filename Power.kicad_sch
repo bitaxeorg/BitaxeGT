@@ -11807,7 +11807,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Sunlord_MWSA1003S"
+		(property "Footprint" "bitaxe:SLC1175-271MEC_COC"
 			(at 297.18 54.61 0)
 			(effects
 				(font
@@ -15230,7 +15230,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Sunlord_MWSA1003S"
+		(property "Footprint" "bitaxe:SLC1175-271MEC_COC"
 			(at 298.45 168.91 0)
 			(effects
 				(font
