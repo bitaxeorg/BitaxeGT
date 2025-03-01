@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "f2476397-85e4-4625-a58a-f306abb5af20")
-	(paper "A3")
+	(paper "A4")
 	(title_block
 		(title "Bitaxe Gamma Turbo")
 		(date "2025-02-28")

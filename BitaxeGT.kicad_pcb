@@ -3404,8 +3404,9 @@
 		(uuid "78885ca1-4bd7-4d82-a114-d757fbc9fe31")
 		(at 140.6206 146.338851 180)
 		(property "Reference" "J7"
-			(at 10.3206 0.438851 0)
+			(at -2.5794 2.763851 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "e0b86802-6bf3-4f2d-865e-73ea660dba9b")
 			(effects
 				(font
@@ -48079,7 +48080,7 @@
 		(uuid "e71df880-6fa9-4f77-9e02-de07c88a4677")
 	)
 	(gr_text "BAP"
-		(at 140.775 44.425 0)
+		(at 128.575 44.4 0)
 		(layer "F.SilkS")
 		(uuid "08606b58-4f0d-4728-bb3c-e1c585784f10")
 		(effects
@@ -48142,6 +48143,18 @@
 		(at 122.825 149.025 0)
 		(layer "F.SilkS")
 		(uuid "7f0fef8e-ff4a-4e7c-ac80-3f872d11aff2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "FAN"
+		(at 143.875 147.525 90)
+		(layer "F.SilkS")
+		(uuid "9d84db71-c715-4116-9a2c-1f72d3a69ac1")
 		(effects
 			(font
 				(size 1 1)
