@@ -5,7 +5,7 @@
 	(uuid "f2476397-85e4-4625-a58a-f306abb5af20")
 	(paper "A4")
 	(title_block
-		(title "Bitaxe Gamma Turbo")
+		(title "bitaxeGamma Turbo")
 		(date "2025-02-28")
 		(rev "800xx")
 	)
@@ -2787,16 +2787,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 83.82) (xy 31.75 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10bd6e03-f03c-4e34-b670-8998af58bf24")
-	)
-	(wire
-		(pts
 			(xy 49.53 52.07) (xy 49.53 63.5)
 		)
 		(stroke
@@ -3958,17 +3948,6 @@
 			(justify right)
 		)
 		(uuid "e2343dcd-acff-4f29-84ce-e85207f577cc")
-	)
-	(hierarchical_label "cur_sense"
-		(shape input)
-		(at 31.75 83.82 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ed40a87c-1ba9-4117-86e2-18ed5359c11f")
 	)
 	(symbol
 		(lib_id "bitaxe:TC2030-IDC-NL")
