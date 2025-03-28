@@ -557,7 +557,7 @@
       "idf": "",
       "netlist": "",
       "plot": "Manufacturing Files/gerbers/",
-      "pos_files": "../PnP/800x",
+      "pos_files": "../PnP/800xx",
       "specctra_dsn": "",
       "step": "BitaxeGT.step",
       "svg": "",
