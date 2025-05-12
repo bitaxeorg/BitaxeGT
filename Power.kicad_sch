@@ -7492,6 +7492,14 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 311.15 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2283d898-4686-4a77-b3b1-ecd77205e399")
 		)
@@ -7596,6 +7604,14 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 341.63 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "91316db4-aa6c-4b97-960e-01a352340290")
 		)
@@ -7681,6 +7697,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 173.99 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -7778,6 +7802,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 64.77 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -7884,6 +7916,14 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 193.04 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3a1b1bd1-ffbb-4d17-ba6e-3f6d368b7fd2")
 		)
@@ -7960,6 +8000,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 208.28 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -8058,6 +8106,14 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 189.23 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "614c9ff3-41b0-4b3f-972f-97c834d51ad3")
 		)
@@ -8152,6 +8208,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 58.42 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -8256,6 +8320,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 342.9 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -8363,6 +8435,14 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 100.33 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a1e47502-2b62-452f-8b67-b26a6f6e1b38")
 		)
@@ -8467,6 +8547,14 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 311.15 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5174daf3-508c-404e-9e03-151a58e1e369")
 		)
@@ -8561,6 +8649,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 199.39 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -8668,6 +8764,14 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 236.22 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3a717ba3-9241-434c-9bb0-c9a4b4254ca4")
 		)
@@ -8773,6 +8877,14 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 303.53 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0bb7c2e1-ed1a-4375-b226-258851784ef3")
 		)
@@ -8852,6 +8964,14 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 378.46 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1c788764-1d97-42c6-8a14-905379e30f40")
 		)
@@ -8925,6 +9045,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 119.38 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -9002,6 +9130,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 285.75 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -9095,6 +9231,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 86.36 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
@@ -9208,6 +9352,14 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 182.88 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3f834855-b64f-4d9e-b760-7eef05965478")
 		)
@@ -9313,6 +9465,14 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 276.86 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b721a3f8-cb76-4287-a71e-74d48b9e21b6")
 		)
@@ -9390,6 +9550,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 116.84 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -9483,6 +9651,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 229.87 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -9589,6 +9765,14 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 200.66 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8afb298e-65ef-41af-bfc8-da7c3a6a050b")
 		)
@@ -9684,6 +9868,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 64.77 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -9790,6 +9982,14 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 231.14 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2b3f125f-1795-4048-81d7-d68bce7c1d6b")
 		)
@@ -9884,6 +10084,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 212.09 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -9982,6 +10190,14 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 274.32 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7b352558-8936-4090-a564-c460261ec1d5")
 		)
@@ -10061,6 +10277,14 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 143.51 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "faceeb05-c12f-422d-9ee0-eada4e040c02")
 		)
@@ -10136,6 +10360,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 232.41 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -10238,6 +10470,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 219.71 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -10344,6 +10584,14 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 361.95 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ae218052-1faa-4453-9bf9-06e34d24d837")
 		)
@@ -10448,6 +10696,14 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 231.14 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6e90b7fd-c59e-49a9-bf47-9e06c6f2cfbd")
 		)
@@ -10524,6 +10780,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 119.38 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -10625,6 +10889,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 208.28 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -10733,6 +11005,14 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 306.07 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0940306f-0728-4120-8925-a8ccb1f85476")
 		)
@@ -10837,6 +11117,14 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 312.42 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b4593c04-a9f9-4cd3-8099-b6dc2635e5f8")
 		)
@@ -10914,6 +11202,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 143.51 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -11017,6 +11313,14 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 332.74 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e463fcef-1fbf-48ea-adb3-67dd0baa5b6a")
 		)
@@ -11113,6 +11417,14 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 303.53 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "092f7633-0339-4d50-972f-f143c04a22c5")
 		)
@@ -11206,6 +11518,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 255.27 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "36"
@@ -11393,6 +11713,14 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 255.27 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "83325c73-cbb0-41c7-a41a-0cb5be661d85")
 		)
@@ -11489,6 +11817,14 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 173.99 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3a85bf2a-b1cb-4d33-8bcd-fc9cab6ef031")
 		)
@@ -11567,6 +11903,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 285.75 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -11660,6 +12004,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 217.17 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -11766,6 +12118,14 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 322.58 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "88851619-cd2e-4a57-b3ee-64f50d55b5d9")
 		)
@@ -11850,6 +12210,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 297.18 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -11948,6 +12316,14 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 76.2 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "67526fac-6a5a-48ab-b422-cde471098e1d")
 		)
@@ -12014,6 +12390,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 255.27 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -12120,6 +12504,14 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 351.79 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6fbe014c-d2f7-43e4-8b2f-5a08c91d67be")
 		)
@@ -12215,6 +12607,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 281.94 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -12313,6 +12713,14 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 34.29 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d6e2d8dc-11f4-4d99-8820-99de8540de55")
 		)
@@ -12407,6 +12815,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 274.32 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -12505,6 +12921,14 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 276.86 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e2ef1cf0-9b30-4516-bb22-2ba3ab0a6676")
 		)
@@ -12581,6 +13005,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 189.23 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -12689,6 +13121,14 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 289.56 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "356c7dcd-633d-40ff-b7bc-aa7b8d810685")
 		)
@@ -12782,6 +13222,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 193.04 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -12878,6 +13326,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 87.63 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -12987,6 +13443,14 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 331.47 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9e43debb-dafd-4403-8eff-28c3fbb09048")
 		)
@@ -13090,6 +13554,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 219.71 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -13197,6 +13669,14 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 72.39 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ba210ba2-e064-4a8b-8a0d-58be02df4e4c")
 		)
@@ -13299,6 +13779,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 321.31 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -13405,6 +13893,14 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 223.52 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f562ae22-4166-48ba-86df-f8c49cd0a448")
 		)
@@ -13499,6 +13995,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 91.44 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -13605,6 +14109,14 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 215.9 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f47b4591-639d-4f02-80b5-c431e4a2cd50")
 		)
@@ -13702,6 +14214,14 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 64.77 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "bfd004c9-46ef-47a4-9abb-9ae41ae84da8")
 		)
@@ -13781,6 +14301,14 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 378.46 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f01479f2-c584-4c9b-887f-f61707d6d0bf")
 		)
@@ -13854,6 +14382,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 119.38 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -13947,6 +14483,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 229.87 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -14043,6 +14587,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 203.2 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -14149,6 +14701,14 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 223.52 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f7d6ff7c-e06b-4d3d-8bc8-f8e7d3332900")
 		)
@@ -14225,6 +14785,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 189.23 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -14323,6 +14891,14 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 219.71 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1760dcc3-11c9-4728-b716-7dfffb0a4672")
 		)
@@ -14401,6 +14977,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 285.75 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -14494,6 +15078,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 64.77 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -14601,6 +15193,14 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 236.22 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "df1e3077-b9a8-4f62-8030-fcbaf8046ea1")
 		)
@@ -14705,6 +15305,14 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 363.22 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "86b565b2-6ed8-48e2-9881-819c559b295c")
 		)
@@ -14807,6 +15415,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 353.06 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -14914,6 +15530,14 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 276.86 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0f776781-2e26-4bc7-88cd-6e7593fe76bb")
 		)
@@ -15010,6 +15634,14 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 83.82 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d0e69729-8b7f-493a-8ea0-29744787b0ef")
 		)
@@ -15086,6 +15718,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 119.38 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -15189,6 +15829,14 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 208.28 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8932f87e-5705-4a42-8383-37e0c79f2be1")
 		)
@@ -15273,6 +15921,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 298.45 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -15379,6 +16035,14 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 200.66 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "88432c82-29a7-4920-9a16-ca15c9e0e136")
 		)
@@ -15483,6 +16147,14 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 215.9 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0f5febc7-c83d-42f6-b895-09e45d5d7b6f")
 		)
@@ -15576,6 +16248,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 255.27 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "36"
@@ -15791,6 +16471,14 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 125.73 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "446dffcf-0c66-46f8-bc9e-b2cf9d41b878")
 		)
@@ -15887,6 +16575,14 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 116.84 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c580068d-5801-4b24-b28d-3eee35459237")
 		)
@@ -15981,6 +16677,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 276.86 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"

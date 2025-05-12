@@ -4333,6 +4333,14 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 128.27 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "66736ba8-eb60-4927-9b54-1f8bc4d416ec")
 		)
@@ -4433,6 +4441,14 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 144.78 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2f4cd5dc-1864-4337-ad5c-c3ba292b10c1")
 		)
@@ -4525,6 +4541,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 257.81 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "B7"
@@ -4654,6 +4678,14 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 234.95 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "49e67595-23fc-4e9f-ade4-68ca6819175a")
 		)
@@ -4731,6 +4763,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 247.65 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -4841,6 +4881,14 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 50.8 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "eb7bf015-9caa-4fd6-bc73-474ae99d0e14")
 		)
@@ -4934,6 +4982,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 140.97 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
@@ -5122,7 +5178,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "EVQ-9P701P"
+		(property "PARTNO" "CS1213AGF260"
 			(at 57.15 55.88 0)
 			(effects
 				(font
@@ -5131,7 +5187,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "P19095CT-ND"
+		(property "DK" "2449-CS1213AGF260CT-ND"
 			(at 57.15 53.34 0)
 			(effects
 				(font
@@ -5147,6 +5203,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 57.15 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -5228,6 +5292,14 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 201.93 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "41a16f22-aaed-4cd8-ab2d-b61449943502")
 		)
@@ -5303,7 +5375,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "EVQ-9P701P"
+		(property "PARTNO" "CS1213AGF260"
 			(at 96.52 55.88 0)
 			(effects
 				(font
@@ -5312,7 +5384,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "P19095CT-ND"
+		(property "DK" "2449-CS1213AGF260CT-ND"
 			(at 96.52 53.34 0)
 			(effects
 				(font
@@ -5328,6 +5400,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 96.52 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -5427,6 +5507,14 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 66.04 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6fa62c0a-106e-4dd7-bbc9-8c0e6fd66e37")
 		)
@@ -5515,6 +5603,14 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 144.78 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1d1097af-e62f-4415-b951-c02c77ba3c71")
 		)
@@ -5598,6 +5694,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 111.76 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5702,6 +5806,14 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 66.04 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bb4615b9-99f8-49a3-b6f6-c5d02ffb611c")
 		)
@@ -5790,6 +5902,14 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 111.76 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7dead6bd-ec48-4181-b57c-5fb0b3ffcb49")
 		)
@@ -5873,6 +5993,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 144.78 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5966,6 +6094,14 @@
 				(hide yes)
 			)
 		)
+		(property "Power" ""
+			(at 223.52 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cc9fb9a0-137e-45f1-8e5b-ada88c29fa57")
 		)
@@ -6052,6 +6188,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 111.76 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
