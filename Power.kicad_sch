@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "bitaxeGamma Turbo")
-		(date "2025-02-28")
-		(rev "800xx")
+		(date "2025-05-12")
+		(rev "800xxx")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -8797,7 +8797,7 @@
 		(dnp no)
 		(uuid "1e78efc2-b774-4828-816e-c44987330547")
 		(property "Reference" "C18"
-			(at 308.102 88.9 0)
+			(at 309.372 88.646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9591,7 +9591,7 @@
 			)
 		)
 		(property "Value" "10"
-			(at 227.33 66.294 90)
+			(at 228.6 66.294 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10934,7 +10934,7 @@
 			)
 		)
 		(property "Value" "33pF"
-			(at 310.896 110.998 0)
+			(at 312.928 112.776 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11355,7 +11355,7 @@
 			)
 		)
 		(property "Value" "49.9"
-			(at 296.418 64.77 0)
+			(at 297.434 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
