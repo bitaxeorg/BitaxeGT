@@ -60,8 +60,8 @@
       ],
       "drc_exclusions": [
         [
-          "copper_sliver|127220013|69859475|00000000-0000-0000-0000-000000000000|F.Cu",
-          "logo"
+          "copper_sliver|128780013|69909475|00000000-0000-0000-0000-000000000000|F.Cu",
+          ""
         ],
         [
           "solder_mask_bridge|121150000|84850000|e85c60c2-981b-4d9f-95f9-419c9e49d454|afd98ee8-1857-480f-9723-86eaddd34c92",
@@ -664,6 +664,24 @@
           "group_by": false,
           "label": "partnum",
           "name": "partnum",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser",
+          "name": "Mouser",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "HEIGHT",
+          "name": "HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part",
+          "name": "LCSC Part",
           "show": false
         }
       ],
