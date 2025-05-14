@@ -1011,6 +1011,12 @@
 		(uuid "0d360f35-1394-4587-b208-52a61a3bb5a6")
 	)
 	(junction
+		(at 255.27 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2405a8c2-1e24-42f7-96cc-4f39fe20e0c9")
+	)
+	(junction
 		(at 231.14 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1035,6 +1041,18 @@
 		(uuid "5428d199-6d0b-465c-a217-5801e9abfe5c")
 	)
 	(junction
+		(at 255.27 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "743ff95b-e6e7-4d24-b7c9-b35e68b4ec97")
+	)
+	(junction
+		(at 255.27 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "986a15e5-13fc-4715-961c-43c523c12300")
+	)
+	(junction
 		(at 111.76 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1045,6 +1063,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b36a6c9f-db69-429f-9c95-9cb6ccf37c40")
+	)
+	(junction
+		(at 255.27 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9ba8562-c6fa-4e4a-948a-e9e030e3797e")
 	)
 	(junction
 		(at 90.17 102.87)
@@ -1095,6 +1119,16 @@
 			(type default)
 		)
 		(uuid "02c42f76-73d9-4f52-a1f9-cd9c90da319e")
+	)
+	(wire
+		(pts
+			(xy 255.27 109.22) (xy 266.7 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "042dccf1-6191-4063-867f-305a7354dcb8")
 	)
 	(wire
 		(pts
@@ -1538,6 +1572,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 104.14) (xy 266.7 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9275a380-8ecd-4a17-922f-24c21f5e1a2f")
+	)
+	(wire
+		(pts
 			(xy 57.15 57.15) (xy 68.58 57.15)
 		)
 		(stroke
@@ -1668,6 +1712,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 101.6) (xy 266.7 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc5ef34d-0f50-4780-973e-fba3e33a32b4")
+	)
+	(wire
+		(pts
 			(xy 219.71 120.65) (xy 228.6 120.65)
 		)
 		(stroke
@@ -1715,6 +1769,16 @@
 			(type default)
 		)
 		(uuid "ce9d87c9-2098-4f91-91c6-7a3913aa470b")
+	)
+	(wire
+		(pts
+			(xy 255.27 106.68) (xy 266.7 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ced18351-0201-443e-a25f-57855615be09")
 	)
 	(wire
 		(pts
@@ -2645,6 +2709,101 @@
 			(project ""
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/edab3562-ad75-4c4e-afab-a1841dcf5714"
 					(reference "U13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 271.78 106.68 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5fcd4fac-a2f3-4edd-9b08-f31ad48465a3")
+		(property "Reference" "J9"
+			(at 270.51 98.044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 265.938 112.776 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "bitaxe:SAMTEC_TSM-104-01-L-SH-A"
+			(at 271.78 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 271.78 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 271.78 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "SAM12999-ND"
+			(at 271.78 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "TSM-104-01-L-SH-A"
+			(at 271.78 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "c44cf60d-61ec-4a3a-9a5b-f45e643f07f8")
+		)
+		(pin "3"
+			(uuid "73671c3c-22e3-4b1c-9142-e849cc53d899")
+		)
+		(pin "2"
+			(uuid "6401441f-e592-400b-b29f-526b1f0ae99e")
+		)
+		(pin "1"
+			(uuid "5569e0cc-5485-4fe5-b44b-1c433965bf30")
+		)
+		(instances
+			(project "BitaxeGT"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/edab3562-ad75-4c4e-afab-a1841dcf5714"
+					(reference "J9")
 					(unit 1)
 				)
 			)
