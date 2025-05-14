@@ -1429,7 +1429,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "bitaxe:Sinhoo SMTSO3015CTJ"
+		(property "Footprint" "bitaxe:Sinhoo SMTSO3015CTJ_nopaste"
 			(at 115.57 175.26 0)
 			(effects
 				(font
@@ -1597,7 +1597,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "bitaxe:Sinhoo SMTSO3015CTJ"
+		(property "Footprint" "bitaxe:Sinhoo SMTSO3015CTJ_nopaste"
 			(at 115.57 153.67 0)
 			(effects
 				(font
@@ -1681,7 +1681,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "bitaxe:Sinhoo SMTSO3015CTJ"
+		(property "Footprint" "bitaxe:Sinhoo SMTSO3015CTJ_nopaste"
 			(at 115.57 161.29 0)
 			(effects
 				(font
@@ -1955,7 +1955,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "bitaxe:Sinhoo SMTSO3015CTJ"
+		(property "Footprint" "bitaxe:Sinhoo SMTSO3015CTJ_nopaste"
 			(at 115.57 167.64 0)
 			(effects
 				(font
