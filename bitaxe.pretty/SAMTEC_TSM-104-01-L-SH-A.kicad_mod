@@ -50,45 +50,16 @@
 		)
 	)
 	(attr smd)
-	(fp_line
-		(start -5.08 1.27)
-		(end -5.08 -1.27)
+	(fp_rect
+		(start -5.08 -1.132)
+		(end 5.047 1.276)
 		(stroke
-			(width 0.2)
-			(type solid)
+			(width 0.15)
+			(type default)
 		)
+		(fill no)
 		(layer "F.SilkS")
-		(uuid "28a53ac7-7d39-46a8-9ba5-11daa1e5ced3")
-	)
-	(fp_line
-		(start 5.08 -1.27)
-		(end -5.08 -1.27)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "73ecc506-9412-49e0-8cb4-b21c093d4a63")
-	)
-	(fp_line
-		(start 5.08 -1.27)
-		(end 5.08 1.27)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "4e2298fb-cbbe-4477-b212-6ba279378ab2")
-	)
-	(fp_line
-		(start 5.08 1.27)
-		(end -5.08 1.27)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "27f87f6c-41e1-4dd1-b45e-88c8a16028f9")
+		(uuid "78864edf-9f29-4c25-82ef-4cadba2a8a9e")
 	)
 	(fp_circle
 		(center -5.73 5.28)
@@ -223,19 +194,30 @@
 		(uuid "4b99e06c-8c15-4f0f-afde-0e87b771f50e")
 	)
 	(fp_rect
-		(start -5.806 -7.4445)
-		(end -1.812 -1.2815)
+		(start -4.58 -7.4595)
+		(end -3.58 -1.3)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(fill no)
 		(layer "User.1")
-		(uuid "df0e63a4-d399-4ab0-a414-388ee8ea2bcf")
+		(uuid "b8bf8848-2e87-40b1-bee9-2948ca61f14c")
 	)
 	(fp_rect
-		(start 1.865 -7.452)
-		(end 5.843 -1.289)
+		(start -2.62 -7.456)
+		(end -1.92 -1.304)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "2cad3ff8-53a3-4559-ad3e-89aa81dbbaab")
+	)
+	(fp_rect
+		(start 3.58 -7.452)
+		(end 4.58 -1.3)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -296,6 +278,17 @@
 		)
 		(rotate
 			(xyz -90 -0 -180)
+		)
+	)
+	(model "/Users/skot/Downloads/4-Pin-FAN-female.stp"
+		(offset
+			(xyz -1.3 7.4 15.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -180 -0)
 		)
 	)
 )
