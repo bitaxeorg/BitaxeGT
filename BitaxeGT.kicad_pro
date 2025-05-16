@@ -683,6 +683,18 @@
           "label": "LCSC Part",
           "name": "LCSC Part",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Partnum",
+          "name": "Partnum",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": false
         }
       ],
       "filter_string": "",
