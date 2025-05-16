@@ -12142,7 +12142,7 @@
 		(at 83.82 171.45 270)
 		(unit 1)
 		(exclude_from_sim yes)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "f4268055-9226-4aa8-b614-22b7301e786c")
