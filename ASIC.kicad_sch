@@ -5718,23 +5718,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 53.34 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 53.34 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "72fb13a4-e9fa-48a0-b0fc-30af5a9dc39e")
 		)
@@ -5820,23 +5803,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 57.15 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 57.15 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "8e254402-f4b9-42b8-8251-cec2356ee66c")
 		)
@@ -5916,15 +5882,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 147.32 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "PARTNO" "EMK105BJ105MV-F"
 			(at 147.32 176.53 0)
 			(effects
@@ -5932,14 +5889,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 147.32 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -6029,16 +5978,7 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 234.95 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
+		(property "Voltage" "25V"
 			(at 234.95 69.85 0)
 			(effects
 				(font
@@ -6134,23 +6074,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 165.1 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 165.1 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "fe7253fd-d67e-4a29-a21d-1fb91ee93d82")
 		)
@@ -6219,23 +6142,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "partnum" ""
-			(at 99.06 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 99.06 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "11"
@@ -6395,15 +6301,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 60.96 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DK" "MCP1824T-1202E/OTCT-ND"
 			(at 60.96 172.72 0)
 			(effects
@@ -6420,14 +6317,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 60.96 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "3"
@@ -6517,15 +6406,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 167.64 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "PARTNO" "EMK105BJ105MV-F"
 			(at 167.64 85.09 0)
 			(effects
@@ -6533,14 +6413,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 167.64 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -6621,13 +6493,12 @@
 				(hide yes)
 			)
 		)
-		(property "Partnum" "SN74AXC4T774BQBR"
-			(at 199.136 60.198 0)
+		(property "PARTNO" "SN74AXC4T774BQBR"
+			(at 199.39 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "16"
@@ -6742,15 +6613,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 130.81 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DK" "MCP1824T-0802E/OTCT-ND"
 			(at 130.81 172.72 0)
 			(effects
@@ -6767,14 +6629,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 130.81 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "3"
@@ -6864,15 +6718,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 248.92 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "PARTNO" "EMK105BJ105MV-F"
 			(at 248.92 85.09 0)
 			(effects
@@ -6880,14 +6725,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 248.92 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -6969,15 +6806,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 71.12 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "PARTNO" "EMK105BJ105MV-F"
 			(at 71.12 139.7 0)
 			(effects
@@ -6985,14 +6813,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 71.12 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -7064,23 +6884,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 111.76 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 111.76 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "ab42f984-d594-433b-9bfa-43f891c9ca43")
 		)
@@ -7145,23 +6948,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "partnum" ""
-			(at 240.03 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 240.03 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -7239,15 +7025,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 187.96 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "PARTNO" "EMK105BJ105MV-F"
 			(at 187.96 85.09 0)
 			(effects
@@ -7255,14 +7032,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 187.96 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -7352,16 +7121,7 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 226.06 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
+		(property "Voltage" "25V"
 			(at 226.06 69.85 0)
 			(effects
 				(font
@@ -7456,23 +7216,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 176.53 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 176.53 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "480eb422-4bec-4d90-8115-2274eb2d9531")
 		)
@@ -7551,15 +7294,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 66.04 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "PARTNO" "EMK105BJ105MV-F"
 			(at 66.04 139.7 0)
 			(effects
@@ -7567,14 +7301,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 66.04 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -7644,23 +7370,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "partnum" ""
-			(at 240.03 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 240.03 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -7738,15 +7447,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 43.18 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "PARTNO" "EMK105BJ105MV-F"
 			(at 43.18 176.53 0)
 			(effects
@@ -7754,14 +7454,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 43.18 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -7842,15 +7534,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 63.5 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "PARTNO" "EMK105BJ105MV-F"
 			(at 63.5 85.09 0)
 			(effects
@@ -7858,14 +7541,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 63.5 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -7956,23 +7631,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 167.64 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 167.64 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "bd3d087e-6aee-400b-bef5-c043955c82b3")
 		)
@@ -8040,23 +7698,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "partnum" ""
-			(at 240.03 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 240.03 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -8134,15 +7775,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 134.62 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "PARTNO" "EMK105BJ105MV-F"
 			(at 134.62 85.09 0)
 			(effects
@@ -8150,14 +7782,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 134.62 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -8238,15 +7862,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 120.65 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "PARTNO" "EMK105BJ105MV-F"
 			(at 120.65 139.7 0)
 			(effects
@@ -8254,14 +7869,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 120.65 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -8342,15 +7949,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 177.8 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "PARTNO" "EMK105BJ105MV-F"
 			(at 177.8 85.09 0)
 			(effects
@@ -8358,14 +7956,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 177.8 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -8446,15 +8036,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 124.46 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "PARTNO" "EMK105BJ105MV-F"
 			(at 124.46 85.09 0)
 			(effects
@@ -8462,14 +8043,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 124.46 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -8551,15 +8124,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 236.22 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "PARTNO" "EMK105BJ105MV-F"
 			(at 236.22 139.7 0)
 			(effects
@@ -8567,14 +8131,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 236.22 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -8664,23 +8220,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 233.68 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 233.68 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "32c80a89-92ad-4040-9445-883650d53d30")
 		)
@@ -8768,16 +8307,7 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 243.84 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
+		(property "Voltage" "25V"
 			(at 243.84 69.85 0)
 			(effects
 				(font
@@ -8863,15 +8393,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 218.44 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "PARTNO" "EMK105BJ105MV-F"
 			(at 218.44 85.09 0)
 			(effects
@@ -8879,14 +8400,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 218.44 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -8967,15 +8480,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 231.14 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "PARTNO" "EMK105BJ105MV-F"
 			(at 231.14 139.7 0)
 			(effects
@@ -8983,14 +8487,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 231.14 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -9062,23 +8558,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 240.03 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 240.03 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "97698c7c-c08c-4308-b77f-1f718232ca03")
 		)
@@ -9145,23 +8624,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "partnum" ""
-			(at 53.34 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 53.34 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -9239,15 +8701,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 113.03 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "PARTNO" "EMK105BJ105MV-F"
 			(at 113.03 176.53 0)
 			(effects
@@ -9255,14 +8708,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 113.03 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -9352,16 +8797,7 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 121.92 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
+		(property "Voltage" "25V"
 			(at 121.92 69.85 0)
 			(effects
 				(font
@@ -9456,16 +8892,7 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 146.05 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
+		(property "Voltage" "25V"
 			(at 146.05 69.85 0)
 			(effects
 				(font
@@ -9561,23 +8988,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 57.15 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 57.15 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "e2e3597e-0eef-4335-9959-32043a905086")
 		)
@@ -9656,15 +9066,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 176.53 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "PARTNO" "EMK105BJ105MV-F"
 			(at 176.53 139.7 0)
 			(effects
@@ -9672,14 +9073,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 176.53 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -9753,23 +9146,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 165.1 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 165.1 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "93baca72-78ce-4f8f-80b5-bfd46b7e1d76")
 		)
@@ -9834,23 +9210,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "partnum" ""
-			(at 153.67 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 153.67 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -9928,15 +9287,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 83.82 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "PARTNO" "EMK105BJ105MV-F"
 			(at 83.82 85.09 0)
 			(effects
@@ -9944,14 +9294,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 83.82 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -10041,16 +9383,7 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 113.03 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
+		(property "Voltage" "25V"
 			(at 113.03 69.85 0)
 			(effects
 				(font
@@ -10145,23 +9478,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 152.4 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 152.4 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "16aaa34f-28dc-4c97-9f6e-5850de189dc0")
 		)
@@ -10240,15 +9556,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 73.66 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "PARTNO" "EMK105BJ105MV-F"
 			(at 73.66 85.09 0)
 			(effects
@@ -10256,14 +9563,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 73.66 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -10335,23 +9634,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "partnum" ""
-			(at 74.93 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 74.93 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -10438,16 +9720,7 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 217.17 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
+		(property "Voltage" "25V"
 			(at 217.17 69.85 0)
 			(effects
 				(font
@@ -10534,15 +9807,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 181.61 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "PARTNO" "EMK105BJ105MV-F"
 			(at 181.61 139.7 0)
 			(effects
@@ -10550,14 +9814,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 181.61 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -10638,15 +9894,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 144.78 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "PARTNO" "EMK105BJ105MV-F"
 			(at 144.78 85.09 0)
 			(effects
@@ -10654,14 +9901,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 144.78 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -10751,16 +9990,7 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 250.19 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
+		(property "Voltage" "25V"
 			(at 250.19 69.85 0)
 			(effects
 				(font
@@ -10855,23 +10085,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 87.63 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 87.63 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "121a6e68-9c80-40fd-9ed4-39ed17099242")
 		)
@@ -10939,23 +10152,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "partnum" ""
-			(at 240.03 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 240.03 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -11033,15 +10229,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 114.3 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "PARTNO" "EMK105BJ105MV-F"
 			(at 114.3 85.09 0)
 			(effects
@@ -11049,14 +10236,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 114.3 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -11137,15 +10316,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 238.76 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "PARTNO" "EMK105BJ105MV-F"
 			(at 238.76 85.09 0)
 			(effects
@@ -11153,14 +10323,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 238.76 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -11242,15 +10404,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 125.73 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "PARTNO" "EMK105BJ105MV-F"
 			(at 125.73 139.7 0)
 			(effects
@@ -11258,14 +10411,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 125.73 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -11339,23 +10484,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 179.07 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 179.07 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "9c1f0f28-0e3a-4659-8a02-428c9eed125c")
 		)
@@ -11420,16 +10548,23 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
+		(property "DK" "5852-SX3M25.000E20F30THNTR-ND"
 			(at 87.63 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Power" ""
+		(property "LCSC" "C5137262"
+			(at 87.63 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "SX3M25.000E20F30THN"
 			(at 87.63 43.18 0)
 			(effects
 				(font
@@ -11514,23 +10649,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 165.1 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 165.1 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "32b2a63e-2b15-4820-ad42-5c91d28f697b")
 		)
@@ -11607,15 +10725,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 77.47 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "PARTNO" "EMK105BJ105MV-F"
 			(at 77.47 176.53 0)
 			(effects
@@ -11623,14 +10732,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 77.47 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -11720,16 +10821,7 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 130.81 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
+		(property "Voltage" "25V"
 			(at 130.81 69.85 0)
 			(effects
 				(font
@@ -11824,16 +10916,7 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 139.7 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
+		(property "Voltage" "25V"
 			(at 139.7 69.85 0)
 			(effects
 				(font
@@ -11909,23 +10992,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "partnum" ""
-			(at 203.2 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 203.2 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "11"
@@ -12096,15 +11162,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 53.34 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "PARTNO" "EMK105BJ105MV-F"
 			(at 53.34 85.09 0)
 			(effects
@@ -12112,14 +11169,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 53.34 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -12189,23 +11238,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "partnum" ""
-			(at 83.82 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 83.82 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -12283,15 +11315,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 228.6 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "PARTNO" "EMK105BJ105MV-F"
 			(at 228.6 85.09 0)
 			(effects
@@ -12299,14 +11322,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 228.6 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -12387,15 +11402,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 157.48 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "PARTNO" "EMK105BJ105MV-F"
 			(at 157.48 85.09 0)
 			(effects
@@ -12403,14 +11409,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 157.48 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"

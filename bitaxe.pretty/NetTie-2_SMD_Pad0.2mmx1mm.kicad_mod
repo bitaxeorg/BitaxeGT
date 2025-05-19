@@ -1,7 +1,7 @@
 (footprint "NetTie-2_SMD_Pad0.2mmx1mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Net tie, 2 pin, 0.5mm square SMD pads")
 	(tags "net tie")
@@ -25,19 +25,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "a440b82b-d317-40c1-b8c1-ee1921adae9a")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -78,7 +65,7 @@
 			(width 0)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Cu")
 		(uuid "4c587801-35de-4fc4-895b-9942aca7f89f")
 	)
@@ -94,4 +81,5 @@
 		(layers "F.Cu")
 		(uuid "b531e0f4-5d47-4a72-8a54-a3eaafb85b86")
 	)
+	(embedded_fonts no)
 )
