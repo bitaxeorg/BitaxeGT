@@ -7483,23 +7483,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 311.15 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 311.15 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "2283d898-4686-4a77-b3b1-ecd77205e399")
 		)
@@ -7569,14 +7552,6 @@
 				(hide yes)
 			)
 		)
-		(property "voltage" "6.3V"
-			(at 345.948 69.342 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "PARTNO" "CL31A107MQHNNNE"
 			(at 341.63 66.04 0)
 			(effects
@@ -7595,17 +7570,8 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 341.63 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 341.63 66.04 0)
+		(property "Voltage" "6.3V"
+			(at 345.948 62.738 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7699,14 +7665,6 @@
 				(hide yes)
 			)
 		)
-		(property "Power" ""
-			(at 173.99 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "d6769c66-d8e0-4613-a5b5-d4b0b64551fc")
 		)
@@ -7795,23 +7753,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 64.77 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 64.77 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "e938ca3f-5a38-4b85-b0f7-d46a850d9182")
 		)
@@ -7881,25 +7822,8 @@
 				(hide yes)
 			)
 		)
-		(property "voltage" "25V"
-			(at 196.596 42.418 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "DK" "399-3882-1-ND"
 			(at 193.04 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "partnum" ""
-			(at 193.04 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7916,8 +7840,8 @@
 				(hide yes)
 			)
 		)
-		(property "Power" ""
-			(at 193.04 46.99 0)
+		(property "Voltage" "25V"
+			(at 194.564 50.038 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7991,23 +7915,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "partnum" ""
-			(at 208.28 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 208.28 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "2"
@@ -8097,23 +8004,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 189.23 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 189.23 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "614c9ff3-41b0-4b3f-972f-97c834d51ad3")
 		)
@@ -8201,23 +8091,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 58.42 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 58.42 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "8737a014-6450-4e93-9faa-41af4f7cf6c1")
 		)
@@ -8287,14 +8160,6 @@
 				(hide yes)
 			)
 		)
-		(property "voltage" "6.3V"
-			(at 347.218 183.642 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "PARTNO" "CL31A107MQHNNNE"
 			(at 342.9 180.34 0)
 			(effects
@@ -8313,17 +8178,8 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 342.9 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 342.9 180.34 0)
+		(property "Voltage" "6.3V"
+			(at 346.964 177.038 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8399,15 +8255,6 @@
 				(hide yes)
 			)
 		)
-		(property "voltage" "25V"
-			(at 96.266 197.612 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "PARTNO" "TMK107B7105KA-T"
 			(at 100.33 193.04 90)
 			(effects
@@ -8426,17 +8273,8 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 100.33 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 100.33 193.04 0)
+		(property "Voltage" "25V"
+			(at 98.044 195.072 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8512,14 +8350,6 @@
 				(hide yes)
 			)
 		)
-		(property "voltage" "6.3V"
-			(at 315.468 69.342 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "PARTNO" "CL31A107MQHNNNE"
 			(at 311.15 66.04 0)
 			(effects
@@ -8538,17 +8368,8 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 311.15 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 311.15 66.04 0)
+		(property "Voltage" "6.3V"
+			(at 315.214 62.738 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8642,23 +8463,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 199.39 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 199.39 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "1511c21a-d102-4d3d-b5c5-5f6da01d52d7")
 		)
@@ -8728,15 +8532,6 @@
 				(hide yes)
 			)
 		)
-		(property "voltage" "25V"
-			(at 231.648 87.376 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "PARTNO" "TMK107B7105KA-T"
 			(at 236.22 91.44 90)
 			(effects
@@ -8755,16 +8550,7 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 236.22 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
+		(property "Voltage" "25V"
 			(at 236.22 91.44 0)
 			(effects
 				(font
@@ -8841,15 +8627,6 @@
 				(hide yes)
 			)
 		)
-		(property "voltage" "50V"
-			(at 307.594 84.836 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "PARTNO" "CC0402JRNPO9BN101"
 			(at 303.53 90.17 0)
 			(effects
@@ -8868,17 +8645,8 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 303.53 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 303.53 90.17 0)
+		(property "Voltage" "50V"
+			(at 307.34 86.614 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8955,23 +8723,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 378.46 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 378.46 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "1c788764-1d97-42c6-8a14-905379e30f40")
 		)
@@ -9036,23 +8787,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "partnum" ""
-			(at 119.38 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 119.38 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -9123,23 +8857,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 285.75 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 285.75 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "460d0284-92f1-4af1-b0a8-2d5907d67973")
 		)
@@ -9206,15 +8923,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 86.36 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DK" "296-TPSM861253RDXRCT-ND"
 			(at 86.36 229.87 0)
 			(effects
@@ -9231,14 +8939,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 86.36 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "3"
@@ -9343,23 +9043,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 182.88 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 182.88 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "3f834855-b64f-4d9e-b760-7eef05965478")
 		)
@@ -9394,7 +9077,7 @@
 			)
 		)
 		(property "Value" "1000pF"
-			(at 282.702 174.752 0)
+			(at 286.258 175.006 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9429,15 +9112,6 @@
 				(hide yes)
 			)
 		)
-		(property "voltage" "50V"
-			(at 280.924 168.656 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "PARTNO" "CC0805KRX7R9BB102"
 			(at 276.86 173.99 0)
 			(effects
@@ -9456,17 +9130,8 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 276.86 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 276.86 173.99 0)
+		(property "Voltage" "50V"
+			(at 285.242 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9541,23 +9206,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "partnum" ""
-			(at 116.84 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 116.84 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -9642,23 +9290,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "partnum" ""
-			(at 229.87 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 229.87 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "2"
@@ -9756,23 +9387,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 200.66 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 200.66 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "8afb298e-65ef-41af-bfc8-da7c3a6a050b")
 		)
@@ -9861,23 +9475,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 64.77 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 64.77 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "09223ea0-0738-4982-b072-8800152c997e")
 		)
@@ -9947,14 +9544,6 @@
 				(hide yes)
 			)
 		)
-		(property "voltage" "25V"
-			(at 235.204 155.956 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "PARTNO" "490-8257-1-ND"
 			(at 231.14 161.29 90)
 			(effects
@@ -9973,16 +9562,7 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 231.14 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
+		(property "Voltage" "25V"
 			(at 231.14 161.29 0)
 			(effects
 				(font
@@ -10077,23 +9657,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 212.09 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 212.09 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "58e059a2-68cd-4c6e-9e0f-51de5852c085")
 		)
@@ -10181,23 +9744,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 274.32 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 274.32 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "7b352558-8936-4090-a564-c460261ec1d5")
 		)
@@ -10208,90 +9754,6 @@
 			(project "BitaxeGT"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/24036843-8461-4d4b-b738-f953c909ed6c"
 					(reference "C28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 143.51 224.79 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3e708b96-5fa3-4b09-817b-077661d3d95c")
-		(property "Reference" "TP26"
-			(at 148.59 223.5199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3V3"
-			(at 148.59 226.0599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 143.51 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 143.51 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 143.51 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "partnum" ""
-			(at 143.51 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 143.51 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "faceeb05-c12f-422d-9ee0-eada4e040c02")
-		)
-		(instances
-			(project "BitaxeGT"
-				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/24036843-8461-4d4b-b738-f953c909ed6c"
-					(reference "TP26")
 					(unit 1)
 				)
 			)
@@ -10351,23 +9813,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "partnum" ""
-			(at 232.41 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 232.41 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -10436,15 +9881,6 @@
 				(hide yes)
 			)
 		)
-		(property "voltage" "25V"
-			(at 215.138 64.516 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "PARTNO" "TMK107B7105KA-T"
 			(at 219.71 68.58 90)
 			(effects
@@ -10463,17 +9899,8 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 219.71 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 219.71 68.58 0)
+		(property "Voltage" "25V"
+			(at 222.25 67.564 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10549,14 +9976,6 @@
 				(hide yes)
 			)
 		)
-		(property "voltage" "6.3V"
-			(at 366.268 69.342 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "PARTNO" "CL31A107MQHNNNE"
 			(at 361.95 66.04 0)
 			(effects
@@ -10575,17 +9994,8 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 361.95 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 361.95 66.04 0)
+		(property "Voltage" "6.3V"
+			(at 366.268 62.738 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10661,14 +10071,6 @@
 				(hide yes)
 			)
 		)
-		(property "voltage" "25V"
-			(at 235.204 41.656 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "PARTNO" "490-8257-1-ND"
 			(at 231.14 46.99 90)
 			(effects
@@ -10687,16 +10089,7 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 231.14 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
+		(property "Voltage" "25V"
 			(at 231.14 46.99 0)
 			(effects
 				(font
@@ -10771,23 +10164,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "partnum" ""
-			(at 119.38 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 119.38 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -10882,23 +10258,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 208.28 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 208.28 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "a0ebd7a0-8db8-48c7-9d5d-989574472b1a")
 		)
@@ -10969,15 +10328,6 @@
 				(hide yes)
 			)
 		)
-		(property "voltage" "25V"
-			(at 310.134 117.094 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "PARTNO" "KGM05ACG1E330JH"
 			(at 306.07 111.76 0)
 			(effects
@@ -10996,17 +10346,8 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 306.07 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 306.07 111.76 0)
+		(property "Voltage" "25V"
+			(at 310.134 108.458 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11082,14 +10423,6 @@
 				(hide yes)
 			)
 		)
-		(property "voltage" "6.3V"
-			(at 316.738 183.642 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "PARTNO" "CL31A107MQHNNNE"
 			(at 312.42 180.34 0)
 			(effects
@@ -11108,17 +10441,8 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 312.42 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 312.42 180.34 0)
+		(property "Voltage" "6.3V"
+			(at 316.738 177.038 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11195,23 +10519,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 143.51 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 143.51 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "e04e0568-e2f4-4ff8-83c7-0c5a511ff841")
 		)
@@ -11278,14 +10585,6 @@
 				(hide yes)
 			)
 		)
-		(property "voltage" "6.3V"
-			(at 337.058 183.642 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "PARTNO" "CL31A107MQHNNNE"
 			(at 332.74 180.34 0)
 			(effects
@@ -11304,17 +10603,8 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 332.74 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 332.74 180.34 0)
+		(property "Voltage" "6.3V"
+			(at 336.804 177.038 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11408,23 +10698,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 303.53 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 303.53 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "092f7633-0339-4d50-972f-f143c04a22c5")
 		)
@@ -11509,23 +10782,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "partnum" ""
-			(at 255.27 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 255.27 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "36"
@@ -11713,14 +10969,6 @@
 				(hide yes)
 			)
 		)
-		(property "Power" ""
-			(at 255.27 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "83325c73-cbb0-41c7-a41a-0cb5be661d85")
 		)
@@ -11808,23 +11056,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 173.99 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 173.99 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "3a85bf2a-b1cb-4d33-8bcd-fc9cab6ef031")
 		)
@@ -11894,23 +11125,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "partnum" ""
-			(at 285.75 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 285.75 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -11997,23 +11211,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 217.17 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 217.17 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "5364981b-b3ad-4ed4-ac53-04280cbff585")
 		)
@@ -12083,14 +11280,6 @@
 				(hide yes)
 			)
 		)
-		(property "voltage" "6.3V"
-			(at 326.898 183.642 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "PARTNO" "CL31A107MQHNNNE"
 			(at 322.58 180.34 0)
 			(effects
@@ -12109,17 +11298,8 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 322.58 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 322.58 180.34 0)
+		(property "Voltage" "6.3V"
+			(at 326.898 177.038 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12194,7 +11374,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "104CDMCCDS-R30MC"
+		(property "PARTNO" "SLC1175-271MEC"
 			(at 297.18 54.61 90)
 			(effects
 				(font
@@ -12203,21 +11383,13 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
+		(property "DK" ""
 			(at 297.18 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 297.18 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -12307,23 +11479,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 76.2 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 76.2 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "67526fac-6a5a-48ab-b422-cde471098e1d")
 		)
@@ -12390,14 +11545,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 255.27 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -12469,14 +11616,6 @@
 				(hide yes)
 			)
 		)
-		(property "voltage" "6.3V"
-			(at 356.108 69.342 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "PARTNO" "CL31A107MQHNNNE"
 			(at 351.79 66.04 0)
 			(effects
@@ -12495,17 +11634,8 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 351.79 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 351.79 66.04 0)
+		(property "Voltage" "6.3V"
+			(at 356.108 62.738 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12600,23 +11730,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 281.94 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 281.94 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "157850ce-fbba-422a-a910-ed67c779c46e")
 		)
@@ -12704,17 +11817,8 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 34.29 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 34.29 229.87 0)
+		(property "Voltage" "25V"
+			(at 37.592 233.426 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12808,23 +11912,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 274.32 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 274.32 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "8ad2ebf0-4116-4680-8469-144eb185abfc")
 		)
@@ -12912,23 +11999,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 276.86 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 276.86 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "e2ef1cf0-9b30-4516-bb22-2ba3ab0a6676")
 		)
@@ -12996,23 +12066,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "partnum" ""
-			(at 189.23 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 189.23 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "2"
@@ -13085,15 +12138,6 @@
 				(hide yes)
 			)
 		)
-		(property "voltage" "25V"
-			(at 293.624 231.394 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "PARTNO" "KGM05ACG1E330JH"
 			(at 289.56 226.06 0)
 			(effects
@@ -13112,17 +12156,8 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 289.56 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 289.56 226.06 0)
+		(property "Voltage" "25V"
+			(at 293.624 222.758 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13198,14 +12233,6 @@
 				(hide yes)
 			)
 		)
-		(property "voltage" "25V"
-			(at 196.596 156.718 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "DK" "399-3882-1-ND"
 			(at 193.04 161.29 90)
 			(effects
@@ -13224,8 +12251,8 @@
 				(hide yes)
 			)
 		)
-		(property "Power" ""
-			(at 193.04 161.29 0)
+		(property "Voltage" "25V"
+			(at 194.564 164.846 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13319,23 +12346,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 87.63 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 87.63 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "29c34995-c59e-4628-bb3a-24565f62aded")
 		)
@@ -13408,14 +12418,6 @@
 				(hide yes)
 			)
 		)
-		(property "voltage" "6.3V"
-			(at 335.788 69.342 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "PARTNO" "CL31A107MQHNNNE"
 			(at 331.47 66.04 0)
 			(effects
@@ -13434,17 +12436,8 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 331.47 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 331.47 66.04 0)
+		(property "Voltage" "6.3V"
+			(at 335.788 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13476,7 +12469,7 @@
 		(dnp no)
 		(uuid "a6f8cae2-c5ad-4c26-80f8-7c2985854396")
 		(property "Reference" "C36"
-			(at 218.44 178.308 90)
+			(at 218.186 178.054 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13520,15 +12513,6 @@
 				(hide yes)
 			)
 		)
-		(property "voltage" "25V"
-			(at 215.138 178.816 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "PARTNO" "TMK107B7105KA-T"
 			(at 219.71 182.88 90)
 			(effects
@@ -13547,17 +12531,8 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 219.71 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 219.71 182.88 0)
+		(property "Voltage" "25V"
+			(at 222.25 181.864 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13633,15 +12608,6 @@
 				(hide yes)
 			)
 		)
-		(property "voltage" "25V"
-			(at 68.326 197.612 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "PARTNO" "TMK107B7105KA-T"
 			(at 72.39 193.04 90)
 			(effects
@@ -13660,17 +12626,8 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 72.39 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 72.39 193.04 0)
+		(property "Voltage" "25V"
+			(at 69.85 195.072 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13746,14 +12703,6 @@
 				(hide yes)
 			)
 		)
-		(property "voltage" "6.3V"
-			(at 325.628 69.342 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "PARTNO" "CL31A107MQHNNNE"
 			(at 321.31 66.04 0)
 			(effects
@@ -13772,17 +12721,8 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 321.31 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 321.31 66.04 0)
+		(property "Voltage" "6.3V"
+			(at 325.374 62.738 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13858,14 +12798,6 @@
 				(hide yes)
 			)
 		)
-		(property "voltage" "25V"
-			(at 227.584 155.956 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "PARTNO" "GRM155R71E472KA01D"
 			(at 223.52 161.29 90)
 			(effects
@@ -13884,16 +12816,7 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 223.52 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
+		(property "Voltage" "25V"
 			(at 223.52 161.29 0)
 			(effects
 				(font
@@ -13988,23 +12911,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 91.44 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 91.44 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "d1e722b4-5247-479e-b571-b7ad355f9018")
 		)
@@ -14074,14 +12980,6 @@
 				(hide yes)
 			)
 		)
-		(property "voltage" "25V"
-			(at 219.964 42.418 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "PARTNO" "TMK107B7105KA-T"
 			(at 215.9 46.99 90)
 			(effects
@@ -14100,16 +12998,7 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 215.9 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
+		(property "Voltage" "25V"
 			(at 215.9 46.99 0)
 			(effects
 				(font
@@ -14205,23 +13094,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 64.77 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 64.77 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "bfd004c9-46ef-47a4-9abb-9ae41ae84da8")
 		)
@@ -14292,23 +13164,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 378.46 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 378.46 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "f01479f2-c584-4c9b-887f-f61707d6d0bf")
 		)
@@ -14373,23 +13228,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "partnum" ""
-			(at 119.38 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 119.38 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -14474,23 +13312,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "partnum" ""
-			(at 229.87 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 229.87 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "2"
@@ -14580,23 +13401,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 203.2 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 203.2 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "c60c03d8-b4f6-43a6-a2f3-30bcc53c68b2")
 		)
@@ -14666,14 +13470,6 @@
 				(hide yes)
 			)
 		)
-		(property "voltage" "25V"
-			(at 227.584 41.656 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "PARTNO" "GRM155R71E472KA01D"
 			(at 223.52 46.99 90)
 			(effects
@@ -14692,16 +13488,7 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 223.52 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
+		(property "Voltage" "25V"
 			(at 223.52 46.99 0)
 			(effects
 				(font
@@ -14776,23 +13563,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "partnum" ""
-			(at 189.23 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 189.23 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "2"
@@ -14882,23 +13652,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 219.71 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 219.71 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "1760dcc3-11c9-4728-b716-7dfffb0a4672")
 		)
@@ -14968,23 +13721,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "partnum" ""
-			(at 285.75 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 285.75 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -15071,23 +13807,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 64.77 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 64.77 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "c61b87b5-4d9f-4cd8-bb12-c262d4f1366b")
 		)
@@ -15157,15 +13876,6 @@
 				(hide yes)
 			)
 		)
-		(property "voltage" "25V"
-			(at 231.648 201.676 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "PARTNO" "TMK107B7105KA-T"
 			(at 236.22 205.74 90)
 			(effects
@@ -15184,17 +13894,8 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 236.22 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 236.22 205.74 0)
+		(property "Voltage" "25V"
+			(at 239.014 207.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15270,14 +13971,6 @@
 				(hide yes)
 			)
 		)
-		(property "voltage" "6.3V"
-			(at 367.538 183.642 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "PARTNO" "CL31A107MQHNNNE"
 			(at 363.22 180.34 0)
 			(effects
@@ -15296,17 +13989,8 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 363.22 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 363.22 180.34 0)
+		(property "Voltage" "6.3V"
+			(at 367.538 177.038 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15382,14 +14066,6 @@
 				(hide yes)
 			)
 		)
-		(property "voltage" "6.3V"
-			(at 357.378 183.642 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "PARTNO" "CL31A107MQHNNNE"
 			(at 353.06 180.34 0)
 			(effects
@@ -15408,17 +14084,8 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 353.06 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 353.06 180.34 0)
+		(property "Voltage" "6.3V"
+			(at 357.378 177.038 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15494,15 +14161,6 @@
 				(hide yes)
 			)
 		)
-		(property "voltage" "50V"
-			(at 280.924 54.356 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "PARTNO" "CC0805KRX7R9BB102"
 			(at 276.86 59.69 0)
 			(effects
@@ -15521,17 +14179,8 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 276.86 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 276.86 59.69 0)
+		(property "Voltage" "50V"
+			(at 283.464 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15625,23 +14274,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 83.82 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 83.82 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "d0e69729-8b7f-493a-8ea0-29744787b0ef")
 		)
@@ -15709,23 +14341,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "partnum" ""
-			(at 119.38 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 119.38 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -15820,23 +14435,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 208.28 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 208.28 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "8932f87e-5705-4a42-8383-37e0c79f2be1")
 		)
@@ -15905,7 +14503,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "104CDMCCDS-R30MC"
+		(property "PARTNO" "SLC1175-271MEC"
 			(at 298.45 168.91 90)
 			(effects
 				(font
@@ -15914,16 +14512,7 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 298.45 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
+		(property "DK" ""
 			(at 298.45 168.91 0)
 			(effects
 				(font
@@ -16026,23 +14615,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 200.66 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 200.66 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "88432c82-29a7-4920-9a16-ca15c9e0e136")
 		)
@@ -16112,14 +14684,6 @@
 				(hide yes)
 			)
 		)
-		(property "voltage" "25V"
-			(at 219.964 156.718 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "PARTNO" "TMK107B7105KA-T"
 			(at 215.9 161.29 90)
 			(effects
@@ -16138,16 +14702,7 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 215.9 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
+		(property "Voltage" "25V"
 			(at 215.9 161.29 0)
 			(effects
 				(font
@@ -16239,23 +14794,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "partnum" ""
-			(at 255.27 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 255.27 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "36"
@@ -16462,17 +15000,8 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 125.73 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 125.73 236.22 0)
+		(property "Voltage" "25V"
+			(at 129.032 239.776 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16566,17 +15095,8 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 116.84 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 116.84 236.22 0)
+		(property "Voltage" "25V"
+			(at 119.888 239.776 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16668,23 +15188,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "partnum" ""
-			(at 276.86 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 276.86 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "2"

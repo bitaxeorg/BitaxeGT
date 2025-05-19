@@ -4748,7 +4748,7 @@
 		(at 128.27 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4794,23 +4794,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "partnum" ""
-			(at 128.27 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 128.27 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "4"
@@ -4896,6 +4879,24 @@
 		)
 		(property "LCSC" "C262657"
 			(at 246.634 131.572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "2073-FFC2B35-08-TCT-ND"
+			(at 247.65 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "FFC2B35-08-T"
+			(at 247.65 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4997,15 +4998,6 @@
 				(hide yes)
 			)
 		)
-		(property "HEIGHT" ""
-			(at 144.78 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mouser" ""
 			(at 144.78 160.02 0)
 			(effects
@@ -5013,14 +5005,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 144.78 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -5090,15 +5074,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 257.81 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DK" "2073-USB4105-GF-ACT-ND"
 			(at 257.81 66.04 0)
 			(effects
@@ -5115,14 +5090,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 257.81 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "B7"
@@ -5243,16 +5210,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C25905"
-			(at 234.95 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
+		(property "LCSC" "C25905"
 			(at 234.95 58.42 0)
 			(effects
 				(font
@@ -5347,16 +5305,7 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 50.8 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
+		(property "Voltage" "25V"
 			(at 50.8 133.35 0)
 			(effects
 				(font
@@ -5448,23 +5397,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "partnum" ""
-			(at 140.97 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 140.97 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "3"
@@ -5697,7 +5629,7 @@
 		(at 201.93 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5745,23 +5677,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "partnum" ""
-			(at 201.93 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 201.93 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "4"
@@ -5858,23 +5773,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 66.04 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 66.04 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "6fa62c0a-106e-4dd7-bbc9-8c0e6fd66e37")
 		)
@@ -5945,15 +5843,6 @@
 				(hide yes)
 			)
 		)
-		(property "HEIGHT" ""
-			(at 144.78 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mouser" ""
 			(at 144.78 157.48 0)
 			(effects
@@ -5961,14 +5850,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 144.78 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -6038,15 +5919,6 @@
 				(hide yes)
 			)
 		)
-		(property "HEIGHT" ""
-			(at 111.76 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mouser" ""
 			(at 111.76 154.94 0)
 			(effects
@@ -6054,14 +5926,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 111.76 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -6130,15 +5994,6 @@
 				(hide yes)
 			)
 		)
-		(property "partnum" ""
-			(at 66.04 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DK" "311-1016-1-ND"
 			(at 66.04 58.42 0)
 			(effects
@@ -6157,16 +6012,7 @@
 				(hide yes)
 			)
 		)
-		(property "voltage" "50V"
-			(at 66.04 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
+		(property "Voltage" "50V"
 			(at 66.04 58.42 0)
 			(effects
 				(font
@@ -6244,15 +6090,6 @@
 				(hide yes)
 			)
 		)
-		(property "HEIGHT" ""
-			(at 111.76 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mouser" ""
 			(at 111.76 157.48 0)
 			(effects
@@ -6260,14 +6097,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 111.76 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -6337,15 +6166,6 @@
 				(hide yes)
 			)
 		)
-		(property "HEIGHT" ""
-			(at 144.78 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mouser" ""
 			(at 144.78 154.94 0)
 			(effects
@@ -6353,14 +6173,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 144.78 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -6445,16 +6257,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C25905"
-			(at 223.52 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
+		(property "LCSC" "C25905"
 			(at 223.52 55.88 0)
 			(effects
 				(font
@@ -6532,15 +6335,6 @@
 				(hide yes)
 			)
 		)
-		(property "HEIGHT" ""
-			(at 111.76 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Mouser" ""
 			(at 111.76 160.02 0)
 			(effects
@@ -6548,14 +6342,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 111.76 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
