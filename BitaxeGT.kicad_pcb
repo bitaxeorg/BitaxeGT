@@ -160,7 +160,6 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
-			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
@@ -2649,7 +2648,7 @@
 			(net 14 "/fan/FAN_TACH")
 			(pinfunction "Pin_3")
 			(pintype "passive")
-			(uuid "1a7bed4b-36cb-4ca6-a461-1a8a3f6e7382")
+			(uuid "80282905-2494-4c87-a7e5-3e9379608276")
 		)
 		(pad "4" thru_hole oval
 			(at 3.81 0)
