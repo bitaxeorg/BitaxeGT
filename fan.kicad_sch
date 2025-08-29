@@ -984,6 +984,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "I2C Address: 0x2E"
+		(exclude_from_sim no)
+		(at 131.318 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "548b0ead-6127-4fcb-b661-756cc923d225")
+	)
 	(text "ASIC 2 Temperature"
 		(exclude_from_sim no)
 		(at 43.942 107.95 0)
@@ -2674,9 +2684,9 @@
 		(at 165.1 93.98 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "7151ca93-da12-4320-b0a9-25c3f2362bb4")
 		(property "Reference" "R33"
 			(at 170.434 92.964 0)
@@ -2687,8 +2697,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Rshdn"
-			(at 172.466 95.25 0)
+		(property "Value" "10k"
+			(at 170.18 94.996 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2715,6 +2725,24 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 165.1 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "311-10KJRCT-ND"
+			(at 165.1 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "RC0402JR-0710KL"
 			(at 165.1 93.98 0)
 			(effects
 				(font
