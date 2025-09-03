@@ -31,7 +31,4 @@ fp-info-cache
 *auto_saved_files*
 i*bak
 
-# Ignore macOS system files
-.DS_Store
-
 
