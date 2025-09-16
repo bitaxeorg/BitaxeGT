@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "bitaxeGamma Turbo")
-		(date "2025-05-12")
-		(rev "800xxx")
+		(date "2025-09-15")
+		(rev "800xxxx")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -3728,6 +3728,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 86.36) (xy 85.09 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8abdfc97-a166-40b7-bc81-95ac0897558f")
+	)
+	(wire
+		(pts
 			(xy 242.57 63.5) (xy 237.49 63.5)
 		)
 		(stroke
@@ -4595,6 +4605,17 @@
 			(justify right)
 		)
 		(uuid "6da149f6-87d4-4069-8a68-0d8886cd7a90")
+	)
+	(hierarchical_label "FAN_ALRT"
+		(shape input)
+		(at 31.75 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7bbaea55-25f6-41c8-9ea3-01a4b467bc3a")
 	)
 	(hierarchical_label "TX_3V3"
 		(shape input)

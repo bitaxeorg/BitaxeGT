@@ -730,6 +730,10 @@
     [
       "edab3562-ad75-4c4e-afab-a1841dcf5714",
       "fan"
+    ],
+    [
+      "f0f2debd-bf95-4f38-bfb0-9e920deee647",
+      "level shifter"
     ]
   ],
   "text_variables": {}

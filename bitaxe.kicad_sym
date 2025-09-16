@@ -3161,10 +3161,10 @@
 					)
 				)
 			)
-			(pin output line
+			(pin input line
 				(at -17.78 2.54 0)
 				(length 2.54)
-				(name "RO"
+				(name "RI"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3467,10 +3467,10 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 17.78 2.54 180)
 				(length 2.54)
-				(name "RI"
+				(name "RO"
 					(effects
 						(font
 							(size 1.27 1.27)
