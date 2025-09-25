@@ -7,7 +7,7 @@
 	(title_block
 		(title "bitaxeGamma Turbo")
 		(date "2025-09-15")
-		(rev "800xxxx")
+		(rev "801x")
 	)
 	(lib_symbols
 		(symbol "Device:C"

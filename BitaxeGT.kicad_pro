@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.508
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -61,18 +61,6 @@
       "drc_exclusions": [
         [
           "copper_sliver|128780013|64909475|00000000-0000-0000-0000-000000000000|F.Cu",
-          ""
-        ],
-        [
-          "solder_mask_bridge|121150000|84850000|8218215b-a337-45e8-92e5-a5208733816f|313ee41a-51eb-45dd-bd91-bf0cfa2c9b3e",
-          ""
-        ],
-        [
-          "solder_mask_bridge|121312500|83850000|8218215b-a337-45e8-92e5-a5208733816f|a493383f-7135-43b8-a831-19bd3245b9b6",
-          ""
-        ],
-        [
-          "solder_mask_bridge|121350000|84850000|8218215b-a337-45e8-92e5-a5208733816f|b3937c43-65d8-4372-9d41-953b2cf0d1e7",
           ""
         ],
         [
@@ -618,7 +606,7 @@
           "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -665,10 +653,10 @@
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": false,
+      "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Footprint"
     },
     "connection_grid_size": 50.0,
     "drawing": {

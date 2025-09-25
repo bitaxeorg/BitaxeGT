@@ -7,7 +7,7 @@
 	(title_block
 		(title "bitaxeGamma Turbo")
 		(date "2025-09-15")
-		(rev "800xxxx")
+		(rev "801x")
 	)
 	(lib_symbols
 		(symbol "Mechanical:Fiducial"
@@ -1475,7 +1475,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "bitaxe:Heatsink-BitaxeGT"
+		(property "Footprint" "bitaxe:Heatsink-5hole-BitaxeGT"
 			(at 119.6848 187.96 0)
 			(effects
 				(font
