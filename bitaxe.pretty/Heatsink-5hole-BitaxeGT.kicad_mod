@@ -82,45 +82,49 @@
 		)
 	)
 	(attr smd)
-	(fp_line
-		(start -30 -30)
+	(fp_rect
+		(start -30 -57.5)
+		(end -22 -55)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "264a2f72-c329-40c7-9094-76d3afb5494f")
+	)
+	(fp_rect
+		(start -30 -55)
 		(end 30 -30)
 		(stroke
-			(width 0.1)
+			(width 0.15)
 			(type solid)
 		)
+		(fill no)
 		(layer "Dwgs.User")
-		(uuid "31de8fca-d5b6-40e7-8ed8-a22c333bd657")
+		(uuid "0897b24a-5fd2-477c-b435-b2010b2f7949")
 	)
-	(fp_line
-		(start -30 30)
-		(end -30 -30)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "cade5f0b-b823-4358-bf9d-57a2a2b7c53f")
-	)
-	(fp_line
-		(start 30 -30)
+	(fp_rect
+		(start -30 -30)
 		(end 30 30)
 		(stroke
-			(width 0.1)
+			(width 0.15)
 			(type solid)
 		)
+		(fill no)
 		(layer "Dwgs.User")
-		(uuid "2e470369-f302-4cc0-8eea-1d27fa3ace8b")
+		(uuid "f563cd26-0eeb-4c17-a55a-a6fa52de2e28")
 	)
-	(fp_line
-		(start 30 30)
-		(end -30 30)
+	(fp_rect
+		(start 22 -57.5)
+		(end 30 -55)
 		(stroke
-			(width 0.1)
+			(width 0.15)
 			(type solid)
 		)
+		(fill no)
 		(layer "Dwgs.User")
-		(uuid "63fb9e27-3464-43c3-b889-d51f6760d8a8")
+		(uuid "c43f6d59-f9de-4e5b-b674-210562a34bb7")
 	)
 	(fp_circle
 		(center -25 -25)
