@@ -568,198 +568,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SWITCH-SPST_1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW1"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SWITCH-SPST"
-				(at 0 -12.192 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "bitaxe:EVQ9P701P-switch"
-				(at 0.254 -14.224 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://api.pim.na.industrial.panasonic.com/file_stream/main/fileversion/245500"
-				(at 0.254 -16.764 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "PARTNO" "EVQ-9P701P"
-				(at 0.254 -10.414 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "DK" "P19095CT-ND"
-				(at 0.254 -7.874 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SWITCH-SPST_1_0_1"
-				(polyline
-					(pts
-						(xy -3.05 1.52) (xy 3.05 1.52)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.54 0)
-					(radius 0.76)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.52) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 0)
-					(radius 0.76)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "SWITCH-SPST_1_1_1"
-				(pin no_connect line
-					(at -2.54 -3.81 0)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -2.54 -3.81 0)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "bitaxe:Conn_01x08-support"
 			(pin_names
 				(offset 1.016)
@@ -1956,11 +1764,11 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "bitaxe:SWITCH-SPST"
+		(symbol "bitaxe:GT-TC029B-H025-L1N"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "SW1"
+			(property "Reference" "SW2"
 				(at 0 3.81 0)
 				(effects
 					(font
@@ -1968,8 +1776,8 @@
 					)
 				)
 			)
-			(property "Value" "SWITCH-SPST"
-				(at 0 -12.192 0)
+			(property "Value" "GT-TC029B-H025-L1N"
+				(at 0 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1977,8 +1785,8 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "bitaxe:EVQ9P701P-switch"
-				(at 0.254 -14.224 0)
+			(property "Footprint" "bitaxe:SW_CS1213AGF260_CRS"
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1986,8 +1794,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://api.pim.na.industrial.panasonic.com/file_stream/main/fileversion/245500"
-				(at 0.254 -16.764 0)
+			(property "Datasheet" "https://www.citrelay.com/Catalog%20Pages/SwitchCatalog/CS1213.pdf"
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2004,8 +1812,8 @@
 					(hide yes)
 				)
 			)
-			(property "PARTNO" "EVQ-9P701P"
-				(at 0.254 -10.414 0)
+			(property "DK" "2449-CS1213AGF260CT-ND"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2013,8 +1821,8 @@
 					(hide yes)
 				)
 			)
-			(property "DK" "P19095CT-ND"
-				(at 0.254 -7.874 0)
+			(property "PARTNO" "CS1213AGF260"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2022,7 +1830,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SWITCH-SPST_0_1"
+			(symbol "GT-TC029B-H025-L1N_0_1"
 				(polyline
 					(pts
 						(xy -3.05 1.52) (xy 3.05 1.52)
@@ -2098,46 +1906,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "SWITCH-SPST_1_1"
-				(pin no_connect line
-					(at -2.54 -3.81 0)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -2.54 -3.81 0)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4110,98 +3878,6 @@
 		(uuid "e2343dcd-acff-4f29-84ce-e85207f577cc")
 	)
 	(symbol
-		(lib_id "bitaxe:SWITCH-SPST")
-		(at 96.52 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0660a187-152d-4175-b490-3d233e280f77")
-		(property "Reference" "SW2"
-			(at 96.52 53.848 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SWITCH-SPST"
-			(at 96.52 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "bitaxe:SW_TL3330AF130QG_EWI"
-			(at 96.52 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://configured-product-images.s3.amazonaws.com/Datasheets/TL3330.pdf"
-			(at 96.52 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 96.52 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "TL3330AF130QG"
-			(at 96.52 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK" "EG4388CT-ND"
-			(at 96.52 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6512db4c-5afa-45d8-ab3d-4ae97059c34c")
-		)
-		(pin "1"
-			(uuid "8eb6e361-44c1-4b18-aa19-0a1b08e48245")
-		)
-		(pin "4"
-			(uuid "351c26b7-7f62-45fb-8b3e-66bcbe637e5a")
-		)
-		(pin "3"
-			(uuid "340adcbc-6cb5-468e-937e-e2a839e9b601")
-		)
-		(instances
-			(project "BitaxeGT"
-				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/0703810a-9d38-4b42-b83c-c94ab6e668a1"
-					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "bitaxe:Conn_01x08-support")
 		(at 247.65 109.22 0)
 		(unit 1)
@@ -4910,24 +4586,122 @@
 		)
 	)
 	(symbol
-		(lib_name "SWITCH-SPST_1")
-		(lib_id "bitaxe:SWITCH-SPST")
-		(at 57.15 52.07 0)
+		(lib_id "bitaxe:GT-TC029B-H025-L1N")
+		(at 96.52 52.07 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "77a3e28a-b878-4aee-861c-e2bbb8db8fd3")
-		(property "Reference" "SW1"
-			(at 57.15 53.848 0)
+		(fields_autoplaced yes)
+		(uuid "69dceb7c-5294-4688-aac0-dce701190bea")
+		(property "Reference" "SW2"
+			(at 96.52 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SWITCH-SPST"
+		(property "Value" "GT-TC029B-H025-L1N"
+			(at 96.52 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "bitaxe:SW_CS1213AGF260_CRS"
+			(at 96.52 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.citrelay.com/Catalog%20Pages/SwitchCatalog/CS1213.pdf"
+			(at 96.52 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "2449-CS1213AGF260CT-ND"
+			(at 96.52 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "CS1213AGF260"
+			(at 96.52 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 96.52 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4695d378-9445-4c10-a33b-4dfee2b5bc29")
+		)
+		(pin "2"
+			(uuid "05f48327-7851-46aa-87ab-327032740ad9")
+		)
+		(instances
+			(project "BitaxeGT"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/0703810a-9d38-4b42-b83c-c94ab6e668a1"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bitaxe:GT-TC029B-H025-L1N")
+		(at 57.15 52.07 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7dfe0e80-846b-4679-b575-48ea8efd2852")
+		(property "Reference" "SW1"
+			(at 57.15 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GT-TC029B-H025-L1N"
 			(at 57.15 48.26 0)
 			(effects
 				(font
@@ -4936,7 +4710,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "bitaxe:SW_TL3330AF130QG_EWI"
+		(property "Footprint" "bitaxe:SW_CS1213AGF260_CRS"
 			(at 57.15 59.69 0)
 			(effects
 				(font
@@ -4945,7 +4719,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://configured-product-images.s3.amazonaws.com/Datasheets/TL3330.pdf"
+		(property "Datasheet" "https://www.citrelay.com/Catalog%20Pages/SwitchCatalog/CS1213.pdf"
 			(at 57.15 62.23 0)
 			(effects
 				(font
@@ -4963,8 +4737,8 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "TL3330AF130QG"
-			(at 57.15 55.88 0)
+		(property "DK" "2449-CS1213AGF260CT-ND"
+			(at 57.15 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4972,8 +4746,8 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "EG4388CT-ND"
-			(at 57.15 53.34 0)
+		(property "PARTNO" "CS1213AGF260"
+			(at 57.15 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4981,20 +4755,23 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "18c8ef3f-7b71-456a-bdcf-2ca7334a16ac")
+		(property "Field6" ""
+			(at 57.15 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "4c678a04-74cc-46f0-8097-c0cc885759cf")
+			(uuid "8222137e-9766-47e4-a3d5-e0fe03ed1b94")
 		)
-		(pin "4"
-			(uuid "1a76c286-8b2a-4ed4-a7e4-633812771df8")
-		)
-		(pin "3"
-			(uuid "4db9df49-f69b-44a9-8355-c488bcc85c8c")
+		(pin "2"
+			(uuid "4e23c336-3273-4f38-946a-b2a05eb473bc")
 		)
 		(instances
-			(project ""
+			(project "BitaxeGT"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/0703810a-9d38-4b42-b83c-c94ab6e668a1"
 					(reference "SW1")
 					(unit 1)
