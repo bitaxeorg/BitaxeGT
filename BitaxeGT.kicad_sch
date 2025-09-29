@@ -1088,16 +1088,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 107.95) (xy 102.87 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d30fbc76-f550-42b1-bb07-de55b816e090")
-	)
-	(wire
-		(pts
 			(xy 128.27 96.52) (xy 132.08 96.52)
 		)
 		(stroke
@@ -1215,16 +1205,6 @@
 			(justify left bottom)
 		)
 		(uuid "1ef37afe-eff2-43d4-bcde-29cfb1e3bfa5")
-	)
-	(label "Vcore"
-		(at 90.17 107.95 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2acd8b88-594a-4a10-a7b6-fafa101a4cd7")
 	)
 	(label "5V"
 		(at 90.17 52.07 0)
@@ -2196,16 +2176,6 @@
 				(justify left)
 			)
 		)
-		(pin "VDD" input
-			(at 102.87 107.95 180)
-			(uuid "9e886989-f434-4a07-b821-e096966e3a23")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "BAP_VIN" input
 			(at 102.87 124.46 180)
 			(uuid "9a9f7aa2-e1f4-4396-9c65-3c2a7e02d25e")
@@ -2356,6 +2326,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "EN" input
+			(at 128.27 50.8 0)
+			(uuid "43c7e211-566d-4af2-b21b-61279c83e912")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

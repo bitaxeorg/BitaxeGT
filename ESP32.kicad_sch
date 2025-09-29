@@ -3301,20 +3301,96 @@
 		(uuid "c031aeec-d420-4e6b-b277-5bb60b6c4467")
 	)
 	(no_connect
+		(at 85.09 88.9)
+		(uuid "020643fc-2c1c-4982-8243-c456618b4416")
+	)
+	(no_connect
+		(at 85.09 109.22)
+		(uuid "18a2127a-2943-4648-b42e-a8dc9c9e58d7")
+	)
+	(no_connect
 		(at 242.57 50.8)
 		(uuid "2828885a-4877-4089-a6bf-049a7d15a37e")
+	)
+	(no_connect
+		(at 199.39 101.6)
+		(uuid "3bc4e447-31ce-4d36-a533-7c1acdacb84f")
+	)
+	(no_connect
+		(at 85.09 104.14)
+		(uuid "46900005-2333-41c6-8eda-efa7485e7f57")
+	)
+	(no_connect
+		(at 85.09 78.74)
+		(uuid "579a67aa-eb35-4943-a123-bc739b472b74")
+	)
+	(no_connect
+		(at 85.09 93.98)
+		(uuid "5a00f0d0-08f7-48ae-bf6f-c763e0a20198")
+	)
+	(no_connect
+		(at 199.39 83.82)
+		(uuid "62766cb5-5c89-48e2-a6a2-4e65a91c6667")
+	)
+	(no_connect
+		(at 199.39 106.68)
+		(uuid "64eedc38-5b54-4968-a30b-4863aa68f572")
 	)
 	(no_connect
 		(at 242.57 53.34)
 		(uuid "6ac439cb-9164-4bf3-943b-216e08bc9e56")
 	)
 	(no_connect
+		(at 85.09 83.82)
+		(uuid "7a439955-5c6b-4863-911e-b3f996754058")
+	)
+	(no_connect
+		(at 199.39 109.22)
+		(uuid "7c55fdd8-f800-4aea-b934-d05bff8f98cf")
+	)
+	(no_connect
+		(at 199.39 88.9)
+		(uuid "8b33649d-9839-4ef7-9616-5a5362564b5d")
+	)
+	(no_connect
+		(at 85.09 81.28)
+		(uuid "b2173d38-0213-49f5-b322-34a032d93ab3")
+	)
+	(no_connect
+		(at 85.09 96.52)
+		(uuid "d571415e-5fe1-4a1d-8b6e-4d8b49c90b1e")
+	)
+	(no_connect
+		(at 199.39 86.36)
+		(uuid "d5927bc9-99ae-4389-817c-18b58431805a")
+	)
+	(no_connect
+		(at 85.09 114.3)
+		(uuid "dfda37d3-6ab8-4748-b0a2-4e23eca9f3c6")
+	)
+	(no_connect
 		(at 242.57 81.28)
 		(uuid "e114c46a-b5b2-4302-803f-d8fd46764a63")
 	)
 	(no_connect
+		(at 85.09 86.36)
+		(uuid "ea58c461-4cb0-4607-99e1-9a09d79cba14")
+	)
+	(no_connect
+		(at 199.39 104.14)
+		(uuid "eb9f1654-4b90-4821-9d3f-594435cfa548")
+	)
+	(no_connect
+		(at 85.09 91.44)
+		(uuid "eebcd320-856d-4a87-b1c6-6e393e04a737")
+	)
+	(no_connect
 		(at 242.57 78.74)
 		(uuid "f2dced49-3dd9-4209-8f51-c67f576d31ab")
+	)
+	(no_connect
+		(at 85.09 111.76)
+		(uuid "fda289db-e7a5-44ec-90bf-b14e0d8a2834")
 	)
 	(wire
 		(pts
@@ -3445,16 +3521,6 @@
 			(type default)
 		)
 		(uuid "244a9cda-9cac-4814-964a-9b4080d1a735")
-	)
-	(wire
-		(pts
-			(xy 73.66 78.74) (xy 85.09 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2885e478-98fd-4b77-a3cd-f1921a379d4c")
 	)
 	(wire
 		(pts
@@ -4540,17 +4606,6 @@
 			(justify right)
 		)
 		(uuid "2fa775fc-35ec-4068-ae06-baa9fb59b9d3")
-	)
-	(hierarchical_label "VDD"
-		(shape input)
-		(at 73.66 78.74 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "37dcd0ce-7223-4813-8609-f4916a2907d7")
 	)
 	(hierarchical_label "SMB_ALRT"
 		(shape output)
