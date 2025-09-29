@@ -10711,7 +10711,7 @@
 				)
 			)
 		)
-		(property "Value" "TPS546D24ARVFR"
+		(property "Value" "TPS546D24S"
 			(at 252.73 29.21 0)
 			(effects
 				(font
@@ -10746,7 +10746,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "296-TPS546D24ARVFRCT-ND"
+		(property "DK" "296-TPS546D24SRVFRCT-ND"
 			(at 252.73 31.75 0)
 			(effects
 				(font
@@ -10755,7 +10755,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "TPS546D24ARVFR"
+		(property "PARTNO" "TPS546D24SRVFR"
 			(at 252.73 29.21 0)
 			(effects
 				(font
@@ -14723,7 +14723,7 @@
 				)
 			)
 		)
-		(property "Value" "TPS546D24ARVFR"
+		(property "Value" "TPS546D24S"
 			(at 252.73 143.51 0)
 			(effects
 				(font
@@ -14758,7 +14758,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "296-TPS546D24ARVFRCT-ND"
+		(property "DK" "296-TPS546D24SRVFRCT-ND"
 			(at 252.73 146.05 0)
 			(effects
 				(font
@@ -14767,7 +14767,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "TPS546D24ARVFR"
+		(property "PARTNO" "TPS546D24SRVFR"
 			(at 252.73 143.51 0)
 			(effects
 				(font
