@@ -60,7 +60,7 @@
       ],
       "drc_exclusions": [
         [
-          "copper_sliver|128780013|64909475|00000000-0000-0000-0000-000000000000|F.Cu",
+          "solder_mask_bridge|106704907|40880784|e92fd7cb-9cc9-41d3-9501-efa7fef0cd81|5d9d929f-00f9-4e62-8c4f-7eb4964df468",
           ""
         ],
         [
@@ -85,6 +85,14 @@
         ],
         [
           "solder_mask_bridge|145700000|84830000|b191049a-baba-4712-8d2f-9dcc6eaa4321|96f250f8-e0ba-4e85-854b-6dc5fecce8ae",
+          ""
+        ],
+        [
+          "solder_mask_bridge|153433492|115973887|a59ad37c-c026-4350-b359-2c6f9ae9cb55|a5a6cda9-c2f0-4542-927c-ac2225dd578c",
+          ""
+        ],
+        [
+          "solder_mask_bridge|154215289|147041386|3a671f53-1889-48af-9259-0545a91a83c3|608bea04-35d5-484c-b136-004988ed24ef",
           ""
         ]
       ],

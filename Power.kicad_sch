@@ -9384,7 +9384,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 140.97 231.14 270)
+		(at 143.51 247.65 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -9393,7 +9393,7 @@
 		(fields_autoplaced yes)
 		(uuid "6668ba90-7794-4204-a22b-90c93005314b")
 		(property "Reference" "TP28"
-			(at 146.05 229.8699 90)
+			(at 148.59 246.3799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9402,7 +9402,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 146.05 232.4099 90)
+			(at 148.59 248.9199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9411,7 +9411,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 140.97 236.22 0)
+			(at 143.51 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9420,7 +9420,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 140.97 236.22 0)
+			(at 143.51 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9429,7 +9429,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 140.97 231.14 0)
+			(at 143.51 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
