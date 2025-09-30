@@ -2020,9 +2020,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "5V BUCK Regulator"
+	(text "3.3V BUCK Regulator"
 		(exclude_from_sim no)
-		(at 85.598 242.57 0)
+		(at 86.36 242.824 0)
 		(effects
 			(font
 				(size 1.27 1.27)

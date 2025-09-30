@@ -10549,27 +10549,30 @@
 			)
 		)
 		(property "DK" "5852-SX3M25.000E20F30THNTR-ND"
-			(at 87.63 43.18 0)
+			(at 88.392 31.496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC" "C5137262"
-			(at 87.63 43.18 0)
+			(at 87.376 35.814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "PARTNO" "SX3M25.000E20F30THN"
-			(at 87.63 43.18 0)
+			(at 87.884 34.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "3"
