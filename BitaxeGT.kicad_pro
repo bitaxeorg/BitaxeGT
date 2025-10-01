@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 4.2,
-          "height": 6.0,
-          "width": 6.0
+          "height": 7.0,
+          "width": 7.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.508
         }
       },
       "diff_pair_dimensions": [
@@ -60,11 +60,7 @@
       ],
       "drc_exclusions": [
         [
-          "solder_mask_bridge|106704907|40880784|e92fd7cb-9cc9-41d3-9501-efa7fef0cd81|5d9d929f-00f9-4e62-8c4f-7eb4964df468",
-          ""
-        ],
-        [
-          "solder_mask_bridge|121150000|84850000|8218215b-a337-45e8-92e5-a5208733816f|313ee41a-51eb-45dd-bd91-bf0cfa2c9b3e",
+          "solder_mask_bridge|121150000|84850000|8218215b-a337-45e8-92e5-a5208733816f|afd98ee8-1857-480f-9723-86eaddd34c92",
           ""
         ],
         [
@@ -72,11 +68,11 @@
           ""
         ],
         [
-          "solder_mask_bridge|121350000|84850000|8218215b-a337-45e8-92e5-a5208733816f|b3937c43-65d8-4372-9d41-953b2cf0d1e7",
+          "solder_mask_bridge|121350000|84850000|8218215b-a337-45e8-92e5-a5208733816f|afd98ee8-1857-480f-9723-86eaddd34c92",
           ""
         ],
         [
-          "solder_mask_bridge|145500000|84830000|b191049a-baba-4712-8d2f-9dcc6eaa4321|91ea343e-2580-45d5-ac3d-7199c2ec7468",
+          "solder_mask_bridge|145500000|84830000|b191049a-baba-4712-8d2f-9dcc6eaa4321|334a37b1-7cab-4efd-9175-234b7c107252",
           ""
         ],
         [
@@ -84,15 +80,7 @@
           ""
         ],
         [
-          "solder_mask_bridge|145700000|84830000|b191049a-baba-4712-8d2f-9dcc6eaa4321|96f250f8-e0ba-4e85-854b-6dc5fecce8ae",
-          ""
-        ],
-        [
-          "solder_mask_bridge|153433492|115973887|a59ad37c-c026-4350-b359-2c6f9ae9cb55|a5a6cda9-c2f0-4542-927c-ac2225dd578c",
-          ""
-        ],
-        [
-          "solder_mask_bridge|154215289|147041386|3a671f53-1889-48af-9259-0545a91a83c3|608bea04-35d5-484c-b136-004988ed24ef",
+          "solder_mask_bridge|145700000|84830000|b191049a-baba-4712-8d2f-9dcc6eaa4321|334a37b1-7cab-4efd-9175-234b7c107252",
           ""
         ]
       ],
@@ -549,7 +537,7 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
-        "via_diameter": 0.6,
+        "via_diameter": 0.5,
         "via_drill": 0.3,
         "wire_width": 6
       }
@@ -626,7 +614,7 @@
           "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -673,7 +661,7 @@
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": false,
+      "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
       "sort_field": "Reference"

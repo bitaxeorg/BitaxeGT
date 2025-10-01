@@ -10,113 +10,6 @@
 		(rev "800xxx")
 	)
 	(lib_symbols
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
 				(offset 1.016)
@@ -1021,12 +914,6 @@
 		(uuid "0d360f35-1394-4587-b208-52a61a3bb5a6")
 	)
 	(junction
-		(at 231.14 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2b3c968e-e5f7-4497-9139-2e5a5523a557")
-	)
-	(junction
 		(at 90.17 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1037,12 +924,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "48fe3d64-2d77-4d01-8766-ac250dc4e776")
-	)
-	(junction
-		(at 240.03 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5428d199-6d0b-465c-a217-5801e9abfe5c")
 	)
 	(junction
 		(at 111.76 64.77)
@@ -1067,12 +948,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d5072dd8-13b0-46d9-95a4-fd593f978066")
-	)
-	(junction
-		(at 214.63 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e9cabb73-5c3c-4754-8dc4-ae896746e4c6")
 	)
 	(junction
 		(at 90.17 90.17)
@@ -1108,7 +983,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 88.9) (xy 240.03 101.6)
+			(xy 240.03 96.52) (xy 240.03 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1118,7 +993,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 96.52) (xy 224.79 96.52)
+			(xy 231.14 100.33) (xy 224.79 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1168,7 +1043,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 78.74) (xy 231.14 83.82)
+			(xy 231.14 88.9) (xy 231.14 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1208,7 +1083,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 88.9) (xy 231.14 96.52)
+			(xy 231.14 96.52) (xy 231.14 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1328,7 +1203,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 83.82) (xy 240.03 78.74)
+			(xy 240.03 91.44) (xy 240.03 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1338,7 +1213,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 78.74) (xy 231.14 78.74)
+			(xy 240.03 88.9) (xy 231.14 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1358,7 +1233,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 104.14) (xy 255.27 104.14)
+			(xy 219.71 104.14) (xy 255.27 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1385,16 +1260,6 @@
 			(type default)
 		)
 		(uuid "5a42c1af-280d-46ba-b80d-19159f19c510")
-	)
-	(wire
-		(pts
-			(xy 231.14 78.74) (xy 224.79 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d4cfe04-3c11-4762-98f0-3faaa593b54d")
 	)
 	(wire
 		(pts
@@ -1468,7 +1333,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 78.74) (xy 214.63 78.74)
+			(xy 213.36 87.63) (xy 219.71 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1508,7 +1373,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 90.17) (xy 214.63 104.14)
+			(xy 219.71 96.52) (xy 219.71 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1558,16 +1423,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 104.14) (xy 214.63 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f17125a-b312-4747-b19d-3f0d96e0a111")
-	)
-	(wire
-		(pts
 			(xy 111.76 72.39) (xy 111.76 76.2)
 		)
 		(stroke
@@ -1608,16 +1463,6 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 101.6) (xy 240.03 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b01a53db-b0f5-48cc-b246-9286880d31c7")
-	)
-	(wire
-		(pts
 			(xy 111.76 64.77) (xy 111.76 67.31)
 		)
 		(stroke
@@ -1648,7 +1493,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 85.09) (xy 214.63 78.74)
+			(xy 219.71 91.44) (xy 219.71 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1857,7 +1702,7 @@
 		(uuid "ffaa2ee5-5f8c-474d-a402-4aff367c19fa")
 	)
 	(label "GND"
-		(at 224.79 96.52 0)
+		(at 224.79 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1927,7 +1772,7 @@
 		(uuid "35a8e37c-4637-4d4b-a1d8-ffe01e175c4b")
 	)
 	(label "5V"
-		(at 224.79 78.74 0)
+		(at 234.95 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2037,7 +1882,7 @@
 		(uuid "8eff7051-928c-4784-922a-9384b7a45e6b")
 	)
 	(label "3V3"
-		(at 208.28 78.74 0)
+		(at 213.36 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2236,74 +2081,6 @@
 			(justify right)
 		)
 		(uuid "d8be7fa0-e0bc-4d67-a2fa-416c5c43d904")
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 210.82 104.14 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "021ae13a-8870-426b-a702-9ea57988cbc3")
-		(property "Reference" "TP21"
-			(at 206.502 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 205.486 106.426 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 210.82 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 210.82 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 210.82 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "53d74091-6281-45a7-809b-88854fc814d0")
-		)
-		(instances
-			(project "BitaxeGT"
-				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/edab3562-ad75-4c4e-afab-a1841dcf5714"
-					(reference "TP21")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
@@ -2768,7 +2545,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 240.03 86.36 0)
+		(at 240.03 93.98 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2777,7 +2554,7 @@
 		(dnp no)
 		(uuid "76647c0d-1036-4e8c-9ea3-a06417c51e9a")
 		(property "Reference" "R30"
-			(at 241.554 85.09 0)
+			(at 241.554 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2786,7 +2563,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 241.554 87.376 0)
+			(at 241.554 94.996 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2795,7 +2572,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 240.03 86.36 0)
+			(at 240.03 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2804,7 +2581,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 240.03 86.36 0)
+			(at 240.03 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2813,7 +2590,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 240.03 86.36 0)
+			(at 240.03 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2822,7 +2599,7 @@
 			)
 		)
 		(property "PARTNO" "RC0402JR-0710KL"
-			(at 240.03 86.36 0)
+			(at 240.03 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2831,7 +2608,7 @@
 			)
 		)
 		(property "DK" "311-10KJRCT-ND"
-			(at 240.03 86.36 0)
+			(at 240.03 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2849,74 +2626,6 @@
 			(project "BitaxeGT"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/edab3562-ad75-4c4e-afab-a1841dcf5714"
 					(reference "R30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 227.33 101.6 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "766e2d16-0754-4ac1-8077-22b7fd20ea24")
-		(property "Reference" "TP20"
-			(at 223.012 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 221.996 103.886 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 227.33 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 227.33 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 227.33 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a153c9ce-9e65-4fa2-9eb2-2442cf214350")
-		)
-		(instances
-			(project "BitaxeGT"
-				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/edab3562-ad75-4c4e-afab-a1841dcf5714"
-					(reference "TP20")
 					(unit 1)
 				)
 			)
@@ -3193,7 +2902,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 214.63 87.63 0)
+		(at 219.71 93.98 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3202,7 +2911,7 @@
 		(dnp no)
 		(uuid "c3b50d90-0286-4ef6-9596-d5e1b9d1071a")
 		(property "Reference" "R31"
-			(at 209.296 86.614 0)
+			(at 214.376 92.964 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3211,7 +2920,7 @@
 			)
 		)
 		(property "Value" "5.6k"
-			(at 208.788 88.646 0)
+			(at 213.868 94.996 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3220,7 +2929,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 214.63 87.63 0)
+			(at 219.71 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3229,7 +2938,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 214.63 87.63 0)
+			(at 219.71 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3238,7 +2947,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 214.63 87.63 0)
+			(at 219.71 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3247,7 +2956,7 @@
 			)
 		)
 		(property "DK" "311-5.6KLRCT-ND"
-			(at 214.63 87.63 0)
+			(at 219.71 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3256,7 +2965,7 @@
 			)
 		)
 		(property "PARTNO" "RC0402FR-075K6L"
-			(at 214.63 87.63 0)
+			(at 219.71 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3369,7 +3078,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 231.14 86.36 0)
+		(at 231.14 93.98 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3378,7 +3087,7 @@
 		(dnp no)
 		(uuid "da15695d-ae2e-420f-8661-91af4e195fc8")
 		(property "Reference" "C94"
-			(at 225.044 85.598 0)
+			(at 225.044 93.218 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3387,7 +3096,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 223.52 87.63 0)
+			(at 223.52 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3396,7 +3105,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 231.14 86.36 0)
+			(at 231.14 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3405,7 +3114,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheets.kyocera-avx.com/KGM_X7R.pdf"
-			(at 231.14 86.36 0)
+			(at 231.14 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3414,7 +3123,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 231.14 86.36 0)
+			(at 231.14 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3423,7 +3132,7 @@
 			)
 		)
 		(property "PARTNO" "KGM05AR71C104KH"
-			(at 231.14 86.36 0)
+			(at 231.14 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3432,7 +3141,7 @@
 			)
 		)
 		(property "DK" "478-KGM05AR71C104KHCT-ND"
-			(at 231.14 86.36 0)
+			(at 231.14 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
