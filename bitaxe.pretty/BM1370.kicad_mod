@@ -690,7 +690,7 @@
 		(uuid "3937522a-7f3f-45cf-81bb-ed0a1877dbbb")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/3d/BM1368xx.stp"
+	(model "${KIPRJMOD}/3d/bm1370.step"
 		(offset
 			(xyz 0 0 0)
 		)

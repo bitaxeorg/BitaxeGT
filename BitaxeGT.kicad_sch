@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "bitaxeGamma Turbo")
-		(date "2025-05-12")
-		(rev "800xxx")
+		(date "2025-10-01")
+		(rev "800xxxx")
 	)
 	(lib_symbols
 		(symbol "Mechanical:Fiducial"

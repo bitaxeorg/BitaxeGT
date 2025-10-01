@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "bitaxeGamma Turbo")
-		(date "2025-05-12")
-		(rev "800xxx")
+		(date "2025-10-01")
+		(rev "800xxxx")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -7838,7 +7838,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "bitaxe:TestPoint_Pad_D1.0mm"
 			(at 375.92 43.18 0)
 			(effects
 				(font
@@ -7904,7 +7904,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "bitaxe:TestPoint_Pad_D1.0mm"
 			(at 204.47 102.87 0)
 			(effects
 				(font
@@ -8255,7 +8255,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "bitaxe:TestPoint_Pad_D1.0mm"
 			(at 116.84 193.04 0)
 			(effects
 				(font
@@ -9057,7 +9057,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "bitaxe:TestPoint_Pad_D1.0mm"
 			(at 203.2 128.27 0)
 			(effects
 				(font
@@ -9410,7 +9410,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "bitaxe:TestPoint_Pad_D1.0mm"
 			(at 143.51 252.73 0)
 			(effects
 				(font
@@ -11743,7 +11743,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "bitaxe:TestPoint_Pad_D1.0mm"
 			(at 375.92 66.04 0)
 			(effects
 				(font
@@ -11809,7 +11809,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "bitaxe:TestPoint_Pad_D1.0mm"
 			(at 196.85 100.33 0)
 			(effects
 				(font
@@ -12785,7 +12785,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "bitaxe:TestPoint_Pad_D1.0mm"
 			(at 212.09 105.41 0)
 			(effects
 				(font

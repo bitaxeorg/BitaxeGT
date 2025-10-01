@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "bitaxeGamma Turbo")
-		(date "2025-05-12")
-		(rev "800xxx")
+		(date "2025-10-01")
+		(rev "800xxxx")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -5016,7 +5016,7 @@
 				)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "IO0"
 			(at 150.495 158.7501 90)
 			(effects
 				(font
@@ -5026,7 +5026,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "bitaxe:TestPoint_Pad_D1.0mm"
 			(at 144.78 154.94 0)
 			(effects
 				(font
@@ -5845,82 +5845,6 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 144.78 157.48 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "b70baaaf-4ea3-4899-9a7f-660b641f5194")
-		(property "Reference" "TP35"
-			(at 151.13 157.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 150.495 156.2101 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 144.78 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 144.78 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 144.78 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" ""
-			(at 144.78 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1d1097af-e62f-4415-b951-c02c77ba3c71")
-		)
-		(instances
-			(project "BitaxeGT"
-				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/0703810a-9d38-4b42-b83c-c94ab6e668a1"
-					(reference "TP35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
 		(at 111.76 154.94 90)
 		(mirror x)
 		(unit 1)
@@ -5937,7 +5861,7 @@
 				)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "EN"
 			(at 106.045 156.2099 90)
 			(effects
 				(font
@@ -5947,7 +5871,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "bitaxe:TestPoint_Pad_D1.0mm"
 			(at 111.76 160.02 0)
 			(effects
 				(font
@@ -6108,7 +6032,7 @@
 				)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "PTX"
 			(at 106.045 158.7499 90)
 			(effects
 				(font
@@ -6118,7 +6042,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "bitaxe:TestPoint_Pad_D1.0mm"
 			(at 111.76 162.56 0)
 			(effects
 				(font
@@ -6194,7 +6118,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "bitaxe:TestPoint_Pad_D1.0mm"
 			(at 144.78 149.86 0)
 			(effects
 				(font
@@ -6353,7 +6277,7 @@
 				)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "PRX"
 			(at 106.045 161.2899 90)
 			(effects
 				(font
@@ -6363,7 +6287,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "bitaxe:TestPoint_Pad_D1.0mm"
 			(at 111.76 165.1 0)
 			(effects
 				(font
