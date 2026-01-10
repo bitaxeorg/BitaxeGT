@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 4.2,
-          "height": 6.0,
-          "width": 6.0
+          "height": 7.0,
+          "width": 7.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.508
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -60,11 +60,7 @@
       ],
       "drc_exclusions": [
         [
-          "copper_sliver|128780013|64909475|00000000-0000-0000-0000-000000000000|F.Cu",
-          ""
-        ],
-        [
-          "solder_mask_bridge|121150000|84850000|8218215b-a337-45e8-92e5-a5208733816f|313ee41a-51eb-45dd-bd91-bf0cfa2c9b3e",
+          "solder_mask_bridge|121150000|84850000|8218215b-a337-45e8-92e5-a5208733816f|ae05f72f-279a-4258-a883-97d6e00df250",
           ""
         ],
         [
@@ -72,11 +68,11 @@
           ""
         ],
         [
-          "solder_mask_bridge|121350000|84850000|8218215b-a337-45e8-92e5-a5208733816f|b3937c43-65d8-4372-9d41-953b2cf0d1e7",
+          "solder_mask_bridge|121350000|84850000|8218215b-a337-45e8-92e5-a5208733816f|2dad2410-e0f2-4b9f-a38d-5730d5743ea5",
           ""
         ],
         [
-          "solder_mask_bridge|145500000|84830000|b191049a-baba-4712-8d2f-9dcc6eaa4321|91ea343e-2580-45d5-ac3d-7199c2ec7468",
+          "solder_mask_bridge|145500000|84830000|b191049a-baba-4712-8d2f-9dcc6eaa4321|3651a828-83ab-46c8-b784-b59bb66df80f",
           ""
         ],
         [
@@ -84,7 +80,7 @@
           ""
         ],
         [
-          "solder_mask_bridge|145700000|84830000|b191049a-baba-4712-8d2f-9dcc6eaa4321|96f250f8-e0ba-4e85-854b-6dc5fecce8ae",
+          "solder_mask_bridge|145700000|84830000|b191049a-baba-4712-8d2f-9dcc6eaa4321|2a376799-de76-4830-a6b5-f31cf200e716",
           ""
         ]
       ],
@@ -541,7 +537,7 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
-        "via_diameter": 0.6,
+        "via_diameter": 0.5,
         "via_drill": 0.3,
         "wire_width": 6
       }
@@ -569,7 +565,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "Manufacturing Files/BitaxeGT BOM.csv",
+    "bom_export_filename": "Manufacturing Files/${PROJECTNAME} BOM.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -609,6 +605,12 @@
           "show": true
         },
         {
+          "group_by": true,
+          "label": "PARTNO",
+          "name": "PARTNO",
+          "show": true
+        },
+        {
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
@@ -636,12 +638,6 @@
           "group_by": false,
           "label": "LCSC",
           "name": "LCSC",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "PARTNO",
-          "name": "PARTNO",
           "show": true
         },
         {

@@ -31,4 +31,6 @@ fp-info-cache
 *auto_saved_files*
 i*bak
 
-
+# macOS system files
+.DS_Store
+**/.DS_Store

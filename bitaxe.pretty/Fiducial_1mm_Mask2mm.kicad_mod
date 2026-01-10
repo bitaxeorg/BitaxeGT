@@ -125,7 +125,7 @@
 		(size 1 1)
 		(layers "F.Cu" "F.Mask")
 		(solder_mask_margin 0.5)
-		(clearance 0.5)
+		(clearance 0.55)
 		(uuid "3f8888f6-f22f-4195-88da-429d6be85476")
 	)
 	(pad "" smd circle
@@ -133,7 +133,7 @@
 		(size 1 1)
 		(layers "B.Cu" "B.Mask")
 		(solder_mask_margin 0.5)
-		(clearance 0.5)
+		(clearance 0.55)
 		(uuid "1df60e1b-36fa-4f81-b0e7-4e91339fcd9f")
 	)
 	(embedded_fonts no)

@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "bitaxeGamma Turbo")
-		(date "2025-05-12")
-		(rev "800xxx")
+		(date "2025-10-01")
+		(rev "800xxxx")
 	)
 	(lib_symbols
 		(symbol "Mechanical:Fiducial"
@@ -307,6 +307,18 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 0 -12.7) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
 			(symbol "Heatsink_1_1"
 				(pin input line
@@ -320,6 +332,78 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -5.08 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -7.62 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -10.16 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -12.7 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -543,8 +627,24 @@
 		(uuid "f62bc8c7-bab0-4780-8a58-60601d5c188a")
 	)
 	(no_connect
-		(at 116.84 190.5)
+		(at 119.38 189.23)
+		(uuid "04a6783a-fec6-4488-8222-5c26922ecc6b")
+	)
+	(no_connect
+		(at 119.38 186.69)
+		(uuid "14f9303c-c0ea-4dac-971d-05ce4b44ed83")
+	)
+	(no_connect
+		(at 119.38 191.77)
+		(uuid "5e7b1b39-2dbe-4437-b20b-4c6541ef455a")
+	)
+	(no_connect
+		(at 119.38 181.61)
 		(uuid "a9192ec2-38dd-446a-9de8-9cb4c19610da")
+	)
+	(no_connect
+		(at 119.38 184.15)
+		(uuid "eb0f73d5-7b56-41e8-99e3-efca7adb3a03")
 	)
 	(wire
 		(pts
@@ -1088,16 +1188,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 107.95) (xy 102.87 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d30fbc76-f550-42b1-bb07-de55b816e090")
-	)
-	(wire
-		(pts
 			(xy 128.27 96.52) (xy 132.08 96.52)
 		)
 		(stroke
@@ -1216,16 +1306,6 @@
 		)
 		(uuid "1ef37afe-eff2-43d4-bcde-29cfb1e3bfa5")
 	)
-	(label "Vcore"
-		(at 90.17 107.95 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2acd8b88-594a-4a10-a7b6-fafa101a4cd7")
-	)
 	(label "5V"
 		(at 90.17 52.07 0)
 		(effects
@@ -1276,7 +1356,7 @@
 		)
 		(uuid "a59aaba9-53f1-4d5d-9620-dd56c43926ec")
 	)
-	(label "Vcore"
+	(label "VDD"
 		(at 167.64 46.99 0)
 		(effects
 			(font
@@ -1439,7 +1519,7 @@
 	)
 	(symbol
 		(lib_id "bitaxe:Heatsink")
-		(at 119.38 187.96 0)
+		(at 121.92 179.07 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -1448,7 +1528,7 @@
 		(fields_autoplaced yes)
 		(uuid "1b689995-7c98-4d53-90e0-5cfdabf79b83")
 		(property "Reference" "HS1"
-			(at 123.19 185.9914 0)
+			(at 125.73 177.1014 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1457,7 +1537,7 @@
 			)
 		)
 		(property "Value" "Heatsink"
-			(at 123.19 188.5314 0)
+			(at 125.73 179.6414 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1465,8 +1545,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "bitaxe:Heatsink-BitaxeGT"
-			(at 119.6848 187.96 0)
+		(property "Footprint" "bitaxe:Heatsink-5hole-BitaxeGT"
+			(at 122.2248 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1475,7 +1555,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 119.6848 187.96 0)
+			(at 122.2248 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1484,7 +1564,7 @@
 			)
 		)
 		(property "Description" "Heatsink"
-			(at 119.38 187.96 0)
+			(at 121.92 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1494,6 +1574,18 @@
 		)
 		(pin "1"
 			(uuid "6af40bd1-d0ab-42a0-b704-3925d0e886c2")
+		)
+		(pin "4"
+			(uuid "a669a320-74f5-40ac-a7ff-1d48d5dc664a")
+		)
+		(pin "5"
+			(uuid "c11acd89-afd4-4900-bac5-64e78d774a65")
+		)
+		(pin "2"
+			(uuid "d7d5792e-5c5a-4752-9fa6-a804cfad8047")
+		)
+		(pin "3"
+			(uuid "1279d52a-5bc4-4c24-a4fb-8d99730239ae")
 		)
 		(instances
 			(project ""
@@ -2196,16 +2288,6 @@
 				(justify left)
 			)
 		)
-		(pin "VDD" input
-			(at 102.87 107.95 180)
-			(uuid "9e886989-f434-4a07-b821-e096966e3a23")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "BAP_VIN" input
 			(at 102.87 124.46 180)
 			(uuid "9a9f7aa2-e1f4-4396-9c65-3c2a7e02d25e")
@@ -2268,7 +2350,7 @@
 				(justify left top)
 			)
 		)
-		(pin "Vcore" output
+		(pin "VDD" output
 			(at 128.27 46.99 0)
 			(uuid "de1eb332-e7d7-474f-bd28-dd3314bf2094")
 			(effects
@@ -2400,7 +2482,7 @@
 				(justify left top)
 			)
 		)
-		(pin "Vcore" input
+		(pin "VDD" input
 			(at 173.99 46.99 180)
 			(uuid "e4c6da4d-b4da-459e-b31b-1f3e57cf5a0a")
 			(effects
