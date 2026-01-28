@@ -7,7 +7,7 @@
 	(title_block
 		(title "bitaxeGamma Turbo")
 		(date "2025-10-01")
-		(rev "800xxxx")
+		(rev "801")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
