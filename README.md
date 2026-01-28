@@ -2,7 +2,7 @@
 
 Bitaxe Gamma Turbo is a dual BM1370 Open Source Bitcoin miner using [esp-miner](https://github.com/bitaxeorg/esp-miner). This project aims to provide a high-performance, energy-efficient Bitcoin mining solution using modern ASIC hardware.
 
-![Bitaxe Gamma Turbo](doc/render.png)
+<img src="doc/render.png" width="400" />
 
 ## Table of Contents
 
