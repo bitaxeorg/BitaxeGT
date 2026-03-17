@@ -5137,7 +5137,7 @@
 		(uuid "050505fc-3b4c-41bd-ad72-2eb791450834")
 	)
 	(label "TEMP2_N"
-		(at 237.49 119.38 180)
+		(at 129.54 119.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5157,7 +5157,7 @@
 		(uuid "15c04acc-f0ec-43c1-9bc3-7f66ee9d83a9")
 	)
 	(label "TEMP1_N"
-		(at 133.35 119.38 180)
+		(at 234.95 119.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5387,7 +5387,7 @@
 		(uuid "83bcdc9e-42db-4710-a34f-96dd88fb3703")
 	)
 	(label "TEMP1_P"
-		(at 133.35 121.92 180)
+		(at 234.95 121.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5567,7 +5567,7 @@
 		(uuid "dfb1f78e-9d48-41c3-abeb-014066f22692")
 	)
 	(label "TEMP2_P"
-		(at 237.49 121.92 180)
+		(at 129.54 121.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5722,14 +5722,14 @@
 	)
 	(hierarchical_label "TEMP1_P"
 		(shape output)
-		(at 135.89 121.92 0)
+		(at 240.03 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "318c5fe9-c9f0-435d-9405-90b08d4e1d90")
+		(uuid "1616ebf8-38e3-49e1-85b5-6af0dfa5b633")
 	)
 	(hierarchical_label "RX_3V3"
 		(shape output)
@@ -5755,14 +5755,25 @@
 	)
 	(hierarchical_label "TEMP1_N"
 		(shape output)
-		(at 135.89 119.38 0)
+		(at 240.03 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "5f0b18e0-6b26-40da-acf4-56c423807daf")
+		(uuid "551c207d-8583-4072-a857-8a554819e37b")
+	)
+	(hierarchical_label "TEMP2_P"
+		(shape output)
+		(at 135.89 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "750ab568-0cd3-469d-816e-0585d8a0b65d")
 	)
 	(hierarchical_label "5V"
 		(shape input)
@@ -5777,25 +5788,14 @@
 	)
 	(hierarchical_label "TEMP2_N"
 		(shape output)
-		(at 240.03 119.38 0)
+		(at 135.89 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "baa93ac4-833d-416c-b9d7-241b8182b8f7")
-	)
-	(hierarchical_label "TEMP2_P"
-		(shape output)
-		(at 240.03 121.92 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cb3ef42b-659c-4ce8-970e-33e2d0b852cf")
+		(uuid "c924231b-7e77-4846-b34f-5306740e5b1c")
 	)
 	(hierarchical_label "RST_3V3"
 		(shape input)
@@ -6243,10 +6243,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0be1eeb5-05e0-4a21-b3b2-74b37514d90e")
-		(property "Reference" "U9"
-			(at 101.2541 88.9 0)
+		(property "Reference" "A1"
+			(at 83.82 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6255,7 +6254,7 @@
 			)
 		)
 		(property "Value" "BM1370_mode1"
-			(at 101.2541 91.44 0)
+			(at 101.346 136.144 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6389,7 +6388,7 @@
 		(instances
 			(project ""
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
-					(reference "U9")
+					(reference "A1")
 					(unit 1)
 				)
 			)
@@ -11775,10 +11774,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "eb0e9266-d3b9-457d-bdae-d8edae16229b")
-		(property "Reference" "U10"
-			(at 205.3941 88.9 0)
+		(property "Reference" "A2"
+			(at 187.96 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11787,7 +11785,7 @@
 			)
 		)
 		(property "Value" "BM1370_mode1"
-			(at 205.3941 91.44 0)
+			(at 206.248 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11921,7 +11919,7 @@
 		(instances
 			(project "BitaxeGT"
 				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0/5053a6d5-ae8d-4ae0-9f6e-0d65e80da719"
-					(reference "U10")
+					(reference "A2")
 					(unit 1)
 				)
 			)

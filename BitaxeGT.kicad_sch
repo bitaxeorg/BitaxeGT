@@ -2544,27 +2544,7 @@
 		)
 		(pin "TEMP1_N" output
 			(at 198.12 66.04 0)
-			(uuid "bdb2f6d5-5e00-42fa-a13c-895df59e49ea")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "TEMP2_P" output
-			(at 198.12 62.23 0)
-			(uuid "5d921980-051c-429f-925c-37b22209610b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "TEMP2_N" output
-			(at 198.12 58.42 0)
-			(uuid "7dbf653d-9560-490a-a42c-5c276512f58b")
+			(uuid "801e3aad-0c64-47d0-8589-8a4942991675")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2574,7 +2554,27 @@
 		)
 		(pin "TEMP1_P" output
 			(at 198.12 69.85 0)
-			(uuid "36e6b16c-5322-47ac-bc37-f6563cc45624")
+			(uuid "4358f255-46b1-4c68-a175-045a910b3ada")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TEMP2_N" output
+			(at 198.12 58.42 0)
+			(uuid "6f95ee6e-19b7-47df-b101-5de7484af9cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TEMP2_P" output
+			(at 198.12 62.23 0)
+			(uuid "e09719c8-a48e-4fdc-b084-78d00de08bb3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2676,27 +2676,7 @@
 		)
 		(pin "TEMP1_N" input
 			(at 198.12 107.95 0)
-			(uuid "eeacaca1-5e86-4f64-9632-ba0c3f88d85a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "TEMP2_P" input
-			(at 198.12 111.76 0)
-			(uuid "bda3b8ed-516b-4bd5-b89b-5cc7816e57ac")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "TEMP2_N" input
-			(at 198.12 115.57 0)
-			(uuid "091ca15f-cfa8-4635-b7ed-6fb379b7be51")
+			(uuid "9f93e2ff-cbe5-413c-ad5c-a0dfe521747c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2706,7 +2686,27 @@
 		)
 		(pin "TEMP1_P" input
 			(at 198.12 104.14 0)
-			(uuid "72d7061f-7e48-483e-837c-366af74d9933")
+			(uuid "1b596379-bba0-4a4d-909c-32d32f808a0f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TEMP2_N" input
+			(at 198.12 115.57 0)
+			(uuid "f5c0fd97-f81b-44cb-86cf-e51f5cfb7cd5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TEMP2_P" input
+			(at 198.12 111.76 0)
+			(uuid "dd987f61-70f9-482e-b416-1981a8c3a810")
 			(effects
 				(font
 					(size 1.27 1.27)

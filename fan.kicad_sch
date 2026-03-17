@@ -887,9 +887,9 @@
 		)
 		(uuid "548b0ead-6127-4fcb-b661-756cc923d225")
 	)
-	(text "ASIC 2 Temperature"
+	(text "ASIC 2 Diode Temperature"
 		(exclude_from_sim no)
-		(at 43.942 107.95 0)
+		(at 43.434 85.344 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -897,9 +897,9 @@
 		)
 		(uuid "9c043aca-4827-49fa-95b2-df1599f8cba1")
 	)
-	(text "ASIC 1 Temperature"
+	(text "ASIC 1 Diode Temperature"
 		(exclude_from_sim no)
-		(at 43.942 85.344 0)
+		(at 42.926 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1751,7 +1751,17 @@
 		)
 		(uuid "285a815c-78a1-4ec3-8720-bc5fd1d6793d")
 	)
-	(label "TEMP1_N"
+	(label "DP1"
+		(at 111.76 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2ed73072-9311-4c24-9373-5a38023735d3")
+	)
+	(label "TEMP2_N"
 		(at 62.23 113.03 0)
 		(effects
 			(font
@@ -1781,7 +1791,7 @@
 		)
 		(uuid "5ddde026-3f95-45cc-8b8f-c2f7dd97bc90")
 	)
-	(label "TEMP1_P"
+	(label "TEMP2_P"
 		(at 62.23 102.87 0)
 		(effects
 			(font
@@ -1791,7 +1801,7 @@
 		)
 		(uuid "61064613-2ac0-4251-bfd0-7fe2305b3a31")
 	)
-	(label "TEMP2_P"
+	(label "TEMP1_P"
 		(at 62.23 80.01 0)
 		(effects
 			(font
@@ -1811,7 +1821,7 @@
 		)
 		(uuid "6615bedc-1f3c-4be2-8eaa-e26141878f65")
 	)
-	(label "TEMP2_N"
+	(label "TEMP1_N"
 		(at 62.23 90.17 0)
 		(effects
 			(font
@@ -1881,6 +1891,16 @@
 		)
 		(uuid "8eff7051-928c-4784-922a-9384b7a45e6b")
 	)
+	(label "DN1"
+		(at 111.76 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9ed600f7-0ac2-4ad3-b553-f98488b6cd9b")
+	)
 	(label "3V3"
 		(at 213.36 87.63 0)
 		(effects
@@ -1940,6 +1960,26 @@
 			(justify right bottom)
 		)
 		(uuid "f35ca289-74d8-4ce0-b873-416c13cac63a")
+	)
+	(label "DP2"
+		(at 111.76 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f4b002f3-4f19-48ce-81c2-f64dcf5a2eb0")
+	)
+	(label "DN2"
+		(at 111.6997 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f76027f0-dbde-4ff8-8980-4ee2369cc659")
 	)
 	(label "GND"
 		(at 219.71 120.65 0)
@@ -2005,7 +2045,7 @@
 		)
 		(uuid "2a182721-8f45-4780-9d0c-06896e044a58")
 	)
-	(hierarchical_label "TEMP2_N"
+	(hierarchical_label "TEMP1_N"
 		(shape input)
 		(at 57.15 90.17 180)
 		(effects
@@ -2038,7 +2078,7 @@
 		)
 		(uuid "8ca8bc0c-98a7-46bd-b1ee-6b2ee7e707e6")
 	)
-	(hierarchical_label "TEMP1_N"
+	(hierarchical_label "TEMP2_N"
 		(shape input)
 		(at 57.15 113.03 180)
 		(effects
@@ -2049,7 +2089,7 @@
 		)
 		(uuid "935e1978-c203-4aa5-9f01-66826a15e550")
 	)
-	(hierarchical_label "TEMP2_P"
+	(hierarchical_label "TEMP1_P"
 		(shape input)
 		(at 57.15 80.01 180)
 		(effects
@@ -2060,7 +2100,7 @@
 		)
 		(uuid "c13af852-a56d-4c85-b48f-a520630a7091")
 	)
-	(hierarchical_label "TEMP1_P"
+	(hierarchical_label "TEMP2_P"
 		(shape input)
 		(at 57.15 102.87 180)
 		(effects
@@ -2999,21 +3039,21 @@
 		(dnp no)
 		(uuid "d5cd8801-96f1-4084-8e4b-40dc52199062")
 		(property "Reference" "C92"
-			(at 105.664 69.088 0)
+			(at 109.22 68.834 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 105.664 71.374 0)
+			(at 109.22 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
